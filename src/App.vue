@@ -37,11 +37,9 @@
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass">
-
-  @import '~foundation-sites/scss/foundation.scss'
-  @import './main.sass'
+  @import './settings.scss'
+  @import '~foundation-sites/scss/foundation'
   
-  html
-    height: 100%
+  +foundation-everything(true)
 
 </style>
