@@ -2,6 +2,7 @@
 logs
 *.log
 npm-debug.log*
+selenium-debug.log*
 
 # Runtime data
 pids
@@ -31,3 +32,13 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Vue.js
+dist/
+
+# Test
+test/unit/coverage
+test/e2e/reports
+
+.DS_Store
+.idea/
