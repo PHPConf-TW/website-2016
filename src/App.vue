@@ -4,6 +4,7 @@
     <div class="banner">
       <div class="row">
         <h1>Banner</h1>
+        <a href="#" class="button">Default Button</a>
       </div>
     </div>
   </header>
@@ -38,9 +39,8 @@
 <style lang="sass?indentedSyntax" type="text/sass">
 
   @import '~foundation-sites/scss/foundation.scss'
-  @include foundation-flex-classes
-  @include foundation-flex-grid
-
+  @import './main.sass'
+  
   html
     height: 100%
 
