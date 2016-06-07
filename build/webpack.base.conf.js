@@ -1,11 +1,12 @@
 var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
+var webpack = require('webpack')
 var projectRoot = path.resolve(__dirname, '../')
 
 module.exports = {
   entry: {
-    app: './src/main.js'
+    app: './src/main.coffee'
   },
   output: {
     path: config.build.assetsRoot,
@@ -41,6 +42,11 @@ module.exports = {
         loader: 'json'
       },
       {
+        test: /\.coffee$/,
+        loader: 'coffee',
+        exclude: /node_modules/
+      },
+      {
         test: /\.html$/,
         loader: 'vue-html'
       },
@@ -62,6 +68,14 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery/dist/jquery",
+      jQuery: "jquery/dist/jquery",
+      "window.jQuery": "jquery/dist/jquery",
+      "window.$": "jquery/dist/jquery"
+    }),
+  ],
   vue: {
     loaders: utils.cssLoaders()
   }
