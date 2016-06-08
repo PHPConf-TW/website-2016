@@ -1,20 +1,19 @@
 <template>
-  <nav></nav>
+  <nav-wrapper></nav-wrapper>
   <header>
     <div class="banner">
       <div class="row">
         <h1>Banner</h1>
-        <a href="#" class="button">Default Button</a>
       </div>
     </div>
   </header>
   <div class="wrapper">
-    <Announce></Announce>
-    <Vision></Vision>
-    <Speaker></Speaker>
-    <Map></Map>
-    <Sponsor></Sponsor>
-    <Staff></Staff>
+    <announce></announce>
+    <vision></vision>
+    <speaker></speaker>
+    <map></map>
+    <sponsor></sponsor>
+    <staff></staff>
   </div>
   <footer>
     <div class="row">
@@ -27,12 +26,13 @@
 
   module.exports =
     components:
-      Announce: require './components/Announce'
-      Vision: require './components/Vision'
-      Speaker: require './components/Speaker'
-      Map: require './components/Map'
-      Sponsor: require './components/Sponsor'
-      Staff: require './components/Staff'
+      'nav-wrapper': require './components/Nav'
+      announce: require './components/Announce'
+      vision: require './components/Vision'
+      speaker: require './components/Speaker'
+      map: require './components/Map'
+      sponsor: require './components/Sponsor'
+      staff: require './components/Staff'
 
 </script>
 

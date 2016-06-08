@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="speaker">
     <div class="row">
       <div class="columns">
         <h2>Speaker</h2>

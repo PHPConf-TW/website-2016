@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="map">
     <div class="row">
       <div class="columns">
         <h2>Map</h2>

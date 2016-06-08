@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="sponsor">
     <div class="row">
       <div class="columns">
         <h2>Sponsor</h2>
