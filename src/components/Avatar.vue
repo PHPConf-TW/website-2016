@@ -14,9 +14,8 @@
   </div>
 
   <a class="avatar-model" data-open="avatarModel">
-    <img src="//placehold.it/100x100" class="fade">
+    <div class="caption"><span>Caption</span></div>
   </a>
-
 </template>
 
 <script lang="coffee" type="text/coffeescript">
@@ -25,10 +24,34 @@
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   @import '../settings.scss'
   .avatar-model
-    img
+    background-image: url('http://fakeimg.pl/200x120/?text=photo')
+    background-size: cover
+    background-position: center center
+    width: 8.5rem
+    height: 8.5rem
+    display: block
+    .caption
+      position: absolute
+      display: inherit
+      background: rgba(0,0,0,0.8)
+      color: white
+      opacity: 0
+      width: 8.5rem
+      height: 8.5rem
+      text-align: center
+      transition: all 0.2s ease-in-out
+      span
+        font-size: 1rem
+        padding: 1rem
+        position: relative
+        color: white
+        top: 40%
+        transition: all 0.2s ease-in-out
+  .avatar-model:hover
+    .caption
       opacity: 0.6
-    img:hover
-      opacity: 1
+      span
+        opacity: 0.8
   .reveal
     width: 50em
     max-height: 200px
