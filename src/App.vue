@@ -1,12 +1,6 @@
 <template>
   <nav-wrapper></nav-wrapper>
-  <header>
-    <div class="banner">
-      <div class="row">
-        <h1>Banner</h1>
-      </div>
-    </div>
-  </header>
+  <banner-wrapper></banner-wrapper>
   <div class="wrapper">
     <announce></announce>
     <vision></vision>
@@ -27,6 +21,7 @@
   module.exports =
     components:
       'nav-wrapper': require './components/Nav'
+      'banner-wrapper': require './components/Banner'
       announce: require './components/Announce'
       vision: require './components/Vision'
       speaker: require './components/Speaker'
@@ -39,7 +34,7 @@
 <style lang="sass?indentedSyntax" type="text/sass">
   @import './settings.scss'
   @import '~foundation-sites/scss/foundation'
-  
+
   +foundation-everything(true)
 
 </style>
