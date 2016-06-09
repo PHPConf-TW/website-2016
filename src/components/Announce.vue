@@ -79,4 +79,7 @@
     text-align: left
     display:inline
 
+  .menu.nested
+    margin-left: 0
+
 </style>
