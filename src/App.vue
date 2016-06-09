@@ -1,4 +1,13 @@
 <template>
+  <div class="reveal" id="exampleModal1" data-reveal>
+    <h1>Awesome. I Have It.</h1>
+    <p class="lead">Your couch. It is mine.</p>
+    <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <p><a data-open="exampleModal1">Click me for a modal</a></p>
   <nav-wrapper></nav-wrapper>
   <header-wrapper></header-wrapper>
   <div class="wrapper">
@@ -13,6 +22,14 @@
 </template>
 
 <script lang="coffee" type="text/coffeescript">
+  require 'foundation-sites/dist/foundation.min.js'
+#  require 'foundation-sites/js/foundation.core.js'
+#  require 'foundation-sites/js/foundation.util.keyboard.js'
+#  require 'foundation-sites/js/foundation.util.box.js'
+#  require 'foundation-sites/js/foundation.util.triggers.js'
+#  require 'foundation-sites/js/foundation.util.mediaQuery.js'
+#  require 'foundation-sites/js/foundation.util.motion.js'
+#  require 'foundation-sites/js/foundation.reveal.js'
 
   module.exports =
     components:
@@ -25,6 +42,8 @@
       map: require './components/Map'
       sponsor: require './components/Sponsor'
       staff: require './components/Staff'
+    ready: () ->
+      $(document).foundation()
 
 </script>
 
