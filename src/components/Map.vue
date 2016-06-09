@@ -55,7 +55,7 @@
       padding: 3.5rem
       max-width: 20rem
       right: 15%
-      top: 5rem
+      top: 4.8rem
       .location-name
         color: map-get($foundation-palette, primary)
         font-size: 1.2rem
