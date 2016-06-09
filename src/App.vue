@@ -34,4 +34,9 @@
 
   +foundation-everything(true)
 
+  /* Custom Global */
+  h4
+    font-weight: bold
+
+
 </style>

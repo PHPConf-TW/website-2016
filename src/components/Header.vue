@@ -3,7 +3,7 @@
     <div class="banner">
       <div class="row align-center">
         <div class="small-12 column"><img src="http://fakeimg.pl/230x150/?text=logo" alt="PHPConf 2016" class="logo"></div>
-        <div class="small-12 column"><p>PHPConf 2016 will hold on Oct 10, Registration will opened on Aug 10.</p></div>
+        <div class="small-12 column hide-for-small-only"><p>PHPConf 2016 will hold on Oct 10, Registration will opened on Aug 10.</p></div>
         <div class="small-12 column"><a class="button secondary" href="#" title="Registration">Registration</a></div>
       </div>
     </div>

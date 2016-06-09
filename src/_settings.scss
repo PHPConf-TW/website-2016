@@ -45,7 +45,7 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+$global-font-size: 14px;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
@@ -55,7 +55,7 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #FF2700,
 );
-$light-gray: #D4D4D4;
+$light-gray: #F0F0F2;
 $medium-gray: #cacaca;
 $dark-gray: #4A4A4A;
 $black: #0a0a0a;
@@ -110,7 +110,7 @@ $header-sizes: (
   small: (
     'h1': 24,
     'h2': 20,
-    'h3': 20,
+    'h3': 19,
     'h4': 18,
     'h5': 17,
     'h6': 16,
