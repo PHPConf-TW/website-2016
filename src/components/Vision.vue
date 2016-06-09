@@ -4,7 +4,7 @@
       <div class="small-12 large-8 columns content">
         <div class="row">
           <div class="small-12 large-10 large-offset-2 columns">
-            <h4>Vision</h4>
+            <h4>{{ conf.menu.vision }}</h4>
             <p>今年是 PHP 重要的一年，PHP 7 的推出將大幅的提昇 PHP 的執行效率，讓 PHP 在更多元的應用場景得以伸展拳腳。</p>
             <p>今年我們將議程聚焦在效能與大型架構上，並請到 PHP 的作者 Rasmus 與 PHP 核心成員的 Laruance 來為我們提供第一手的 PHP 資訊並分享極致效能的議題。同時我們也請到了各界的高手來分享實戰經驗，議程橫跨了 Big Data、水平擴充、軟體架構、ORM、Async I/O 等各種核心領域，想要更深入瞭解 PHP 進階技術，或是如何掌控大型網站架構的朋友，千萬別錯過這些高手們交流的機會。</p>
           </div>
@@ -18,6 +18,8 @@
 </template>
 
 <script lang="coffee" type="text/coffeescript">
+  module.exports =
+    props: ['conf']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>

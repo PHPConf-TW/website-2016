@@ -2,7 +2,7 @@
   <section id="speaker">
     <div class="row">
       <div class="columns">
-        <h2>Speaker</h2>
+        <h4>{{ conf.menu.speaker }}</h4>
         <avatar></avatar>
       </div>
     </div>
@@ -13,6 +13,7 @@
   module.exports =
     components:
       avatar: require './Avatar.vue'
+    props: ['conf']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>

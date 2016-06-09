@@ -2,7 +2,7 @@
   <section id="staff">
     <div class="row">
       <div class="columns">
-        <h2>Staff</h2>
+        <h2></h2>
       </div>
     </div>
   </section>
