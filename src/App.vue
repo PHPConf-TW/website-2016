@@ -20,7 +20,9 @@
 #  require 'foundation-sites/js/foundation.util.triggers.js'
 #  require 'foundation-sites/js/foundation.util.mediaQuery.js'
 #  require 'foundation-sites/js/foundation.util.motion.js'
+#  require 'foundation-sites/js/foundation.util.nest.js'
 #  require 'foundation-sites/js/foundation.reveal.js'
+#  require 'foundation-sites/js/foundation.accordionMenu.js'
 
   module.exports =
     components:
