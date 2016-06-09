@@ -21,10 +21,10 @@
     text-align: center
     background-position: center
     background-size: cover
-    height: 400px
+    height: 25rem
     .logo
-      padding-top: 80px
-      padding-bottom: 20px
+      padding-top: 5rem
+      padding-bottom: 1.25rem
     .button
-      min-width: 160px
+      min-width: 10rem
 </style>

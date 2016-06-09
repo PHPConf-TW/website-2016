@@ -1,6 +1,6 @@
 <template>
   <nav-wrapper></nav-wrapper>
-  <banner-wrapper></banner-wrapper>
+  <header-wrapper></header-wrapper>
   <div class="wrapper">
     <announce></announce>
     <vision></vision>
@@ -9,11 +9,7 @@
     <sponsor></sponsor>
     <staff></staff>
   </div>
-  <footer>
-    <div class="row">
-      2016 phpconftw
-    </div>
-  </footer>
+  <footer-wrapper></footer-wrapper>
 </template>
 
 <script lang="coffee" type="text/coffeescript">
@@ -21,7 +17,8 @@
   module.exports =
     components:
       'nav-wrapper': require './components/Nav'
-      'banner-wrapper': require './components/Banner'
+      'header-wrapper': require './components/Header'
+      'footer-wrapper': require './components/Footer'
       announce: require './components/Announce'
       vision: require './components/Vision'
       speaker: require './components/Speaker'
