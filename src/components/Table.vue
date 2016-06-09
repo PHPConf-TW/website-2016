@@ -41,15 +41,16 @@
   @import '../settings.scss'
 
   table
-  td
-  border: 1px solid #fff
-  padding: 0.6rem 1rem
-                   th
-                   border: 1px solid #fff
-                            padding: 0.6rem 1rem
-                                             .primary
-                                             background: #516CFF
-                                             color: #fff
-  &.dark
-   background: #3f69cc
+    td
+      border: 1px solid #fff
+      padding: 0.6rem 1rem
+    th
+      border: 1px solid #fff
+      padding:  0.6rem 1rem
+    .primary
+      background: #516CFF
+      color: #fff
+      &.dark
+        background: #3f69cc
+
 </style>
