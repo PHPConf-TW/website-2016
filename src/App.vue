@@ -41,12 +41,32 @@
 <style lang="sass?indentedSyntax" type="text/sass">
   @import './settings.scss'
   @import '~foundation-sites/scss/foundation'
-
+  @import url('https://fonts.googleapis.com/css?family=Rubik')
   +foundation-everything(true)
 
   /* Custom Global */
   h4
     font-weight: bold
+    font-family: 'Rubik', $body-font-family
 
+  .button
+    border-radius: 3px
+    &:hover
+      background-color: #3f69cc
+    &.disabled
+      color: #d4d4d4
+      opacity: 0.9
+      background-color: #3f69cc
 
+  .button.secondary
+    ＆:hover
+      background-color: #dd991d
+    &.disabled
+      background-color: #F39801
+
+  .button.alert
+    &:hover
+      background-color: #df3500
+    &.disabled
+      background-color:  #df3500
 </style>
