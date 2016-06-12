@@ -1,10 +1,9 @@
 <template>
-  <div class="reveal" id="avatarModel" data-reveal>
+  <div class="reveal row" id="avatarModel" data-reveal>
     <div class="photo">
-      <img src="//placehold.it/250x200">
     </div>
     <div class="word">
-      <h4>Gavin Bates</h4>
+      <h5>Gavin Bates</h5>
       <h6 class="lead">PHPConf Host</h6>
       <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
     </div>
@@ -14,7 +13,7 @@
   </div>
 
   <a class="avatar-model" data-open="avatarModel">
-    <div class="caption"><span>Caption</span></div>
+    <div class="caption"><span>Gavin Bates</span></div>
   </a>
 </template>
 
@@ -39,27 +38,35 @@
       width: 8.5rem
       height: 8.5rem
       text-align: center
-      transition: all 0.2s ease-in-out
+      transition: all 0.5s ease-in-out
       span
         font-size: 1rem
         padding: 1rem
         position: relative
         color: white
         top: 40%
-        transition: all 0.2s ease-in-out
+        transition: all 0.5s ease-in-out
   .avatar-model:hover
     .caption
       opacity: 0.6
       span
         opacity: 0.8
   .reveal
-    width: 50em
-    max-height: 200px
+    width: 60rem
+    height: 20rem
+    position: relative
+    overflow: hidden
   .photo
     float: left
-    margin: -1em 1em -1em -1em
+    margin: -1rem 1rem -1rem -1rem
     border: 0
     position: relative
+    background-image: url('http://fakeimg.pl/200x120/?text=photo')
+    background-size: cover
+    background-position: center center
+    width: 25rem
+    height: 20rem
+    display: block
   .photo:after
     content: ''
     position: absolute
@@ -67,13 +74,19 @@
     right: 0
     height: 0px
     width: 0px
-    border-left: 30px solid transparent
-    border-top: 100px solid transparent
-    border-bottom: 100px solid white
-    border-right: 30px solid white
+    border-left: 3rem solid transparent
+    border-top: 10rem solid transparent
+    border-bottom: 10rem solid white
+    border-right: 3rem solid white
   .word
     text-align: justify
-    h4
+    overflow: scroll
+    height: 20rem
+    h5
       color: blue
+    h6
+      font-size: 1rem
+    p
+      font-size: 1.2rem
 
 </style>

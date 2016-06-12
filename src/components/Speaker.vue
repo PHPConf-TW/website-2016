@@ -3,7 +3,11 @@
     <div class="row">
       <div class="columns">
         <h2>Speaker</h2>
-        <avatar></avatar>
+        <div class="row">
+          <avatar></avatar>
+          <avatar></avatar>
+          <avatar></avatar>
+        </div>
       </div>
     </div>
   </section>
