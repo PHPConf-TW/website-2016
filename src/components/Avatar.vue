@@ -1,20 +1,22 @@
 <template>
-  <div class="reveal row" id="avatarModel" data-reveal>
-    <div class="photo">
+  <div class="avatar-wrapper">
+    <div class="reveal row" id="avatarModel" data-reveal>
+      <div class="photo" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
+      </div>
+      <div class="word">
+        <h5>Gavin Bates</h5>
+        <h6 class="lead">PHPConf Host</h6>
+        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
-    <div class="word">
-      <h5>Gavin Bates</h5>
-      <h6 class="lead">PHPConf Host</h6>
-      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-    </div>
-    <button class="close-button" data-close aria-label="Close modal" type="button">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
 
-  <a class="avatar-model" data-open="avatarModel">
-    <div class="caption"><span>Gavin Bates</span></div>
-  </a>
+    <a class="avatar-model" data-open="avatarModel" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
+      <div class="caption"><span>Gavin Bates</span></div>
+    </a>
+  </div>
 </template>
 
 <script lang="coffee" type="text/coffeescript">
@@ -23,10 +25,8 @@
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   @import '../settings.scss'
   .avatar-model
-    background-image: url('http://fakeimg.pl/200x120/?text=photo')
     background-size: cover
     background-position: center center
-    width: 8.5rem
     height: 8.5rem
     display: block
     .caption
@@ -61,7 +61,6 @@
     margin: -1rem 1rem -1rem -1rem
     border: 0
     position: relative
-    background-image: url('http://fakeimg.pl/200x120/?text=photo')
     background-size: cover
     background-position: center center
     width: 25rem

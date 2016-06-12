@@ -3,10 +3,13 @@
     <div class="row">
       <div class="columns">
         <h2>Speaker</h2>
-        <div class="row">
-          <avatar></avatar>
-          <avatar></avatar>
-          <avatar></avatar>
+        <div class="row speaker-wrapper">
+          <avatar class="columns"></avatar>
+          <avatar class="columns"></avatar>
+          <avatar class="columns"></avatar>
+          <avatar class="columns"></avatar>
+          <avatar class="columns"></avatar>
+          <avatar class="columns"></avatar>
         </div>
       </div>
     </div>
@@ -20,4 +23,8 @@
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
+  h2
+    text-align: center
+  .speaker-wrapper
+    margin: 2rem 10rem
 </style>
