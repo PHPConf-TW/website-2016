@@ -11,7 +11,6 @@
           <avatar class="columns"></avatar>
           <avatar class="columns"></avatar>
         </div>
-        <avatar></avatar>
       </div>
     </div>
   </section>
@@ -25,7 +24,7 @@
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
-  h2
+  h4
     text-align: center
   .speaker-wrapper
     margin: 2rem 10rem

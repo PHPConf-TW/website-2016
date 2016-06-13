@@ -18,11 +18,10 @@
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   @import '../settings.scss'
   .diamond-wrapper
-    margin: 0
     border: #ddd solid 1px
     padding: 2rem
     box-shadow: 0 0 10px #ccc
-    margin: 1rem 0
+    margin: 1rem
   .photo
     float: left
     background-size: cover

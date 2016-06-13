@@ -24,7 +24,7 @@
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
-  h2
+  h4
     text-align: center
   .sponsor-wrapper
     margin: 2rem 10rem

@@ -1,10 +1,12 @@
 <template>
-    <div class="silver-wrapper columns small-6 small-offset-1">
-        <div class="word">
-            <h5>Silver Sponsor</h5>
-        </div>
-        <div class="photo" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
+    <div class="columns small-6">
+        <div class="silver-wrapper ">
+            <div class="word">
+                <h5>Silver Sponsor</h5>
+            </div>
+            <div class="photo" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
 
+            </div>
         </div>
     </div>
 </template>
