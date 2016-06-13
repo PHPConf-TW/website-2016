@@ -5,14 +5,16 @@
       <div class="banner-mask"></div>
       <div class="row align-center inner">
         <div class="small-12 column"><img src="../assets/logo.png" alt="PHPConf 2016" class="logo"></div>
-        <div class="small-12 column hide-for-small-only"><p>PHPConf 2016 will hold on Oct 10, Registration will opened on Aug 10.</p></div>
-        <div class="small-12 column"><a class="button secondary" href="#" title="Registration">Registration</a></div>
+        <div class="small-12 column hide-for-small-only"><p>{{ header.title }}</p></div>
+        <div class="small-12 column"><a class="button secondary" href="#" title="Registration">{{ header.registration }}</a></div>
       </div>
     </div>
   </header>
 </template>
 
 <script lang="coffee" type="text/coffeescript">
+  module.exports =
+    props: ['header']
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -9,5 +9,35 @@
     "sponsor": "sponsor",
     "about": "about",
     "language": "English"
+  },
+  "header": {
+    "title": "PHPConf 2016 will hold on Oct 10, Registration will opened on Aug 10.",
+    "registration": "Registration"
+  },
+  "announce": [
+    {
+        "date": "AUG 08",
+        "title": "This registration will open, please focus on our latest news.",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "date": "JUNE 11",
+        "title": "This registration will open, please focus on our latest news.",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "date": "MAY 08",
+        "title": "This registration will open, please focus on our latest news.",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    }
+  ],
+  "vision": {
+    "content": "<p>今年是 PHP 重要的一年，PHP 7 的推出將大幅的提昇 PHP 的執行效率，讓 PHP 在更多元的應用場景得以伸展拳腳。</p><p>今年我們將議程聚焦在效能與大型架構上，並請到 PHP 的作者 Rasmus 與 PHP 核心成員的 Laruance 來為我們提供第一手的 PHP 資訊並分享極致效能的議題。同時我們也請到了各界的高手來分享實戰經驗，議程橫跨了 Big Data、水平擴充、軟體架構、ORM、Async I/O 等各種核心領域，想要更深入瞭解 PHP 進階技術，或是如何掌控大型網站架構的朋友，千萬別錯過這些高手們交流的機會。</p>"
+  },
+  "location": {
+    "name": "--",
+    "address": "--",
+    "description1": "--",
+    "description2": "--"
   }
 }

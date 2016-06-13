@@ -1,11 +1,11 @@
 <template>
   <section id="map">
     <div class="map-content">
-      <div class="location-name">輔仁大學國璽樓</div>
-        <div class="location-addr">新北市新莊區中正路510號</div>
+      <div class="location-name">{{ conf.location.name }}</div>
+        <div class="location-addr">{{ conf.location.address }}</div>
         <ul>
-          <li>輔大校門進入直行至最後端至中美堂，左轉第2棟有玻璃帷幕之新大樓即為國璽樓</li>
-          <li>自輔大貴子門進入，右轉第一棟大樓即為國璽樓。(現場將有場務人員舉牌引導方向)</li>
+          <li>{{ conf.location.description1 }}</li>
+          <li>{{ conf.location.description2 }}</li>
         </ul>
     </div>
     <div id="map-wrapper"></div>
@@ -37,6 +37,9 @@
       map: map
       position: latLng
     return
+
+  module.exports =
+    props: ['conf']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>

@@ -1,35 +1,42 @@
 <template>
   <section id="announce">
     <div class="row announce-section">
-          <div class="small-offset-1 small-10 large-offset-3 large-1 columns">
-            <h4>{{ conf.menu.announce }}</h4>
-          </div>
+      <div class="small-offset-1 small-10 large-offset-3 large-1 columns">
+        <h4>{{ conf.menu.announce }}</h4>
+      </div>
 
-          <div class="small-offset-1 small-10 large-5 columns">
-            <ul class="vertical menu" data-accordion-menu>
-              <li>
-                <span class="label warning">AUG 08</span>
-                <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
-                <ul class="menu vertical nested">
-                  <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-                </ul>
-              </li>
-              <li>
-                <span class="label primary">JUNE 11</span>
-                <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
-                <ul class="menu vertical nested">
-                  <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
-                </ul>
-              </li>
-              <li>
-                <span class="label primary">MAY 08</span>
-                <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
-                <ul class="menu vertical nested">
-                  <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
-                </ul>
-              </li>
+      <div class="small-offset-1 small-10 large-5 columns">
+        <ul class="vertical menu" data-accordion-menu>
+          <!-- <li v-for="item in conf.announce">
+            <span class="label">{{ item.date }}</span>
+            <a href="#" class="announce-info">{{ item.title }}</a>
+            <ul class="menu vertical nested">
+              <div>{{ item.content }}</div>
             </ul>
-          </div>
+          </li> -->
+          <li>
+            <span class="label warning">AUG 08</span>
+            <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
+            <ul class="menu vertical nested">
+              <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+            </ul>
+          </li>
+          <li>
+            <span class="label primary">JUNE 11</span>
+            <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
+            <ul class="menu vertical nested">
+              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+            </ul>
+          </li>
+          <li>
+            <span class="label primary">MAY 08</span>
+            <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
+            <ul class="menu vertical nested">
+              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 </template>

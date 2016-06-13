@@ -9,5 +9,35 @@
     "sponsor": "贊助",
     "about": "關於",
     "language": "中文"
+  },
+  "header": {
+    "title": "---",
+    "registration": "---"
+  },
+  "announce": [
+    {
+        "date": "AUG 08",
+        "title": "This registration will open, please focus on our latest news.",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "date": "JUNE 11",
+        "title": "This registration will open, please focus on our latest news.",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "date": "MAY 08",
+        "title": "This registration will open, please focus on our latest news.",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    }
+  ],
+  "vision": {
+    "content": "---"
+  },
+  "location": {
+    "name": "輔仁大學國璽樓",
+    "address": "新北市新莊區中正路510號",
+    "description1": "輔大校門進入直行至最後端至中美堂，左轉第2棟有玻璃帷幕之新大樓即為國璽樓",
+    "description2": "自輔大貴子門進入，右轉第一棟大樓即為國璽樓。(現場將有場務人員舉牌引導方向)"
   }
 }

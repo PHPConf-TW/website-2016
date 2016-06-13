@@ -1,7 +1,7 @@
 <template>
   <div id="container">
     <nav-wrapper :menu="conf.menu"></nav-wrapper>
-    <header-wrapper></header-wrapper>
+    <header-wrapper :header="conf.header"></header-wrapper>
     <div class="wrapper">
       <announce :conf="conf"></announce>
       <vision :conf="conf"></vision>
@@ -44,15 +44,19 @@
         $.ajax
           url: url
           dataType: 'text'
+          async: false
           success: (data) ->
             self.conf = JSON.parse(data)
             return
           error: (data) ->
             return
         return
-    ready: () ->
-      $(document).foundation()
+    beforeCompile: () ->
       @changeLang()
+      console.log 'inited'
+      return
+    ready: () ->
+      $(document).foundation()      
       return
 
 </script>
