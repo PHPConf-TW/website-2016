@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="small-12 large-4 columns photo align-self-middle">
-        <img src="http://fakeimg.pl/250x250/?text=photo" alt="PHPConf" class="hide-for-small-only hide-for-medium-only">
+        <img src="../assets/joshlockhart.jpeg" alt="PHPConf" class="hide-for-small-only hide-for-medium-only">
       </div>
     </div>
   </section>
@@ -36,4 +36,5 @@
       img
         box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.3)
         border: .06rem solid rgba(179, 179, 179, 0.73)
+        width: 17.8rem
 </style>
