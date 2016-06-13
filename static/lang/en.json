@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "home": "home",
+    "announce": "announce",
+    "vision": "vision",
+    "speaker": "speaker",
+    "session": "session",
+    "location": "location",
+    "sponsor": "sponsor",
+    "about": "about"
+  }
+}

@@ -4,13 +4,14 @@
       <div class="shrink columns title">PHPConf Taiwan 2016</div>
       <nav class="columns text-right">
         <ul>
-          <li class="active"><a href="#home">HOME</a></li>
-          <li><a href="#vision">VISION</a></li>
-          <li><a href="#speaker">SPEAKER</a></li>
-          <li><a href="#session">SESSION</a></li>
-          <li><a href="#location">LOCATION</a></li>
-          <li><a href="#sponsor">SPONSOR</a></li>
-          <li><a href="#about">ABOUT</a></li>
+          <li class="active"><a href="#home">{{ menu.home }}</a></li>
+          <li><a href="#announce">{{ menu.announce }}</a></li>
+          <li><a href="#vision">{{ menu.vision }}</a></li>
+          <li><a href="#speaker">{{ menu.speaker }}</a></li>
+          <li><a href="#session">{{ menu.session }}</a></li>
+          <li><a href="#location">{{ menu.location }}</a></li>
+          <li><a href="#sponsor">{{ menu.sponsor }}</a></li>
+          <li><a href="#about">{{ menu.about }}</a></li>
         </ul>
       </nav>    
     </div>
@@ -18,6 +19,8 @@
 </template>
 
 <script lang="coffee" type="text/coffeescript">
+  module.exports =
+    props: ['menu']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass">
@@ -50,6 +53,7 @@
     ul
       margin: 0
       font-size: 0.9rem
+      text-transform: uppercase
     li
       display: inline-block
       list-style: none

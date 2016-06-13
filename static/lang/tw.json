@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "home": "首頁",
+    "announce": "公告",
+    "vision": "展望",
+    "speaker": "講者",
+    "session": "議程",
+    "location": "地點",
+    "sponsor": "贊助",
+    "about": "關於"
+  }
+}

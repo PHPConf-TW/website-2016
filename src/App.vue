@@ -1,15 +1,17 @@
 <template>
-  <nav-wrapper></nav-wrapper>
-  <header-wrapper></header-wrapper>
-  <div class="wrapper">
-    <announce></announce>
-    <vision></vision>
-    <speaker></speaker>
-    <map></map>
-    <sponsor></sponsor>
-    <staff></staff>
+  <div id="container">
+    <nav-wrapper :menu="conf.menu"></nav-wrapper>
+    <header-wrapper></header-wrapper>
+    <div class="wrapper">
+      <announce :conf="conf"></announce>
+      <vision :conf="conf"></vision>
+      <speaker :conf="conf"></speaker>
+      <map :conf="conf"></map>
+      <sponsor :conf="conf"></sponsor>
+      <about :conf="conf"></about>
+    </div>
+    <footer-wrapper></footer-wrapper>
   </div>
-  <footer-wrapper></footer-wrapper>
 </template>
 
 <script lang="coffee" type="text/coffeescript">
@@ -25,6 +27,12 @@
 #  require 'foundation-sites/js/foundation.accordionMenu.js'
 
   module.exports =
+    data: () ->
+      return { conf: {
+        menu: {
+          about: 'hi'
+        }
+      }}
     components:
       'nav-wrapper': require './components/Nav'
       'header-wrapper': require './components/Header'
@@ -34,9 +42,32 @@
       speaker: require './components/Speaker'
       map: require './components/Map'
       sponsor: require './components/Sponsor'
-      staff: require './components/Staff'
+      about: require './components/About'
+    methods:
+      getLang: () ->
+        lang = window.location.pathname.split('/')[1]
+        index = ['tw', 'en'].indexOf lang
+        if index == -1
+          lang = 'tw'
+        return lang
+      changeLang: () ->
+        self = @
+        lang = @getLang()
+        url = '/static/lang/' + lang + '.json'
+        $.ajax
+          url: url
+          dataType: 'text'
+          success: (data) ->
+            self.conf = JSON.parse(data)
+            console.log self.conf
+            return
+          error: (data) ->
+            return
+        return
     ready: () ->
       $(document).foundation()
+      @changeLang()
+      return
 
 </script>
 
@@ -50,6 +81,7 @@
   h4
     font-weight: bold
     font-family: 'Rubik', $body-font-family
+    text-transform: capitalize
 
   .button
     border-radius: 3px

@@ -2,7 +2,7 @@
   <section id="announce">
     <div class="row announce-section">
           <div class="small-offset-1 small-10 large-offset-3 large-1 columns">
-            <h4>Announce</h4>
+            <h4>{{ conf.menu.announce }}</h4>
           </div>
 
           <div class="small-offset-1 small-10 large-5 columns">
@@ -35,7 +35,8 @@
 </template>
 
 <script lang="coffee" type="text/coffeescript">
-
+  module.exports =
+    props: ['conf']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>

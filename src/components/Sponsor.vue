@@ -2,7 +2,7 @@
   <section id="sponsor">
     <div class="row">
       <div class="columns">
-        <h2>Sponsor</h2>
+        <h4>{{ conf.menu.sponsor }}</h4>
         <div class="row sponsor-wrapper">
           <diamond-sponsor></diamond-sponsor>
           <silver-sponsor></silver-sponsor>
@@ -20,6 +20,7 @@
     components:
       'diamond-sponsor': require './DiamondSponsor.vue'
       'silver-sponsor': require './SilverSponsor.vue'
+    props: ['conf']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
