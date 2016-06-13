@@ -19,11 +19,7 @@
 
   module.exports =
     data: () ->
-      return { conf: {
-        menu: {
-          about: 'hi'
-        }
-      }}
+      return { conf: {} }
     components:
       'nav-wrapper': require './components/Nav'
       'header-wrapper': require './components/Header'
@@ -50,7 +46,6 @@
           dataType: 'text'
           success: (data) ->
             self.conf = JSON.parse(data)
-            console.log self.conf
             return
           error: (data) ->
             return

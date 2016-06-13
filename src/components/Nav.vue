@@ -9,7 +9,7 @@
         <div class="title">PHPConf Taiwan 2016</div>
       </div>
       <div class="top-bar-right">
-        <ul class="menu align-right">
+        <ul class="dropdown menu align-right" data-dropdown-menu>
           <li class="active"><a href="#home">{{ menu.home }}</a></li>
           <li><a href="#announce">{{ menu.announce }}</a></li>
           <li><a href="#vision">{{ menu.vision }}</a></li>
@@ -18,6 +18,12 @@
           <li><a href="#location">{{ menu.location }}</a></li>
           <li><a href="#sponsor">{{ menu.sponsor }}</a></li>
           <li><a href="#about">{{ menu.about }}</a></li>
+          <li>
+            <a href="#">{{ menu.language }}</a>
+            <ul class="menu vertical">
+              <li><a href="/en">English</a></li>
+              <li><a href="/">中文</a></li>
+            </ul>
         </ul>
       </div>
     </div>
@@ -35,25 +41,37 @@
     background-color: $dark-gray
     color: $light-gray
     .title-bar
-      background: inherit
       .title
-        padding: .307rem .55rem
+        padding: .307rem 0
+      .menu-icon
+        // outline: none
     .top-bar
-      background-color: inherit
       .title
         +breakpoint(small only)
           display: none
-      .menu
+      .dropdown.menu
         +breakpoint(small only)
           display: block
-        li
+        > li
           +breakpoint(small only)
             display: block
             width: 100%
             border-top: 1px solid #505050
             padding: .5rem
-    .menu
-      background-color: inherit
+      .dropdown.menu > li.is-dropdown-submenu-parent > a
+        &::after
+          border-color: $light-gray transparent transparent 
+      .dropdown.menu.align-right .is-dropdown-submenu.first-sub
+        background-color: rgba(74, 74, 74, 0.9)
+        color: $light-gray
+        border: 0
+        margin-top: .5rem
+        +breakpoint(small only)
+          position: relative
+          top: 0
+      .is-dropdown-submenu > li
+        +breakpoint(small only)
+          padding: .5rem 0
     .title
       font-size: 1.1rem
     a
