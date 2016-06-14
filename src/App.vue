@@ -78,6 +78,8 @@
     font-weight: bold
     font-family: 'Rubik', $body-font-family
     text-transform: capitalize
+    +breakpoint(small only)
+      text-align: center
 
   section
     margin-top: 2.5rem

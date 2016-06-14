@@ -29,11 +29,12 @@
   @import '../settings.scss'
 
   #announce
-
+    margin-top: 5rem
+    margin-bottom: 5rem
     h4
       text-align: right
       +breakpoint(small only)
-        text-align: left
+        text-align: center
         margin-bottom: 1.5rem
 
     .label
