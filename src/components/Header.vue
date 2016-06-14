@@ -28,8 +28,8 @@
   .banner-img
     width: 100%
     height: 100%
-    background-image: url('../assets/banner.jpg')
-    background-position: center
+    background-image: url('../assets/banner1.jpg')
+    background-position: 0rem 59rem
     background-size: cover
     filter: grayscale(100%)
   .banner-mask
@@ -40,7 +40,7 @@
     bottom: 0
     width: 100%
     height: 100%
-    background: linear-gradient(45deg, rgba(204,204,204,0.2) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 50%, rgba(254,191,1,.5) 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(45deg, rgba(204,204,204,0.2) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 50%, rgba(254,191,1,.5) 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 )
     /*background: #f39801*/
     /*background: linear-gradient(to bottom, rgba(255,255,255,.2) 10%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, .6) 90%)*/

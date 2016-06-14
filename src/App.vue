@@ -53,7 +53,6 @@
         return
     beforeCompile: () ->
       @changeLang()
-      console.log 'inited'
       return
     ready: () ->
       $(document).foundation()      
