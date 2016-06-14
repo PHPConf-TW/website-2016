@@ -67,10 +67,22 @@
   +foundation-everything(true)
 
   /* Custom Global */
+  *:focus
+    outline: none
+
+  html, body
+    word-spacing: 0.05rem
+
   h4
     font-weight: bold
     font-family: 'Rubik', $body-font-family
     text-transform: capitalize
+    +breakpoint(small only)
+      text-align: center
+
+  section
+    margin-top: 2.5rem
+    margin-bottom: 3.5rem
 
   .button
     border-radius: 3px

@@ -59,6 +59,15 @@
       max-width: 20rem
       right: 15%
       top: 4.8rem
+      +breakpoint(small only)
+        position: relative
+        top: 0
+        margin: 0
+        max-width: 100%
+        right: 0
+        padding: 2rem 1.4rem 1rem
+        background-color: #fbfbfb
+        border-top: 1px solid #f5f5f5
       .location-name
         color: map-get($foundation-palette, primary)
         font-size: 1.2rem
