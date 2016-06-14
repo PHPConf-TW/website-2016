@@ -19,6 +19,8 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
+  header.header
+    margin-top: 3.3rem
   .banner
     position: relative
     text-align: center

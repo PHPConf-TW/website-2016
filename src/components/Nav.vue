@@ -40,6 +40,12 @@
   .menu-wrapper
     background-color: $dark-gray
     color: $light-gray
+    position: fixed
+    top: 0
+    z-index: 2
+    width: 100%
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3)
+    border-bottom: 1px solid #424242
     .title-bar
       .title
         padding: .307rem 0
@@ -65,7 +71,8 @@
         background-color: rgba(74, 74, 74, 0.9)
         color: $light-gray
         border: 0
-        margin-top: .5rem
+        margin-top: .636rem
+        z-index: 0
         +breakpoint(small only)
           position: relative
           top: 0
