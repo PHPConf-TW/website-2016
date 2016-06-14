@@ -1,9 +1,9 @@
 <template>
   <div class="diamond-wrapper row">
-    <div class="photo columns" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
+    <div class="photo columns large-6 medium-6 small-12" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
 
     </div>
-    <div class="word columns">
+    <div class="word columns large-6 medium-6 small-12">
       <h5>Diamond Sponsor</h5>
       <p>
         Code in your favorite language and IDE – .NET, NodeJS, PHP, Python, or Java – to build web apps and APIs faster than ever. Be more agile with continuous integration using Visual Studio Team Services or GitHub and with live-site debugging. Easily scale applications on-demand with high availability.
@@ -27,8 +27,10 @@
     background-size: cover
     background-position: center center
     display: block
+    height: 10rem
   .word
     text-align: justify
+    overflow: hidden
     h5
       color: blue
     p

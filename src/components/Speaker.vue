@@ -4,12 +4,7 @@
       <div class="columns">
         <h4>{{ conf.menu.speaker }}</h4>
         <div class="row speaker-wrapper">
-          <avatar class="columns"></avatar>
-          <avatar class="columns"></avatar>
-          <avatar class="columns"></avatar>
-          <avatar class="columns"></avatar>
-          <avatar class="columns"></avatar>
-          <avatar class="columns"></avatar>
+          <avatar class="columns" v-for="speaker in conf.speaker" :speaker="speaker"></avatar>
         </div>
       </div>
     </div>

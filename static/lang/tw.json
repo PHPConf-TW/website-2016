@@ -39,5 +39,31 @@
     "address": "新北市新莊區中正路510號",
     "description1": "輔大校門進入直行至最後端至中美堂，左轉第2棟有玻璃帷幕之新大樓即為國璽樓",
     "description2": "自輔大貴子門進入，右轉第一棟大樓即為國璽樓。(現場將有場務人員舉牌引導方向)"
-  }
+  },
+  "speaker": [
+    {
+      "name": "蘇士哲",
+      "brief": "XXX 小雜工",
+      "intro": "PHP 也有 Day 主辦人，目前服務於 XXX。資深 PHP 開發者，喜歡拿 PHP 做不正經的事...",
+      "photo": "http://fakeimg.pl/300x220/?text=photo"
+    },
+    {
+      "name": "惠新宸",
+      "brief": "微博",
+      "intro": "惠新宸，中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend 公司外聘顧問, 曾供職於雅虎，百度和新浪微博任平台及數據部總架構師兼首席 PHP 顧問。 是 PHP NG 核心開發者，PHP5.4，5.5 的主要開發者。作為 PECL 開發者貢獻了 Yaf (Yet another framework)，Yar(Yet another RPC framework) 以及 Yac(Yet another Cache)、Taint 等多個優秀開源作品，同時也是 APC ，Opcache ，Msgpack 等項目的維護者。",
+      "photo": "http://fakeimg.pl/200x120/?text=photo"
+    },
+    {
+      "name": "林志傑",
+      "brief": "iNDIEVOX 技術長",
+      "intro": "iNDIEVOX 技術長，iNDIEVOX 是目前台灣最大的獨立音樂網路商店，販售高音質數位音樂下載及演唱會售票。我使用 PHP 及 Python，最近對機器學習感到興趣，所以空閒時會將 Python 有關機器學習的 Github Project 翻譯成 PHP 版本。",
+      "photo": "http://fakeimg.pl/200x120/?text=photo"
+    },
+    {
+      "name": "范聖佑",
+      "brief": "得寬科技研究員",
+      "intro": "專長為數位媒體設計、網路應用程式開發，目前為得寬科技研究員，負責研究、評估各項新技術的導入及改善專案開發流程。",
+      "photo": "http://fakeimg.pl/200x120/?text=photo"
+    }
+  ]
 }

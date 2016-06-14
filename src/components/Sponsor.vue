@@ -26,6 +26,4 @@
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   h4
     text-align: center
-  .sponsor-wrapper
-    margin: 2rem 10rem
 </style>

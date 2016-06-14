@@ -1,25 +1,27 @@
 <template>
   <div class="avatar-wrapper">
     <div class="reveal row" id="avatarModel" data-reveal>
-      <div class="photo" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
+      <div class="photo" :style="{ 'background-image': 'url(' + speaker.photo + ')' }">
       </div>
       <div class="word">
-        <h5>Gavin Bates</h5>
-        <h6 class="lead">PHPConf Host</h6>
-        <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins! I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+        <h5>{{ speaker.name }}</h5>
+        <h6 class="lead">{{ speaker.brief }}</h6>
+        <p>{{ speaker.intro }}</p>
       </div>
       <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
 
-    <a class="avatar-model" data-open="avatarModel" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
-      <div class="caption"><span>Gavin Bates</span></div>
+    <a class="avatar-model" data-open="avatarModel" :style="{ 'background-image': 'url(' + speaker.photo + ')' }">
+      <div class="caption"><span>{{ speaker.name }}</span></div>
     </a>
   </div>
 </template>
 
 <script lang="coffee" type="text/coffeescript">
+  module.exports =
+    props: ['speaker']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
@@ -28,6 +30,7 @@
     background-size: cover
     background-position: center center
     height: 8.5rem
+    width: 8.5rem
     display: block
     .caption
       position: absolute
