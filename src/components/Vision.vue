@@ -1,9 +1,9 @@
 <template>
   <section id="vision">
     <div class="row">
-      <div class="small-12 large-8 columns content">
+      <div class="small-12 medium-8 columns content">
         <div class="row">
-          <div class="small-12 large-10 large-offset-2 columns">
+          <div class="small-12 medium-10 medium-offset-2 columns">
             <h4>{{ conf.menu.vision }}</h4>
             {{{ conf.vision.content }}}
           </div>

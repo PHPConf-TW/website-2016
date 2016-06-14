@@ -79,6 +79,7 @@
     text-transform: capitalize
     +breakpoint(small only)
       text-align: center
+      margin-bottom: 1.5rem
 
   section
     margin-top: 2.5rem

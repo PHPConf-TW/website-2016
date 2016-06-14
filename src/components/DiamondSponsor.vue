@@ -1,13 +1,19 @@
 <template>
-  <div class="diamond-wrapper row">
-    <div class="photo columns large-6 medium-6 small-12" style="background-image: url('http://fakeimg.pl/200x120/?text=photo')">
-
-    </div>
-    <div class="word columns large-6 medium-6 small-12">
-      <h5>Diamond Sponsor</h5>
-      <p>
-        Code in your favorite language and IDE – .NET, NodeJS, PHP, Python, or Java – to build web apps and APIs faster than ever. Be more agile with continuous integration using Visual Studio Team Services or GitHub and with live-site debugging. Easily scale applications on-demand with high availability.
-      </p>
+  <div class="columns small-12">
+    <div class="sponsor diamond">
+      <div class="row">
+        <div class="columns small-12 medium-6">
+          <div class="photo" style="background-image: url('http://fakeimg.pl/200x120/fff?text=photo')"></div>
+        </div>
+        <div class="columns small-12 medium-6">
+          <div class="word">
+            <h6>Diamond Sponsor</h6>
+            <p>
+              Code in your favorite language and IDE – .NET, NodeJS, PHP, Python, or Java – to build web apps and APIs faster than ever. Be more agile with continuous integration using Visual Studio Team Services or GitHub and with live-site debugging. Easily scale applications on-demand with high availability.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -16,24 +22,4 @@
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
-  @import '../settings.scss'
-  .diamond-wrapper
-    border: #ddd solid 1px
-    padding: 2rem
-    box-shadow: 0 0 10px #ccc
-    margin: 1rem
-  .photo
-    float: left
-    background-size: cover
-    background-position: center center
-    display: block
-    height: 10rem
-  .word
-    text-align: justify
-    overflow: hidden
-    h5
-      color: blue
-    p
-      font-size: 1rem
-      margin-bottom: 0
 </style>
