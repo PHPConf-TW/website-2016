@@ -1,11 +1,11 @@
 <template>
   <section id="announce">
     <div class="row">
-      <div class="small-12 large-4 columns">
+      <div class="small-12 medium-4 columns">
         <h4>{{ conf.menu.announce }}</h4>
       </div>
 
-      <div class="small-12 large-5 columns">
+      <div class="small-12 medium-5 columns">
         <ul class="vertical menu" data-accordion-menu>
           <li v-for="item in conf.announce">
             <span class="label" v-bind:class="$index == 0 ? 'warning' : 'primary'">{{ item.date }}</span>
@@ -35,7 +35,6 @@
       text-align: right
       +breakpoint(small only)
         text-align: center
-        margin-bottom: 1.5rem
 
     .label
       color: #fff
