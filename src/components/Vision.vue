@@ -30,6 +30,8 @@
     .content
       background-color: $light-gray
       padding: 5rem 4rem 3.5rem
+      +breakpoint(small only)
+        padding: 2.5rem 1.4rem 3.5rem
     .photo
       margin-left: -5rem
       img

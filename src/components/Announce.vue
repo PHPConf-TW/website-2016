@@ -1,38 +1,17 @@
 <template>
   <section id="announce">
-    <div class="row announce-section">
-      <div class="small-offset-1 small-10 large-offset-3 large-1 columns">
+    <div class="row">
+      <div class="small-12 large-4 columns">
         <h4>{{ conf.menu.announce }}</h4>
       </div>
 
-      <div class="small-offset-1 small-10 large-5 columns">
+      <div class="small-12 large-5 columns">
         <ul class="vertical menu" data-accordion-menu>
-          <!-- <li v-for="item in conf.announce">
-            <span class="label">{{ item.date }}</span>
+          <li v-for="item in conf.announce">
+            <span class="label" v-bind:class="$index == 0 ? 'warning' : 'primary'">{{ item.date }}</span>
             <a href="#" class="announce-info">{{ item.title }}</a>
             <ul class="menu vertical nested">
-              <div>{{ item.content }}</div>
-            </ul>
-          </li> -->
-          <li>
-            <span class="label warning">AUG 08</span>
-            <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
-            <ul class="menu vertical nested">
-              <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-            </ul>
-          </li>
-          <li>
-            <span class="label primary">JUNE 11</span>
-            <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
-            <ul class="menu vertical nested">
-              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
-            </ul>
-          </li>
-          <li>
-            <span class="label primary">MAY 08</span>
-            <a href="#" class="announce-info">This registration will open, please focus on our latest news.</a>
-            <ul class="menu vertical nested">
-              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</li>
+              <li>{{ item.content }}</li>
             </ul>
           </li>
         </ul>
@@ -47,47 +26,60 @@
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
-  .announce-section
-    margin-top: 30px
-    margin-bottom: 50px
+  @import '../settings.scss'
 
-  .label
-    color: #fff
-    margin-top: 7px
-    font-weight: 600;
-    &.warning
-      background: #f39801
-    &.primary
-      background: #516cff
+  #announce
 
-  .is-accordion-submenu-parent > a::after
-    border: none
-  .is-accordion-submenu-parent[aria-expanded='true']
-    margin-top: 20px
-    margin-bottom: 20px
-    padding-top: 5px
-    padding-bottom: 5px
-    border-top: 1px solid #d4d4d4
-    border-bottom: 1px solid #d4d4d4
+    h4
+      text-align: right
+      +breakpoint(small only)
+        text-align: left
+        margin-bottom: 1.5rem
 
-  .is-accordion-submenu-parent[aria-expanded='true'] > a::after
-     content: '\00d7'
-     color: #8d8d8d
-     font-size: 30px
-     top: 15px
+    .label
+      color: #fff
+      font-weight: 600
+      width: 4.6rem
+      text-align: center
+      &.warning
+        background: map-get($foundation-palette, warning)
+      &.primary
+        background: map-get($foundation-palette, primary)
 
+    .is-accordion-submenu-parent > a::after
+      border: none
+    .is-accordion-submenu-parent[aria-expanded='true']
+      &::after
+        content: ''
+        width: 100%
+        height: 1px
+        background-color: rgba(202, 202, 202, 0.25)
+        display: block
+        margin: .5rem 0 1rem
 
-  .announce-info
-    font-size: 0.5rem
-    padding-left: 0
-    color: #000
-    text-decoration: underline
+    .is-accordion-submenu-parent[aria-expanded='true'] > a::after
+        content: '\00d7'
+        color: $medium-gray
+        font-size: 1.5rem
+        top: -.15rem
+        right: 0
+        padding: .5rem
+        transform: initial
+        width: auto
+        height: auto
 
-  li
-    text-align: left
-    display:inline
+    a.announce-info
+      padding-left: 0
+      color: $body-font-color
+      text-decoration: underline
+      padding: .5rem 0
 
-  .menu.nested
-    margin-left: 0
+    li
+      text-align: left
+      display:inline
+      padding-bottom: .8rem
+
+    .menu.nested
+      margin-left: 0
 
 </style>
