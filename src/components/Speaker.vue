@@ -3,20 +3,22 @@
     <div class="row">
       <div class="columns">
         <h4>{{ conf.menu.speaker }}</h4>
-        <div class="row speaker-wrapper">
-          <avatar class="columns" v-for="speaker in conf.speaker" :speaker="speaker"></avatar>
-        </div>
-        <div class="reveal row" id="avatarModel" data-reveal>
-          <div class="photo" :style="avatarImg">
+        <div class="speaker-wrapper">
+          <div class="row align-center" v-for="speakers in conf.speakers">
+            <avatar v-for="detail in speakers" :detail="detail"></avatar>
           </div>
-          <div class="word">
-            <h5>{{ speaker.name }}</h5>
-            <h6 class="lead">{{ speaker.brief }}</h6>
-            <p>{{ speaker.intro }}</p>
+          <div class="reveal row" id="avatarModel" data-reveal>
+            <div class="photo" :style="avatarImg">
+            </div>
+            <div class="word">
+              <h5>{{ detail.name }}</h5>
+              <h6 class="lead">{{ detail.brief }}</h6>
+              <p>{{ detail.intro }}</p>
+            </div>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <button class="close-button" data-close aria-label="Close modal" type="button">
-            <span aria-hidden="true">&times;</span>
-          </button>
         </div>
       </div>
     </div>
@@ -27,7 +29,7 @@
   module.exports =
     data: () ->
       return {
-        speaker:
+        detail:
           name: ""
           brief: ""
           intro: ""
@@ -35,7 +37,7 @@
       }
     computed:
       avatarImg: () ->
-        return 'background-image': 'url(' + @speaker.photo + ')'
+        return 'background-image': 'url(' + @detail.photo + ')'
     components:
       avatar: require './Avatar.vue'
     props: ['conf']
@@ -44,9 +46,7 @@
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   h4
     text-align: center
-  .speaker-wrapper
-    margin: 2rem 10rem
-  .reveal
+  #avatarModel
     width: 60rem
     height: 20rem
     position: relative
@@ -74,7 +74,7 @@
     border-right: 3rem solid white
   .word
     text-align: justify
-    overflow: scroll
+    overflow: auto
     height: 20rem
   h5
     color: blue

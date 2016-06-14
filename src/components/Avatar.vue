@@ -1,7 +1,7 @@
 <template>
   <div class="avatar-wrapper">
     <a class="avatar-model" data-open="avatarModel" @click="openAvatar" :style="avatarImg">
-      <div class="caption"><span>{{ speaker.name }}</span></div>
+      <div class="caption"><span>{{ detail.name }}</span></div>
     </a>
   </div>
 </template>
@@ -11,17 +11,19 @@
     data: () ->
       return {
         avatarImg:
-          'background-image': 'url(' + @speaker.photo + ')'
+          'background-image': 'url(' + @detail.photo + ')'
       }
-    props: ['speaker']
+    props: ['detail']
     methods: {
       openAvatar: () ->
-        @$parent.speaker = @speaker
+        @$parent.detail = @detail
     }
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   @import '../settings.scss'
+  .avatar-wrapper
+    margin: 1rem
   .avatar-model
     background-size: cover
     background-position: center center
