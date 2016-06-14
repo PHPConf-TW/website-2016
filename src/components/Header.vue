@@ -28,7 +28,7 @@
   .banner-img
     width: 100%
     height: 100%
-    background-image: url('../assets/banner1.jpg')
+    background-image: url('../assets/banner.jpg')
     background-position: 0rem 59rem
     background-size: cover
     filter: grayscale(100%)

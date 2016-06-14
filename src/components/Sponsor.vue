@@ -47,6 +47,8 @@
         background-size: cover
         background-position: center center
         height: 10rem
+        +breakpoint(small only)
+          height: 8rem
       h6
         color: map-get($foundation-palette, primary)
         font-weight: 500

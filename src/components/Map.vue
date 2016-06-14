@@ -51,6 +51,8 @@
       max-width: 100%
       height: 30rem
       background-color: #fefefe
+      +breakpoint(small only)
+        height: 15rem
     .map-content
       position: absolute
       z-index: 1
