@@ -11,6 +11,7 @@
       <about :conf="conf"></about>
     </div>
     <footer-wrapper></footer-wrapper>
+    <modal :detail="detail"></modal>
   </div>
 </template>
 
@@ -19,7 +20,14 @@
 
   module.exports =
     data: () ->
-      return { conf: {} }
+      return {
+        conf: {},
+        detail:
+          name: ""
+          brief: ""
+          intro: ""
+          photo: ""
+      }
     components:
       'nav-wrapper': require './components/Nav'
       'header-wrapper': require './components/Header'
@@ -30,6 +38,7 @@
       map: require './components/Map'
       sponsor: require './components/Sponsor'
       about: require './components/About'
+      modal: require './components/Modal'
     methods:
       getLang: () ->
         lang = window.location.pathname.split('/')[1]
@@ -57,6 +66,10 @@
     ready: () ->
       $(document).foundation()      
       return
+    events:
+      'open-avatar': (detail) ->
+        @detail = detail
+        return
 
 </script>
 

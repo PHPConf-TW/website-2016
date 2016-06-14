@@ -16,7 +16,7 @@
     props: ['detail']
     methods: {
       openAvatar: () ->
-        @$parent.detail = @detail
+        @$dispatch 'open-avatar', @detail
     }
 </script>
 
