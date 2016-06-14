@@ -85,40 +85,80 @@
   "abouts": {
     "0": [
       {
-        "name": "蘇士哲",
-        "brief": "召部",
+        "name": "總召",
+        "brief": "蘇士哲",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "石仔",
-        "brief": "網站組",
+        "name": "法律顧問",
+        "brief": "石仔",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
     ],
     "1": [
       {
-        "name": "石仔",
-        "brief": "網站組",
+        "name": "設計組",
+        "brief": "石仔",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "石仔",
-        "brief": "網站組",
+        "name": "場務組",
+        "brief": "石仔",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "石仔",
-        "brief": "網站組",
+        "name": "議程組",
+        "brief": "石仔",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "石仔",
-        "brief": "網站組",
+        "name": "票務組",
+        "brief": "石仔",
+        "intro": "戴安娜、時也、安迪林",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      }
+    ],
+    "2": [
+      {
+        "name": "網站組",
+        "brief": "石仔",
+        "intro": "戴安娜、時也、安迪林",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "公關組",
+        "brief": "石仔",
+        "intro": "戴安娜、時也、安迪林",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "記錄組",
+        "brief": "石仔",
+        "intro": "戴安娜、時也、安迪林",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "記錄組",
+        "brief": "石仔",
+        "intro": "戴安娜、時也、安迪林",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      }
+    ],
+    "3": [
+      {
+        "name": "贊助組",
+        "brief": "石仔",
+        "intro": "戴安娜、時也、安迪林",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "線路組",
+        "brief": "石仔",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }

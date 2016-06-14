@@ -24,12 +24,18 @@
   @import '../settings.scss'
   .avatar-wrapper
     margin: 1rem
+    +breakpoint(small only)
+      width: 40%
   .avatar-model
     background-size: cover
     background-position: center center
     height: 8.5rem
     width: 8.5rem
     display: block
+    +breakpoint(small only)
+      width: 100%
+      height: 12rem
+      margin: 0
     .caption
       position: absolute
       display: inherit
@@ -40,6 +46,10 @@
       height: 8.5rem
       text-align: center
       transition: all 0.5s ease-in-out
+      +breakpoint(small only)
+        width: 40%
+        height: 12rem
+        margin: 0
       span
         font-size: 1rem
         padding: 1rem

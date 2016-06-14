@@ -29,7 +29,7 @@
   #sponsor
     h4
       text-align: center
-      margin-top: 1.5rem
+      margin-top: 4rem
       margin-bottom: 4rem
     .sponsor-wrapper
       &.silver

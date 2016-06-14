@@ -19,6 +19,7 @@
     "google-maps": "^3.2.1",
     "imagesloaded": "^4.1.0",
     "jquery": "^2.2.4",
+    "motion-ui": "^1.2.2",
     "node-sass": "^3.7.0",
     "sass-loader": "^3.2.0",
     "vue": "^1.0.21"

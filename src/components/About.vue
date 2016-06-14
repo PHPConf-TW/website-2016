@@ -24,4 +24,6 @@
   #about
     h4
       text-align: center
+      margin-top: 4rem
+      margin-bottom: 2rem
 </style>
