@@ -82,6 +82,36 @@
       }
     ]
   },
+  "diamondsponsors": [
+    {
+      "name": "微軟贊助",
+      "desc": "超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    },
+    {
+      "name": "微軟贊助",
+      "desc": "超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用超實用",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    }
+  ],
+  "silversponsors": [
+    {
+      "name": "sudo贊助",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    },
+    {
+      "name": "特別感謝",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    },
+    {
+      "name": "特別感謝",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    },
+    {
+      "name": "合作媒體",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    }
+  ],
   "abouts": {
     "0": [
       {

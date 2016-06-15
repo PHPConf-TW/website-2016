@@ -32,12 +32,166 @@
     }
   ],
   "vision": {
-    "content": "<p>今年是 PHP 重要的一年，PHP 7 的推出將大幅的提昇 PHP 的執行效率，讓 PHP 在更多元的應用場景得以伸展拳腳。</p><p>今年我們將議程聚焦在效能與大型架構上，並請到 PHP 的作者 Rasmus 與 PHP 核心成員的 Laruance 來為我們提供第一手的 PHP 資訊並分享極致效能的議題。同時我們也請到了各界的高手來分享實戰經驗，議程橫跨了 Big Data、水平擴充、軟體架構、ORM、Async I/O 等各種核心領域，想要更深入瞭解 PHP 進階技術，或是如何掌控大型網站架構的朋友，千萬別錯過這些高手們交流的機會。</p>"
+    "content": "<p>PHP is a widely-used open source general-purpose scripting language that is especially suited for web development. It always been the first choice of web developer since it is easy to learn, easy to use, and resources are abundant. The rear end is the highest share of the burden of the past because of language .PHP , suffer in silence a lot of misunderstanding. With the introduction of PHP 7, significantly improved efficiency at the same time , PHP has gradually reborn , no longer the hearts of everyone that spaghetti code. <p>So this year we will focus on the theme in modern PHP development methods, and software testing . And invited the author of the book of modern PHP Josh Luokehate to share a new generation of PHP development mode. Also invited to this well-known author of PHPUnit testing framework Bergman to introduce us how to write tests. </p><p>Also this year we added a workshop agenda , hoping by doing, lead the construction of CI / CD environment .</p>"
   },
   "location": {
     "name": "--",
     "address": "--",
     "description1": "--",
     "description2": "--"
+  },
+  "speakers": {
+    "0": [
+      {
+        "name": "Ricky Su",
+        "brief": "XXX Backend Developer",
+        "intro": "Host of PHP activities, love",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Josh",
+        "brief": "php",
+        "intro": "<p>Josh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked forNew Media Campaigns since 2007 and spearheads development for many of NMC’smost advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.</p><p>Josh is the author of Modern PHP, published by O'Reilly Media. He started the Slim Framework, a popular PHP micro framework that enables rapid web application and API development. Josh also started and currently curates PHP The Right Way, a popular initiative in the PHP community that encourages good practices and disseminates quality information for PHP developers around the world.</p><p>Josh graduated from the Information and Library Science program at the University of North Carolina at Chapel Hill in 2008 and currently reside in Chapel Hill, North Carolina USA with his wife and two dogs.</p>",
+        "photo": "http://fakeimg.pl/200x120/?text=photo"
+      }
+    ],
+    "1": [
+      {
+        "name": "Ricky Su",
+        "brief": "XXX Backend Developer",
+        "intro": "Host of PHP activities, love",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Ricky Su",
+        "brief": "XXX Backend Developer",
+        "intro": "Host of PHP activities, love",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Ricky Su",
+        "brief": "XXX Backend Developer",
+        "intro": "Host of PHP activities, love",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Ricky Su",
+        "brief": "Backend Developer",
+        "intro": "Host of PHP activities, love",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      }
+    ]
+  },
+  "diamondsponsors": [
+    {
+      "name": "Microsoft",
+      "desc": "--------------------------------------------------------------",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    },
+    {
+      "name": "Microsoft",
+      "desc": "--------------------------------------------------------------",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    }
+  ],
+  "silversponsors": [
+    {
+      "name": "sudo",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    },
+    {
+      "name": "Specially Thanks",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    },
+    {
+      "name": "Cooperate Media",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    },
+    {
+      "name": "Media",
+      "photo": "http://fakeimg.pl/200x120/fff?text=photo"
+    }
+  ],
+  "abouts": {
+    "0": [
+      {
+        "name": "Host",
+        "brief": "Ricky Su",
+        "intro": "",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Legal Consultant",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      }
+    ],
+    "1": [
+      {
+        "name": "Design",
+        "brief": "Felice",
+        "intro": "Anna, Ben, Louis Chang",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Legal Consultant",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Agenda",
+        "brief": "oomusou",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Ticket",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      }
+    ],
+    "2": [
+      {
+        "name": "Website",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "PR",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Record",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Buy",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      }
+    ],
+    "3": [
+      {
+        "name": "Sponsor",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Equipment",
+        "brief": "Peggy",
+        "intro": "louxusian, andylin, elct9620, appleboy",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      }
+    ]
   }
 }

@@ -5,7 +5,7 @@
     <div class="word">
       <h5>{{ detail.name }}</h5>
       <h6 class="lead">{{ detail.brief }}</h6>
-      <p>{{ detail.intro }}</p>
+      <p>{{{ detail.intro }}}</p>
     </div>
     <button class="close-button" data-close aria-label="Close modal" type="button">
       <span aria-hidden="true">&times;</span>
@@ -78,8 +78,12 @@
     h5
       color: map-get($foundation-palette, primary)
       font-size: 2rem
+      +breakpoint(small-only)
+        font-size: 1.5rem
     h6
       font-size: 1.5rem
+      +breakpoint(small-only)
+        font-size: 1.2rem
     p
       font-size: 1rem
 </style>

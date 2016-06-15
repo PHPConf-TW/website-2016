@@ -51,12 +51,14 @@
         height: 12rem
         margin: 0
       span
-        font-size: 1rem
+        font-size: 1.2rem
         padding: 1rem
         position: relative
         color: white
         top: 40%
         transition: all 0.5s ease-in-out
+        +breakpoint(small only)
+          font-size: 1.4rem
   .avatar-model:hover
     .caption
       opacity: 0.6
