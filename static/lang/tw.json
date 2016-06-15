@@ -32,7 +32,7 @@
     }
   ],
   "vision": {
-    "content": "<p>PHP 一直以來都是網頁開發者後端入門首選。因為 PHP 易學、易用，而且參考資源相當豐富，是目前後端佔有率最高的語言。PHP 因為過去的包袱，默默的承受不少誤解。隨著 PHP 7 的推出，執行效率大幅提升的同時，PHP 也逐漸的脫胎換骨，不再是大家心中的那個義大利麵代碼。</p><p>因此今年我們將主題聚焦在現代化的 PHP 開發方式，以及軟體測試。並邀請到了 Modern PHP 這本書的作者 Josh Lockhart 來分享新一代的 PHP 開發方式。同時也邀請到 PHPUnit 這套知名的測試框架作者 Sebastian Bergmann 來為我們介紹如何撰寫測試。</p><p>此外今年我們新增了 Workshop 議程，希望藉由做中學，帶領大家建構 CI / CD 環境。</p>"
+    "content": "<p>PHP 一直以來都是網頁開發者後端入門首選。因為 PHP 易學、易用，而且參考資源相當豐富，是目前後端佔有率最高的語言。PHP 因為過去的包袱，默默的承受不少誤解。隨著 PHP 7 的推出，執行效率大幅提升的同時，PHP 也逐漸的脫胎換骨，不再是大家心中的那個義大利麵程式碼。</p><p>因此今年我們將主題聚焦在現代化的 PHP 開發方式，以及軟體測試，並邀請到了 Modern PHP 這本書的作者 Josh Lockhart 來分享新一代的 PHP 開發方式。同時也邀請到 PHPUnit 這套知名的測試框架作者 Sebastian Bergmann 來為我們介紹如何撰寫測試。</p><p>此外今年我們新增了 Workshop 議程，希望藉由做中學，帶領大家建構 CI / CD 環境。</p>"
   },
   "location": {
     "name": "輔仁大學國璽樓",
@@ -43,13 +43,13 @@
   "speakers": {
     "0": [
       {
-        "name": "蘇士哲",
+        "name": "Josh Lockhart",
         "brief": "XXX 小雜工",
         "intro": "PHP 也有 Day 主辦人，目前服務於 XXX。資深 PHP 開發者，喜歡拿 PHP 做不正經的事...",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "惠新宸",
+        "name": "Sebastian Bergmann",
         "brief": "微博",
         "intro": "惠新宸，中國最有影響力的PHP技術專家中國最有影響力的PHP技術專家中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend 公司外聘顧問, 曾供職於雅虎，百度和新浪微博任平台及數據部總架構師兼首席 PHP 顧問。 是 PHP NG 核心開發者，PHP5.4，5.5 的主要開發者。作為 PECL 開發者貢獻了 Yaf (Yet another framework)，Yar(Yet another RPC framework) 以及 Yac(Yet another Cache)、Taint 等多個優秀開源作品，同時也是 APC ，Opcache ，Msgpack 等項目的維護者。",
         "photo": "http://fakeimg.pl/200x120/?text=photo"
@@ -116,13 +116,13 @@
     "0": [
       {
         "name": "總召",
-        "brief": "蘇士哲",
+        "brief": "Ricky",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
         "name": "法律顧問",
-        "brief": "石仔",
+        "brief": "",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
@@ -130,25 +130,25 @@
     "1": [
       {
         "name": "設計組",
-        "brief": "石仔",
-        "intro": "戴安娜、時也、安迪林",
+        "brief": "Min",
+        "intro": "Min、宋狄諺",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
         "name": "場務組",
-        "brief": "石仔",
-        "intro": "戴安娜、時也、安迪林",
+        "brief": "Elvis",
+        "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
         "name": "議程組",
-        "brief": "石仔",
-        "intro": "戴安娜、時也、安迪林",
+        "brief": "Sam",
+        "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
         "name": "票務組",
-        "brief": "石仔",
+        "brief": "Starlition",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
@@ -156,40 +156,40 @@
     "2": [
       {
         "name": "網站組",
-        "brief": "石仔",
+        "brief": "Peggy",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
         "name": "公關組",
-        "brief": "石仔",
+        "brief": "Wake",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
         "name": "記錄組",
-        "brief": "石仔",
+        "brief": "墨嗓",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "記錄組",
-        "brief": "石仔",
+        "name": "贊助組",
+        "brief": "Wake",
         "intro": "戴安娜、時也、安迪林",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
     ],
     "3": [
       {
-        "name": "贊助組",
-        "brief": "石仔",
-        "intro": "戴安娜、時也、安迪林",
+        "name": "特工組",
+        "brief": "Winnie",
+        "intro": "Winnie、勇瑜、Ronald",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
         "name": "線路組",
-        "brief": "石仔",
-        "intro": "戴安娜、時也、安迪林",
+        "brief": "CPR Team",
+        "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
     ]
