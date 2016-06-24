@@ -44,14 +44,14 @@
     "0": [
       {
         "name": "Josh Lockhart",
-        "brief": "XXX 小雜工",
-        "intro": "PHP 也有 Day 主辦人，目前服務於 XXX。資深 PHP 開發者，喜歡拿 PHP 做不正經的事...",
+        "brief": "Author of Modern PHP (O’Reilly). Founder of Slim Framework and PHP The Right Way.",
+        "intro": "<p>Josh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.</p><p>Josh is the author of Modern PHP, published by O'Reilly Media. He started the Slim Framework, a popular PHP micro framework that enables rapid web application and API development. Josh also started and currently curates PHP The Right Way, a popular initiative in the PHP community that encourages good practices and disseminates quality information for PHP developers around the world.</p><p>Josh graduated from the Information and Library Science program at the University of North Carolina at Chapel Hill in 2008 and currently reside in Chapel Hill, North Carolina USA with his wife and two dogs.</p>",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
         "name": "Sebastian Bergmann",
-        "brief": "微博",
-        "intro": "惠新宸，中國最有影響力的PHP技術專家中國最有影響力的PHP技術專家中國最有影響力的PHP技術專家， PHP 開發組核心成員, PECL 開發者 , Zend 公司外聘顧問, 曾供職於雅虎，百度和新浪微博任平台及數據部總架構師兼首席 PHP 顧問。 是 PHP NG 核心開發者，PHP5.4，5.5 的主要開發者。作為 PECL 開發者貢獻了 Yaf (Yet another framework)，Yar(Yet another RPC framework) 以及 Yac(Yet another Cache)、Taint 等多個優秀開源作品，同時也是 APC ，Opcache ，Msgpack 等項目的維護者。",
+        "brief": "The Creator of PHPUnit",
+        "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
         "photo": "http://fakeimg.pl/200x120/?text=photo"
       }
     ],

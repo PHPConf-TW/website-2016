@@ -32,7 +32,7 @@
     }
   ],
   "vision": {
-    "content": "<p>PHP is a widely-used open source general-purpose scripting language that is especially suited for web development. It always been the first choice of web developer since it is easy to learn, easy to use, and resources are abundant. The rear end is the highest share of the burden of the past because of language .PHP , suffer in silence a lot of misunderstanding. With the introduction of PHP 7, significantly improved efficiency at the same time , PHP has gradually reborn , no longer the hearts of everyone that spaghetti code. <p>So this year we will focus on the theme in modern PHP development methods, and software testing . And invited the author of the book of modern PHP Josh Luokehate to share a new generation of PHP development mode. Also invited to this well-known author of PHPUnit testing framework Bergman to introduce us how to write tests. </p><p>Also this year we added a workshop agenda , hoping by doing, lead the construction of CI / CD environment .</p>"
+    "content": "<p>PHP has the largest market share in back-end(server-side scripting) languages. It always been the first choice of web developer since it is easy to learn, easy to use, and resources are abundant. The rear end is the highest share of the burden of the past because of language .PHP , suffer in silence a lot of misunderstanding. With the introduction of PHP 7, significantly improved efficiency at the same time , PHP has gradually reborn , no longer the hearts of everyone that spaghetti code. <p>So this year we will focus on the theme in modern PHP development methods, and software testing . And invited the author of the book of modern PHP Josh Luokehate to share a new generation of PHP development mode. Also invited to this well-known author of PHPUnit testing framework Bergman to introduce us how to write tests. </p><p>Also this year we added a workshop agenda , hoping by doing, lead the construction of CI / CD environment .</p>"
   },
   "location": {
     "name": "--",
@@ -43,15 +43,15 @@
   "speakers": {
     "0": [
       {
-        "name": "Ricky Su",
-        "brief": "XXX Backend Developer",
-        "intro": "Host of PHP activities, love",
+        "name": "Josh Lockhart",
+        "brief": "Author of Modern PHP (O’Reilly). Founder of Slim Framework and PHP The Right Way.",
+        "intro": "<p>Josh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.</p><p>Josh is the author of Modern PHP, published by O'Reilly Media. He started the Slim Framework, a popular PHP micro framework that enables rapid web application and API development. Josh also started and currently curates PHP The Right Way, a popular initiative in the PHP community that encourages good practices and disseminates quality information for PHP developers around the world.</p><p>Josh graduated from the Information and Library Science program at the University of North Carolina at Chapel Hill in 2008 and currently reside in Chapel Hill, North Carolina USA with his wife and two dogs.</p>",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "Josh",
-        "brief": "php",
-        "intro": "<p>Josh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked forNew Media Campaigns since 2007 and spearheads development for many of NMC’smost advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.</p><p>Josh is the author of Modern PHP, published by O'Reilly Media. He started the Slim Framework, a popular PHP micro framework that enables rapid web application and API development. Josh also started and currently curates PHP The Right Way, a popular initiative in the PHP community that encourages good practices and disseminates quality information for PHP developers around the world.</p><p>Josh graduated from the Information and Library Science program at the University of North Carolina at Chapel Hill in 2008 and currently reside in Chapel Hill, North Carolina USA with his wife and two dogs.</p>",
+        "name": "Sebastian Bergmann",
+        "brief": "The Creator of PHPUnit",
+        "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
         "photo": "http://fakeimg.pl/200x120/?text=photo"
       }
     ],
