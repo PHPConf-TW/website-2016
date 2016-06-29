@@ -13,8 +13,19 @@
 </template>
 
 <script lang="coffee" type="text/coffeescript">
+  imagesLoaded = require 'imagesLoaded'
   module.exports =
     props: ['header']
+    ready: () ->
+      imagesLoaded '.banner-img', { background: true }, () ->
+        console.log 'header'
+        $('.banner-img').addClass 'show-banner'
+        return
+      imagesLoaded '.logo', () ->
+        console.log 'logo'
+        $('.logo').addClass 'show-logo'
+        return
+      return
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -32,6 +43,10 @@
     background-position: 0rem 59rem
     background-size: cover
     filter: grayscale(100%)
+    opacity: 0
+    transition: all 0.5s ease-in-out
+    &.show-banner
+      opacity: 1
   .banner-mask
     position: absolute
     top: 0
@@ -52,10 +67,16 @@
     bottom: 0
     p
       margin-bottom: 0
+  .inner:nth-child(2)
+    color: red
   .logo
     padding-top: 4rem
     padding-bottom: 1.25rem
     width: 18rem
+    opacity: 0
+    transition: all 0.5s ease-in-out
+    &.show-logo
+      opacity: 1
   .button
     min-width: 10rem
 </style>

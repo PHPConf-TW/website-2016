@@ -64,7 +64,7 @@
       @changeLang()
       return
     ready: () ->
-      $(document).foundation()      
+      $(document).foundation()
       return
     events:
       'open-avatar': (detail) ->
