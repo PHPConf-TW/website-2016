@@ -31,9 +31,9 @@
     .sponsor-wrapper
       &.silver
         margin: 1.5rem 0 0
-      &.silver:nth-child(2n+1)
-        padding-left: .6rem
       &.silver:nth-child(2n)
+        padding-left: .6rem
+      &.silver:nth-child(2n+1)
         padding-right: .6rem
       &.diamond
         margin-top: 1.5rem
