@@ -41,14 +41,13 @@
       modal: require './components/Modal'
     methods:
       getLang: () ->
-        lang = window.location.pathname.split('/')[1]
+        lang = window.sessionStorage["lang"]
         index = ['tw', 'en'].indexOf lang
         if index == -1
           lang = 'tw'
         return lang
-      changeLang: () ->
+      changeLang: (lang) ->
         self = @
-        lang = @getLang()
         url = '/static/lang/' + lang + '.json'
         $.ajax
           url: url
@@ -61,7 +60,8 @@
             return
         return
     beforeCompile: () ->
-      @changeLang()
+      lang = @getLang()
+      @changeLang lang
       return
     ready: () ->
       $(document).foundation()

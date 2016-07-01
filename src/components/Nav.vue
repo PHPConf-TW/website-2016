@@ -21,8 +21,8 @@
           <li>
             <a href="#">{{ menu.language }}</a>
             <ul class="menu vertical">
-              <li><a href="/en">English</a></li>
-              <li><a href="/">中文</a></li>
+              <li><a v-on:click="changeLang('en')">English</a></li>
+              <li><a v-on:click="changeLang('tw')">中文</a></li>
             </ul>
         </ul>
       </div>
@@ -33,6 +33,11 @@
 <script lang="coffee" type="text/coffeescript">
   module.exports =
     props: ['menu']
+    methods:
+      changeLang: (lang) ->
+        window.sessionStorage["lang"] = lang
+        window.location.reload()
+        return
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass">
