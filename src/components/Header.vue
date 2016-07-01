@@ -4,9 +4,14 @@
       <div class="banner-img"></div>
       <div class="banner-mask"></div>
       <div class="row align-center inner">
-        <div class="small-12 column"><img src="../assets/logo.png" alt="PHPConf 2016" class="logo"></div>
-        <div class="small-12 column hide-for-small-only"><p>{{ header.title }}</p></div>
-        <div class="small-12 column"><a class="button secondary" href="#" title="Registration">{{ header.registration }}</a></div>
+        <div class="small-12 column banner-content">
+          <img src="../assets/logo.png" alt="PHPConf 2016" class="logo">
+          <h1>PHPConf Taiwan 2016</h1>
+          <div class="content">
+            <p class="hide-for-small-only">{{ header.title }}</p>
+            <a class="button secondary" href="#" title="Registration">{{ header.registration }}</a>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -16,15 +21,20 @@
   imagesLoaded = require 'imagesLoaded'
   module.exports =
     props: ['header']
+    methods:
+      loadHeader: () ->
+        imagesLoaded '.banner-img', { background: true }, () ->
+          console.log 'header'
+          $('.banner-img').addClass 'show-banner'
+        return
+      loadLogo: () ->
+        imagesLoaded '.logo', () ->
+          console.log 'logo'
+          $('.banner-content').addClass 'show-logo'
+        return
     ready: () ->
-      imagesLoaded '.banner-img', { background: true }, () ->
-        console.log 'header'
-        $('.banner-img').addClass 'show-banner'
-        return
-      imagesLoaded '.logo', () ->
-        console.log 'logo'
-        $('.logo').addClass 'show-logo'
-        return
+      @loadHeader()
+      @loadLogo()
       return
 </script>
 
@@ -32,10 +42,17 @@
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   header.header
     margin-top: 3.3rem
+    h1
+      font-size: 4rem
+      font-weight: bold
+      position: absolute
+      width: 100%
+      top: 12rem
+      transition: all 1s ease-in-out .5s
   .banner
     position: relative
     text-align: center
-    height: 25rem
+    height: 30rem
   .banner-img
     width: 100%
     height: 100%
@@ -44,7 +61,7 @@
     background-size: cover
     filter: grayscale(100%)
     opacity: 0
-    transition: all 0.5s ease-in-out
+    transition: opacity 1s ease-in-out
     &.show-banner
       opacity: 1
   .banner-mask
@@ -67,16 +84,25 @@
     bottom: 0
     p
       margin-bottom: 0
+      padding-bottom: 1.5rem
   .inner:nth-child(2)
     color: red
   .logo
-    padding-top: 4rem
+    padding-top: 6rem
     padding-bottom: 1.25rem
-    width: 18rem
+    width: 20rem
     opacity: 0
-    transition: all 0.5s ease-in-out
-    &.show-logo
+    transition: all 1s ease-in 1s
+  .content
+    position: absolute
+    width: 100%
+    top: 19rem
+  .banner-content.show-logo
+    .logo
       opacity: 1
+    h1
+      opacity: 0
   .button
-    min-width: 10rem
+    min-width: 12rem
+    font-size: 1rem
 </style>
