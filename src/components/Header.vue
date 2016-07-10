@@ -18,7 +18,7 @@
 </template>
 
 <script lang="coffee" type="text/coffeescript">
-  imagesLoaded = require 'imagesLoaded'
+  imagesLoaded = require 'imagesloaded'
   module.exports =
     props: ['header']
     methods:
