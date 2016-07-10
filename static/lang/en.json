@@ -64,81 +64,75 @@
   "abouts": {
     "0": [
       {
-        "name": "Host",
+        "name": "Convener",
         "brief": "Ricky Su",
         "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "Legal Consultant",
+        "name": "Website",
         "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
+        "intro": "Appleboy、Andylin、Diana、蒼時弦也",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
     ],
     "1": [
       {
-        "name": "Design",
-        "brief": "Felice",
-        "intro": "Anna, Ben, Louis Chang",
+        "name": "Designer",
+        "brief": "Min",
+        "intro": "Min、宋狄諺",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "Legal Consultant",
-        "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
+        "name": "Venue",
+        "brief": "Elvis",
+        "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "Agenda",
-        "brief": "oomusou",
-        "intro": "louxusian, andylin, elct9620, appleboy",
+        "name": "Session",
+        "brief": "蕭鴻森",
+        "intro": "慈恩、育慈、正男、逸軒、Stan",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "Ticket",
-        "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
+        "name": "Registration",
+        "brief": "Starlition",
+        "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
     ],
     "2": [
       {
-        "name": "Website",
-        "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
-      },
-      {
         "name": "PR",
-        "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
+        "brief": "Wake",
+        "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "Record",
-        "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
+        "name": "Sponsorship",
+        "brief": "Wake",
+        "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       },
       {
-        "name": "Buy",
-        "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
+        "name": "Photography",
+        "brief": "墨嗓",
+        "intro": "cras4202tw、大驚、Win Yu、三子、Bubble、Jeffrey Lin",
+        "photo": "http://fakeimg.pl/300x220/?text=photo"
+      },
+      {
+        "name": "Network",
+        "brief": "CPR Team",
+        "intro": "",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
     ],
     "3": [
       {
-        "name": "Sponsor",
-        "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
-      },
-      {
-        "name": "Equipment",
-        "brief": "Peggy",
-        "intro": "louxusian, andylin, elct9620, appleboy",
+        "name": "Ninja Team",
+        "brief": "Winnie",
+        "intro": "Winnie、勇瑜、Ronald",
         "photo": "http://fakeimg.pl/300x220/?text=photo"
       }
     ]
