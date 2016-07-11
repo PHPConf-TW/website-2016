@@ -78,11 +78,11 @@
     h5
       color: map-get($foundation-palette, primary)
       font-size: 2rem
-      +breakpoint(small-only)
+      +breakpoint(small only)
         font-size: 1.5rem
     h6
       font-size: 1.5rem
-      +breakpoint(small-only)
+      +breakpoint(small only)
         font-size: 1.2rem
     p
       font-size: 1rem
