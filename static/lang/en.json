@@ -12,7 +12,8 @@
   },
   "header": {
     "title": "PHPConf 2016 will hold on Oct 29",
-    "registration": ""
+    "registration": "Registration",
+    "isShow": "false"
   },
   "announce": [
     {
@@ -27,8 +28,8 @@
   "location": {
     "name": "Paul Cardinal Shan Medical Bld. Fu Jen Catholic University",
     "address": "No.510, Zhongzheng Rd., Xinzhuang Dist., New Taipei City",
-    "description1": "",
-    "description2": ""
+    "description1": "Enter the main gate, keep going straight to the end of the road and turn left.",
+    "description2": "The second building with glasses wall is your destination."
   },
   "speakers": {
     "0": [
@@ -42,19 +43,13 @@
         "name": "Sebastian Bergmann",
         "brief": "The Creator of PHPUnit",
         "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
-        "photo": "static/img/speaker/sebastian.png"
+        "photo": "static/img/speaker/sebastian.jpg"
       }
     ],
     "1": [
     ]
   },
-  "diamondsponsors": [
-    {
-      "name": "",
-      "desc": "",
-      "photo": ""
-    }
-  ],
+  "diamondsponsors": [],
   "silversponsors": [
     {
       "name": "co-organizer",
@@ -67,13 +62,13 @@
         "name": "Convener",
         "brief": "Ricky Su",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-convener.jpg"
       },
       {
         "name": "Website",
         "brief": "Peggy",
-        "intro": "Appleboy、Andylin、Diana、蒼時弦也",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "intro": "Appleboy、Andylin、louxusian、蒼時弦也",
+        "photo": "static/img/about/php-website.jpg"
       }
     ],
     "1": [
@@ -81,25 +76,25 @@
         "name": "Designer",
         "brief": "Min",
         "intro": "Min、宋狄諺",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-design.jpg"
       },
       {
         "name": "Venue",
         "brief": "Elvis",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-venue.jpg"
       },
       {
         "name": "Session",
         "brief": "蕭鴻森",
         "intro": "慈恩、育慈、正男、逸軒、Stan",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-session.jpg"
       },
       {
         "name": "Registration",
         "brief": "Starlition",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-ticket.jpg"
       }
     ],
     "2": [
@@ -107,25 +102,25 @@
         "name": "PR",
         "brief": "Wake",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-pr.jpg"
       },
       {
         "name": "Sponsorship",
         "brief": "Wake",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-sponsor.jpg"
       },
       {
         "name": "Photography",
         "brief": "墨嗓",
         "intro": "cras4202tw、大驚、Win Yu、三子、Bubble、Jeffrey Lin",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-photography.jpg"
       },
       {
         "name": "Network",
         "brief": "CPR Team",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-network.jpg"
       }
     ],
     "3": [
@@ -133,7 +128,7 @@
         "name": "Ninja Team",
         "brief": "Winnie",
         "intro": "Winnie、勇瑜、Ronald",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-ninja.jpg"
       }
     ]
   }

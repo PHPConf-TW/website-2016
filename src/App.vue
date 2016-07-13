@@ -21,6 +21,7 @@
   module.exports =
     data: () ->
       return {
+        lang: 'tw',
         conf: {},
         detail:
           name: ""
@@ -43,12 +44,12 @@
       getLang: () ->
         lang = window.sessionStorage["lang"]
         index = ['tw', 'en'].indexOf lang
-        if index == -1
-          lang = 'tw'
-        return lang
-      changeLang: (lang) ->
+        if index != -1
+          @lang = lang
+        return
+      changeLang: () ->
         self = @
-        url = '/static/lang/' + lang + '.json'
+        url = '/static/lang/' + @lang + '.json'
         $.ajax
           url: url
           dataType: 'text'
@@ -60,11 +61,12 @@
             return
         return
     beforeCompile: () ->
-      lang = @getLang()
-      @changeLang lang
+      @getLang()
+      @changeLang()
       return
     ready: () ->
       $(document).foundation()
+      $('#container').addClass @lang
       return
     events:
       'open-avatar': (detail) ->
@@ -78,6 +80,7 @@
   @import '~foundation-sites/scss/foundation'
   @import '~motion-ui/dist/motion-ui.min.css'
   @import url('https://fonts.googleapis.com/css?family=Rubik')
+  @import url(https://fonts.googleapis.com/css?family=Francois+One)
 
   +foundation-everything(true)
 
