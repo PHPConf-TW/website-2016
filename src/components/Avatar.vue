@@ -62,7 +62,7 @@
       text-align: center
       transition: all 0.5s ease-in-out
       +breakpoint(small only)
-        width: 40%
+        width: 100%
         height: 12rem
         margin: 0
       span
@@ -76,7 +76,7 @@
           font-size: 1.4rem
   .avatar-model:hover
     .caption
-      opacity: 0.6
+      opacity: 0.8
       span
         opacity: 0.8
   .avatar-mask
@@ -86,4 +86,8 @@
     position: absolute
     top: 0
     z-index: 0.5
+    +breakpoint(small only)
+      width: 100%
+      height: 12rem
+      margin: 0
 </style>

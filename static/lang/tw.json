@@ -65,13 +65,13 @@
         "name": "總召",
         "brief": "Ricky Su",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-convener.jpg"
       },
       {
         "name": "網站組",
         "brief": "Peggy",
         "intro": "Appleboy、Andylin、Diana、蒼時弦也",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-website.jpg"
       }
     ],
     "1": [
@@ -79,25 +79,25 @@
         "name": "設計組",
         "brief": "Min",
         "intro": "Min、宋狄諺",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-design.jpg"
       },
       {
         "name": "場務組",
         "brief": "Elvis",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-venue.jpg"
       },
       {
         "name": "議程組",
         "brief": "蕭鴻森",
         "intro": "慈恩、育慈、正男、逸軒、Stan",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-session.jpg"
       },
       {
         "name": "票務組",
         "brief": "Starlition",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-ticket.jpg"
       }
     ],
     "2": [
@@ -105,25 +105,25 @@
         "name": "公關組",
         "brief": "Wake",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-pr.jpg"
       },
       {
         "name": "贊助組",
         "brief": "Wake",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-sponsor.jpg"
       },
       {
         "name": "記錄組",
         "brief": "墨嗓",
         "intro": "cras4202tw、大驚、Win Yu、三子、Bubble、Jeffrey Lin",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-photography.jpg"
       },
       {
         "name": "線路組",
         "brief": "CPR Team",
         "intro": "",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-network.jpg"
       }
     ],
     "3": [
@@ -131,7 +131,7 @@
         "name": "特工組",
         "brief": "Winnie",
         "intro": "Winnie、勇瑜、Ronald",
-        "photo": "http://fakeimg.pl/300x220/?text=photo"
+        "photo": "static/img/about/php-ninja.jpg"
       }
     ]
   }

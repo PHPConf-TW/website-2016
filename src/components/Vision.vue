@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="small-12 large-4 columns photo align-self-middle">
-        <img src="../assets/php_elephant.jpg" alt="PHPConf" class="hide-for-small-only hide-for-medium-only">
+        <img src="../assets/php-vision.jpg" alt="PHPConf" class="hide-for-small-only hide-for-medium-only">
       </div>
     </div>
   </section>
