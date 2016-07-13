@@ -12,7 +12,8 @@
   },
   "header": {
     "title": "PHPConf 2016 will hold on Oct 29",
-    "registration": ""
+    "registration": "Registration",
+    "isShow": "false"
   },
   "announce": [
     {
