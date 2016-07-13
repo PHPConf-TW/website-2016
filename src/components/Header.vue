@@ -5,7 +5,7 @@
       <div class="banner-mask"></div>
       <div class="row align-center inner">
         <div class="small-12 column banner-content">
-          <img src="../assets/logo.png" alt="PHPConf 2016" class="logo">
+          <!--<img src="../assets/logo.png" alt="PHPConf 2016" class="logo">-->
           <h1>PHPConf Taiwan 2016</h1>
           <div class="content">
             <p class="hide-for-small-only">{{ header.title }}</p>
@@ -100,8 +100,8 @@
   .banner-content.show-logo
     .logo
       opacity: 1
-    h1
-      opacity: 0
+    /*h1*/
+      /*opacity: 0*/
   .button
     min-width: 12rem
     font-size: 1rem
