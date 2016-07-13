@@ -11,7 +11,7 @@
       <about :conf="conf"></about>
     </div>
     <footer-wrapper></footer-wrapper>
-    <modal :detail="detail"></modal>
+    <modal :detail="detail" :type="type"></modal>
   </div>
 </template>
 
@@ -23,6 +23,7 @@
       return {
         lang: 'tw',
         conf: {},
+        type: '',
         detail:
           name: ""
           brief: ""
@@ -69,8 +70,9 @@
       $('#container').addClass @lang
       return
     events:
-      'open-avatar': (detail) ->
+      'open-avatar': (detail, type) ->
         @detail = detail
+        @type = type
         return
 
 </script>

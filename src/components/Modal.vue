@@ -1,5 +1,5 @@
 <template>
-  <div class="reveal row" id="avatarModel" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
+  <div class="reveal row {{ type }}" id="avatarModel"  data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
     <div class="photo" :style="avatarImg">
     </div>
     <div class="word">
@@ -18,12 +18,11 @@
     computed:
       avatarImg: () ->
         return 'background-image': 'url(' + @detail.photo + ')'
-    props: ['detail']
+    props: ['detail', 'type']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   @import '../settings.scss'
-
   #avatarModel
     width: 60rem
     height: 22rem
@@ -86,4 +85,21 @@
         font-size: 1.2rem
     p
       font-size: 1rem
+    &.about
+      width: 40rem
+      height: 20rem
+      +breakpoint(small only)
+        width: auto
+      .photo
+        width: 20rem
+        height: 20em
+        +breakpoint(small only)
+          width: 100%
+          height: 11rem
+          margin: 2rem 0 0 0
+      .photo:after
+        border: 0
+      .word
+        padding: 1rem
+
 </style>

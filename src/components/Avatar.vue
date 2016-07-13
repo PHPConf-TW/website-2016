@@ -15,10 +15,10 @@
         avatarImg:
           'background-image': 'url(' + @detail.photo + ')'
       }
-    props: ['detail']
+    props: ['detail', 'type']
     methods: {
       openAvatar: () ->
-        @$dispatch 'open-avatar', @detail
+        @$dispatch 'open-avatar', @detail, @type
     }
     ready: () ->
       imagesLoaded '.avartar-model', { background: true }, () ->

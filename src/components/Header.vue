@@ -46,7 +46,6 @@
       font-size: 4rem
       transition: all 1s ease-in-out .5s
       color: #f5f5f5
-      text-shadow: 0px 4px 3px #3c3c3c
       font-family: 'Francois One'
       opacity: 1
       /*background-color: rgba(0, 0, 0, 0.3)*/
