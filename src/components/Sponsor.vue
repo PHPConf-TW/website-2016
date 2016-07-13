@@ -42,8 +42,9 @@
       padding: 1.5rem
       box-shadow: 0 0 5px #e8e8e8
       .photo
-        background-size: cover
         background-position: center center
+        background-repeat: no-repeat
+        background-size: contain
         height: 10rem
         +breakpoint(small only)
           height: 8rem
