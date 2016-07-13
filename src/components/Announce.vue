@@ -11,7 +11,7 @@
             <span class="label" v-bind:class="$index == 0 ? 'warning' : 'primary'">{{ item.date }}</span>
             <a href="#" class="announce-info">{{ item.title }}</a>
             <ul class="menu vertical nested">
-              <li>{{ item.content }}</li>
+              <li>{{{ item.content }}}</li>
             </ul>
           </li>
         </ul>
@@ -35,7 +35,6 @@
       text-align: right
       +breakpoint(small only)
         text-align: center
-
     .label
       color: #fff
       font-weight: 600
@@ -45,7 +44,6 @@
         background: map-get($foundation-palette, warning)
       &.primary
         background: map-get($foundation-palette, primary)
-
     .is-accordion-submenu-parent > a::after
       border: none
     .is-accordion-submenu-parent[aria-expanded='true']
@@ -56,7 +54,6 @@
         background-color: rgba(202, 202, 202, 0.25)
         display: block
         margin: .5rem 0 1rem
-
     .is-accordion-submenu-parent[aria-expanded='true'] > a::after
         content: '\00d7'
         color: $medium-gray
@@ -67,18 +64,15 @@
         transform: initial
         width: auto
         height: auto
-
     a.announce-info
       padding-left: 0
       color: $body-font-color
       text-decoration: underline
       padding: .5rem 0
-
     li
       text-align: left
       display:inline
       padding-bottom: .8rem
-
     .menu.nested
       margin-left: 0
 
