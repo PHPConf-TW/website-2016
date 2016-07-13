@@ -53,27 +53,41 @@
       background-color: #fefefe
       +breakpoint(small only)
         height: 15rem
+
+  .tw
     .map-content
-      position: absolute
-      z-index: 1
-      background-color: #fff
       padding: 3.5rem
       max-width: 20rem
-      right: 15%
       top: 4.8rem
-      +breakpoint(small only)
-        position: relative
-        top: 0
-        margin: 0
-        max-width: 100%
-        right: 0
-        padding: 2rem 1.4rem 1rem
-        background-color: #fbfbfb
-        border-top: 1px solid #f5f5f5
+  .en
+    .map-content
+      max-width: 25rem
+      padding: 2rem
+      top: 5.3rem
       .location-name
-        color: map-get($foundation-palette, primary)
-        font-size: 1.2rem
-      ul
-        margin-top: 1.2rem
+        font-size: 1rem
+        padding-bottom: .2rem
+      .location-addr
         font-size: .9rem
+
+  .tw .map-content, .en .map-content
+    position: absolute
+    z-index: 1
+    background-color: #fff
+    right: 15%
+    +breakpoint(small only)
+      position: relative
+      top: 0
+      margin: 0
+      max-width: 100%
+      right: 0
+      padding: 2rem 1.4rem 1rem
+      background-color: #fbfbfb
+      border-top: 1px solid #f5f5f5
+    .location-name
+      color: map-get($foundation-palette, primary)
+      font-size: 1.2rem
+    ul
+      margin-top: 1.2rem
+      font-size: .9rem
 </style>
