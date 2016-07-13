@@ -12,7 +12,8 @@
   },
   "header": {
     "title": "台灣 PHP 年度研討會 2016/10/29 隆重登場！",
-    "registration": ""
+    "registration": "前往購票",
+    "isShow": "false"
   },
   "announce": [
     {

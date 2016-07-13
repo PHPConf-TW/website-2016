@@ -9,7 +9,7 @@
           <h1>PHPConf Taiwan 2016</h1>
           <div class="content">
             <p class="hide-for-small-only">{{ header.title }}</p>
-            <a class="button secondary" href="#" title="Registration">{{ header.registration }}</a>
+            <a class="button secondary" href="#" title="Registration" v-if="header.isShow == 'true'">{{ header.registration }}</a>
           </div>
         </div>
       </div>
