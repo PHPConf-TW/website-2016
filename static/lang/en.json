@@ -43,7 +43,7 @@
         "name": "Sebastian Bergmann",
         "brief": "The Creator of PHPUnit",
         "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
-        "photo": "static/img/speaker/sebastian.png"
+        "photo": "static/img/speaker/sebastian.jpg"
       }
     ],
     "1": [
@@ -67,7 +67,7 @@
       {
         "name": "Website",
         "brief": "Peggy",
-        "intro": "Appleboy、Andylin、Diana、蒼時弦也",
+        "intro": "Appleboy、Andylin、louxusian、蒼時弦也",
         "photo": "static/img/about/php-website.jpg"
       }
     ],

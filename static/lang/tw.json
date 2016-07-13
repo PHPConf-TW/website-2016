@@ -11,7 +11,7 @@
     "language": "中文"
   },
   "header": {
-    "title": "台灣 PHP 年度研討會 2016/10/29 隆重登場！",
+    "title": "台灣 PHP 年度研討會 2016/10/29 隆重登場",
     "registration": "前往購票",
     "isShow": "false"
   },
@@ -43,7 +43,7 @@
         "name": "Sebastian Bergmann",
         "brief": "The Creator of PHPUnit",
         "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
-        "photo": "static/img/speaker/sebastian.png"
+        "photo": "static/img/speaker/sebastian.jpg"
       }
     ]
   },
@@ -65,7 +65,7 @@
       {
         "name": "網站組",
         "brief": "Peggy",
-        "intro": "Appleboy、Andylin、Diana、蒼時弦也",
+        "intro": "Appleboy、Andylin、louxusian、蒼時弦也",
         "photo": "static/img/about/php-website.jpg"
       }
     ],

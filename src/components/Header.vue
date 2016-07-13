@@ -6,7 +6,7 @@
       <div class="row align-center inner">
         <div class="small-12 column banner-content">
           <!--<img src="../assets/logo.png" alt="PHPConf 2016" class="logo">-->
-          <h1>PHPConf Taiwan <br>2016<img src="../assets/logo1.png" alt="PHPConf 2016" class="logo1"></h1>
+          <h1>PHPConf Taiwan <br>2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo1"></h1>
           <div class="content">
             <p class="hide-for-small-only">{{ header.title }}</p>
             <a class="button secondary" href="#" title="Registration" v-if="header.isShow == 'true'">{{ header.registration }}</a>
@@ -44,24 +44,31 @@
     margin-top: 3.3rem
     h1
       font-size: 4rem
-      font-weight: bold
-      position: absolute
-      width: 100%
-      top: 7rem
       transition: all 1s ease-in-out .5s
+      color: #f5f5f5
+      text-shadow: 0px 4px 3px #3c3c3c
+      font-family: 'Francois One'
+      opacity: 1
+      /*background-color: rgba(0, 0, 0, 0.3)*/
+      display: inline-block
+      margin: 4rem auto 0
+      padding: 1rem
+  .banner-content
+    text-align: center
   .banner
     position: relative
     text-align: center
     height: 30rem
   .banner-img
-    width: 100%
-    height: 100%
-    background-image: url('../assets/banner1.jpg')
-    background-position: 0rem 59rem
+    width: 110%
+    height: 30rem
+    background-image: url('../assets/banner.jpg')
+    background-position: center 60%
     background-size: cover
-    filter: grayscale(100%)
+    filter: grayscale(65%) blur(4px) contrast(150%) brightness(80%)
     opacity: 0
     transition: opacity 1s ease-in-out
+    background-repeat: no-repeat
     &.show-banner
       opacity: 1
   .banner-mask
@@ -72,8 +79,8 @@
     bottom: 0
     width: 100%
     height: 100%
-    background: linear-gradient(45deg, rgba(204,204,204,0.2) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 50%, rgba(254,191,1,.5) 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 )
+    /*background: linear-gradient(45deg, rgba(204,204,204,0.2) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 50%, rgba(254,191,1,.5) 100%) /!* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!/*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 )*/
     /*background: #f39801*/
     /*background: linear-gradient(to bottom, rgba(255,255,255,.2) 10%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, .6) 90%)*/
   .inner
@@ -96,12 +103,12 @@
   .logo1
     width: 5rem
     position: relative
-    top: -.5rem
+    top: .5rem
     left: 0rem
   .content
-    position: absolute
     width: 100%
-    top: 19rem
+    font-family: sans-serif, Georgia
+    font-weight: bold
   .banner-content.show-logo
     .logo
       opacity: 1
