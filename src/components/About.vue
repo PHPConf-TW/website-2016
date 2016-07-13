@@ -5,7 +5,7 @@
         <h4>{{ conf.menu.about }}</h4>
         <div class="about-wrapper">
           <div class="row align-center" v-for="abouts in conf.abouts">
-            <avatar v-for="detail in abouts" :detail="detail"></avatar>
+            <avatar v-for="detail in abouts" :detail="detail" :type="type"></avatar>
           </div>
         </div>
       </div>
@@ -15,6 +15,10 @@
 
 <script lang="coffee" type="text/coffeescript">
   module.exports =
+    data: () ->
+      return {
+        type: 'about'
+      }
     components:
       avatar: require './Avatar.vue'
     props: ['conf']

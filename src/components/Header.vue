@@ -4,9 +4,9 @@
       <div class="banner-img"></div>
       <div class="banner-mask"></div>
       <div class="row align-center inner">
-        <div class="small-12 column banner-content">
+        <div class="small-12 column banner-content" v-bind:class="header.isShow == 'false' ? 'no-btn' : ''">
           <!--<img src="../assets/logo.png" alt="PHPConf 2016" class="logo">-->
-          <h1>PHPConf Taiwan <br>2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo1"></h1>
+          <h1>PHPConf Taiwan 2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo1"></h1>
           <div class="content">
             <p class="hide-for-small-only">{{ header.title }}</p>
             <a class="button secondary" href="#" title="Registration" v-if="header.isShow == 'true'">{{ header.registration }}</a>
@@ -46,13 +46,15 @@
       font-size: 4rem
       transition: all 1s ease-in-out .5s
       color: #f5f5f5
-      text-shadow: 0px 4px 3px #3c3c3c
       font-family: 'Francois One'
       opacity: 1
       /*background-color: rgba(0, 0, 0, 0.3)*/
       display: inline-block
-      margin: 4rem auto 0
+      margin: 8rem auto 0
       padding: 1rem
+  .banner-content.no-btn
+    h1
+      margin: 9rem auto 0
   .banner-content
     text-align: center
   .banner
@@ -61,7 +63,7 @@
     height: 30rem
   .banner-img
     width: 110%
-    height: 30rem
+    height: 29.8rem
     background-image: url('../assets/banner.jpg')
     background-position: center 60%
     background-size: cover
@@ -81,7 +83,7 @@
     height: 100%
     /*background: linear-gradient(45deg, rgba(204,204,204,0.2) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 50%, rgba(254,191,1,.5) 100%) /!* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!/*/
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 )*/
-    /*background: #f39801*/
+    background: rgba(52, 66, 95, 0.24)
     /*background: linear-gradient(to bottom, rgba(255,255,255,.2) 10%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, .6) 90%)*/
   .inner
     position: absolute
@@ -109,6 +111,7 @@
     width: 100%
     font-family: sans-serif, Georgia
     font-weight: bold
+    color: #eee
   .banner-content.show-logo
     .logo
       opacity: 1
