@@ -6,7 +6,7 @@
       <div class="row align-center inner">
         <div class="small-12 column banner-content">
           <!--<img src="../assets/logo.png" alt="PHPConf 2016" class="logo">-->
-          <h1>PHPConf Taiwan 2016</h1>
+          <h1>PHPConf Taiwan <br>2016<img src="../assets/logo1.png" alt="PHPConf 2016" class="logo1"></h1>
           <div class="content">
             <p class="hide-for-small-only">{{ header.title }}</p>
             <a class="button secondary" href="#" title="Registration" v-if="header.isShow == 'true'">{{ header.registration }}</a>
@@ -47,7 +47,7 @@
       font-weight: bold
       position: absolute
       width: 100%
-      top: 12rem
+      top: 7rem
       transition: all 1s ease-in-out .5s
   .banner
     position: relative
@@ -93,6 +93,11 @@
     width: 20rem
     opacity: 0
     transition: all 1s ease-in 1s
+  .logo1
+    width: 5rem
+    position: relative
+    top: -.5rem
+    left: 0rem
   .content
     position: absolute
     width: 100%
