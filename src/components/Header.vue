@@ -6,7 +6,7 @@
       <div class="row align-center inner">
         <div class="small-12 column banner-content" v-bind:class="header.isShow == 'false' ? 'no-btn' : ''">
           <!--<img src="../assets/logo.png" alt="PHPConf 2016" class="logo">-->
-          <h1>PHPConf Taiwan <br>2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo1"></h1>
+          <h1>PHPConf Taiwan 2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo1"></h1>
           <div class="content">
             <p class="hide-for-small-only">{{ header.title }}</p>
             <a class="button secondary" href="#" title="Registration" v-if="header.isShow == 'true'">{{ header.registration }}</a>
@@ -50,11 +50,11 @@
       opacity: 1
       /*background-color: rgba(0, 0, 0, 0.3)*/
       display: inline-block
-      margin: 4rem auto 0
+      margin: 8rem auto 0
       padding: 1rem
   .banner-content.no-btn
     h1
-      margin: 6rem auto 0
+      margin: 9rem auto 0
   .banner-content
     text-align: center
   .banner
