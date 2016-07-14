@@ -10,7 +10,7 @@
           <li v-for="item in conf.announce">
             <span class="label" v-bind:class="$index == 0 ? 'warning' : 'primary'">{{ item.date }}</span>
             <a href="#" class="announce-info">{{ item.title }}</a>
-            <ul class="menu vertical nested">
+            <ul class="nested">
               <li>{{{ item.content }}}</li>
             </ul>
           </li>
@@ -73,7 +73,9 @@
       text-align: left
       display:inline
       padding-bottom: .8rem
-    .menu.nested
-      margin-left: 0
+    .nested
+      margin: 0
+      list-style: none
+      padding-left: 0
 
 </style>
