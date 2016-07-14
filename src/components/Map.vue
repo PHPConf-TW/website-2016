@@ -19,7 +19,8 @@
     {
       featureType: "all"
       stylers: [
-        { saturation: -50 }
+        { hue: "#81BEF7" },
+        { saturation: -80 }
       ]
     }
   ]
