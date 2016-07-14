@@ -9,8 +9,8 @@
           </div>
         </div>
       </div>
-      <div class="small-12 large-4 columns photo align-self-middle">
-        <img src="../assets/php-vision.jpg" alt="PHPConf" class="hide-for-small-only hide-for-medium-only">
+      <div class="small-12 medium-4 columns photo align-self-middle">
+        <img src="../assets/php-vision.jpg" alt="PHPConf" class="hide-for-small-only">
       </div>
     </div>
   </section>
