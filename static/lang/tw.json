@@ -1,0 +1,133 @@
+{
+  "menu": {
+    "home": "首頁",
+    "announce": "公告",
+    "vision": "展望",
+    "speaker": "講者",
+    "session": "議程",
+    "location": "地點",
+    "sponsor": "贊助",
+    "about": "關於",
+    "language": "中文"
+  },
+  "header": {
+    "title": "台灣 PHP 年度研討會 2016/10/29 隆重登場",
+    "registration": "前往購票",
+    "isShow": "false"
+  },
+  "announce": [
+    {
+        "date": "7月 13",
+        "title": "PHPConf Taiwan 2016 徵求贊助",
+        "content": "如果貴公司/單位對於 PHPConf Taiwan 2016 活動贊助感興趣 ，請<a href=\"http://goo.gl/forms/J2y9BUccPB0zgMYu1\">在此</a>留下您的聯絡方式，我們會儘快與您連繫。"
+    }
+  ],
+  "vision": {
+    "content": "<p>PHP 一直以來都是網頁開發者後端入門首選。因為 PHP 易學、易用，而且參考資源相當豐富，是目前後端佔有率最高的語言。PHP 因為過去的包袱，默默的承受不少誤解。隨著 PHP 7 的推出，執行效率大幅提升的同時，PHP 也逐漸的脫胎換骨，不再是大家心中的那個義大利麵程式碼。</p><p>因此今年我們將主題聚焦在現代化的 PHP 開發方式，以及軟體測試，並邀請到了 Modern PHP 這本書的作者 Josh Lockhart 來分享新一代的 PHP 開發方式。同時也邀請到 PHPUnit 這套知名的測試框架作者 Sebastian Bergmann 來為我們介紹如何撰寫測試。</p><p>此外今年我們新增了 Workshop 議程，希望藉由做中學，帶領大家建構 CI / CD 環境。</p>"
+  },
+  "location": {
+    "name": "輔仁大學國璽樓",
+    "address": "新北市新莊區中正路510號",
+    "description1": "輔大校門進入直行至最後端至中美堂，左轉第2棟有玻璃帷幕之新大樓即為國璽樓",
+    "description2": "自輔大貴子門進入，右轉第一棟大樓即為國璽樓。(現場將有場務人員舉牌引導方向)"
+  },
+  "speakers": {
+    "0": [
+      {
+        "name": "Josh Lockhart",
+        "brief": "Author of Modern PHP (O’Reilly). Founder of Slim Framework and PHP The Right Way.",
+        "intro": "<p>Josh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.</p><p>Josh is the author of Modern PHP, published by O'Reilly Media. He started the Slim Framework, a popular PHP micro framework that enables rapid web application and API development. Josh also started and currently curates PHP The Right Way, a popular initiative in the PHP community that encourages good practices and disseminates quality information for PHP developers around the world.</p><p>Josh graduated from the Information and Library Science program at the University of North Carolina at Chapel Hill in 2008 and currently reside in Chapel Hill, North Carolina USA with his wife and two dogs.</p>",
+        "photo": "static/img/speaker/josh.jpg"
+      },
+      {
+        "name": "Sebastian Bergmann",
+        "brief": "The Creator of PHPUnit",
+        "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
+        "photo": "static/img/speaker/sebastian.jpg"
+      }
+    ]
+  },
+  "diamondsponsors": [],
+  "silversponsors": [
+    {
+      "name": "協辦單位",
+      "photo": "static/img/sponsor/imfju.png"
+    }
+  ],
+  "abouts": {
+    "0": [
+      {
+        "name": "總召",
+        "brief": "Ricky Su",
+        "intro": "",
+        "photo": "static/img/about/php-convener.jpg"
+      },
+      {
+        "name": "網站組",
+        "brief": "Peggy",
+        "intro": "Appleboy、Andylin、louxusian、蒼時弦也",
+        "photo": "static/img/about/php-website.jpg"
+      }
+    ],
+    "1": [
+      {
+        "name": "設計組",
+        "brief": "Min",
+        "intro": "Min、宋狄諺",
+        "photo": "static/img/about/php-design.jpg"
+      },
+      {
+        "name": "場務組",
+        "brief": "Elvis",
+        "intro": "",
+        "photo": "static/img/about/php-venue.jpg"
+      },
+      {
+        "name": "議程組",
+        "brief": "蕭鴻森",
+        "intro": "慈恩、育慈、正男、逸軒、Stan",
+        "photo": "static/img/about/php-session.jpg"
+      },
+      {
+        "name": "票務組",
+        "brief": "Starlition",
+        "intro": "",
+        "photo": "static/img/about/php-ticket.jpg"
+      }
+    ],
+    "2": [
+      {
+        "name": "公關組",
+        "brief": "Wake",
+        "intro": "",
+        "photo": "static/img/about/php-pr.jpg"
+      },
+      {
+        "name": "贊助組",
+        "brief": "Wake",
+        "intro": "",
+        "photo": "static/img/about/php-sponsor.jpg"
+      },
+      {
+        "name": "記錄組",
+        "brief": "墨嗓",
+        "intro": "cras4202tw、大驚、Win Yu、三子、Bubble、Jeffrey Lin",
+        "photo": "static/img/about/php-photography.jpg"
+      },
+      {
+        "name": "線路組",
+        "brief": "CPR Team",
+        "intro": "",
+        "photo": "static/img/about/php-network.jpg"
+      }
+    ],
+    "3": [
+      {
+        "name": "特工組",
+        "brief": "Winnie",
+        "intro": "Winnie、勇瑜、Ronald",
+        "photo": "static/img/about/php-ninja.jpg"
+      }
+    ]
+  }
+}
