@@ -62,7 +62,6 @@
     text-align: center
     height: 30rem
   .banner-img
-    width: 110%
     height: 29.8rem
     background-image: url('../assets/banner.jpg')
     background-position: center 60%
