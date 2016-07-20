@@ -38,30 +38,37 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
+  @import '../settings.scss'
+
   header.header
     margin-top: 3.3rem
     h1
       font-size: 4rem
       transition: all 1s ease-in-out .5s
       color: #f5f5f5
-      font-family: 'Francois One'
       opacity: 1
       /*background-color: rgba(0, 0, 0, 0.3)*/
       display: inline-block
       margin: 8rem auto 0
       padding: 1rem
+      +breakpoint(small only)
+        font-size: 2rem
   .banner-content.no-btn
     h1
       margin: 9rem auto 0
+      +breakpoint(small only)
+        margin-top: 6rem
   .banner-content
     text-align: center
   .banner
     position: relative
     text-align: center
     height: 30rem
+    overflow: hidden
+    +breakpoint(small only)
+      height: 20rem
   .banner-img
-    width: 110%
-    height: 29.8rem
+    height: 30rem
     background-image: url('../assets/banner.jpg')
     background-position: center 60%
     background-size: cover
@@ -69,6 +76,8 @@
     opacity: 0
     transition: opacity 1s ease-in-out
     background-repeat: no-repeat
+    +breakpoint(small only)
+      height: 20rem
     &.show-banner
       opacity: 1
   .banner-mask

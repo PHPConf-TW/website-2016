@@ -26,7 +26,9 @@
 
   #vision
     .row
-      max-width: 100%
+      padding-right: 1.5rem
+      +breakpoint(small only)
+        padding: 0
     .content
       background-color: $light-gray
       padding: 5rem 4rem 3.5rem
