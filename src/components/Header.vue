@@ -24,12 +24,10 @@
     methods:
       loadHeader: () ->
         imagesLoaded '.banner-img', { background: true }, () ->
-          console.log 'header'
           $('.banner-img').addClass 'show-banner'
         return
       loadLogo: () ->
         imagesLoaded '.logo', () ->
-          console.log 'logo'
           $('.banner-content').addClass 'show-logo'
         return
     ready: () ->

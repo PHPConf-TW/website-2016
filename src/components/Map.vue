@@ -8,7 +8,7 @@
           <li>{{ conf.location.description2 }}</li>
         </ul>
     </div>
-    <div id="map-wrapper"></div>
+    <div id="map-wrapper" width="100" height="100"></div>
   </section>
 </template>
 
@@ -32,15 +32,16 @@
     styles: styleArray
     zoom: 17
 
-  googleMapsLoader.load (google) ->
-    map = new google.maps.Map document.getElementById('map-wrapper'), options
-    marker = new google.maps.Marker
-      map: map
-      position: latLng
-    return
-
   module.exports =
     props: ['conf']
+    ready: () ->
+      googleMapsLoader.load (google) ->
+        map = new google.maps.Map document.getElementById('map-wrapper'), options
+        marker = new google.maps.Marker
+          map: map
+          position: latLng
+        return
+      return
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>

@@ -22,7 +22,6 @@
     }
     ready: () ->
       imagesLoaded '.avartar-model', { background: true }, () ->
-        console.log 'back'
         $('.avatar-model').addClass 'show-avatar'
         return
       return
