@@ -35,7 +35,8 @@
 
   .avatar-wrapper
     position: relative
-    padding: .4rem
+    padding-top: .4rem
+    padding-bottom: .4rem
     position: relative
     background: #fff
     height: $avatar-width
