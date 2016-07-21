@@ -75,20 +75,32 @@
       .dropdown.menu > li.is-dropdown-submenu-parent > a
         &::after
           border-color: $light-gray transparent transparent 
-      .dropdown.menu.align-right .is-dropdown-submenu.first-sub
+      .dropdown.menu .is-dropdown-submenu.first-sub
         background-color: rgba(74, 74, 74, 0.9)
         color: $light-gray
         border: 0
-        margin-top: .636rem
+        margin-top: .56rem
         z-index: 0
+        height: 0
+        display: block
+        visibility: hidden
+        transition: height ease .2s
+        overflow: hidden
         +breakpoint(small only)
           position: relative
           top: 0
+        &.js-dropdown-active
+          opacity: 1
+          height: 5rem
+          visibility: visible
+          +breakpoint(small only)
+            height: 6rem
       .is-dropdown-submenu > li
         +breakpoint(small only)
           padding: .5rem 0
     .title
       font-size: 1.1rem
+      line-height: 2rem
     a
       position: relative
       display: block
