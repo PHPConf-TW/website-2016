@@ -32,10 +32,10 @@
       text-align: center
       margin-top: 4rem
       margin-bottom: 2rem
-    .about-wrapper .row
-      padding: 0 1rem
-      +breakpoint(small only)
-        width: 100%
-        padding: 0
-        margin: 0
+    /*.about-wrapper .row*/
+      /*padding: 0 1rem*/
+      /*+breakpoint(small only)*/
+        /*width: 100%*/
+        /*padding: 0*/
+        /*margin: 0*/
 </style>

@@ -28,10 +28,10 @@
       text-align: center
       margin-top: 4rem
       margin-bottom: 2rem
-    .speaker-wrapper .row
-      padding: 0 1rem
-      +breakpoint(small only)
-        width: 100%
-        padding: 0
-        margin: 0
+    /*.speaker-wrapper .row*/
+      /*padding: 0 1rem*/
+      /*+breakpoint(small only)*/
+        /*width: 100%*/
+        /*padding: 0*/
+        /*margin: 0*/
 </style>

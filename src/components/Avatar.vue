@@ -1,5 +1,5 @@
 <template>
-  <div class="avatar-wrapper">
+  <div class="column small-6 medium-2 avatar-wrapper">
     <div class="avatar-inner">
       <a class="avatar-model" data-open="avatarModel" @click="openAvatar" :style="avatarImg">
         <div class="caption"><span>{{ detail.name }}</span></div>
@@ -38,7 +38,6 @@
     padding: 1rem
     position: relative
     background: #fff
-    width: $avatar-width
     height: $avatar-width
     +breakpoint(small only)
       width: 50%
