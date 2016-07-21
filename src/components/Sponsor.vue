@@ -1,7 +1,7 @@
 <template>
   <section id="sponsor">
     <div class="row">
-      <div class="columns small-12 medium-8 medium-offset-2">
+      <div class="columns small-12 medium-10 medium-offset-1">
         <h4>{{ conf.menu.sponsor }}</h4>
         <div class="row">
           <diamond-sponsor v-for="sponsor in conf.diamondsponsors" :sponsor="sponsor"></diamond-sponsor>

@@ -26,14 +26,13 @@
 
   #vision
     .row
-      padding-right: 1.5rem
-      +breakpoint(small only)
-        padding: 0
+      max-width: 100%
     .content
       background-color: $light-gray
       padding: 5rem 4rem 3.5rem
       +breakpoint(small only)
-        padding: 2.5rem 1.4rem 3.5rem
+        padding: 2.5rem .75rem 3.5rem
+        text-align: center
     .photo
       margin-left: -5rem
       img

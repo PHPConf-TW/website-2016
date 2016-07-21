@@ -43,7 +43,7 @@
       width: 50%
       height: 12rem
       flex-wrap: wrap
-      padding: .1rem 1.4rem
+      padding: .1rem .75rem
       &:nth-child(odd)
         padding-right: .2rem
       &:nth-child(even)
@@ -51,7 +51,7 @@
   .single .avatar-wrapper
     +breakpoint(small only)
       width: 100%
-      padding: 0 1.4rem
+      padding: 0 .75rem
   .avatar-inner
     width: 100%
     height: 100%
