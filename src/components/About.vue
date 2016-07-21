@@ -4,7 +4,7 @@
       <div class="columns">
         <h4>{{ conf.menu.about }}</h4>
         <div class="about-wrapper">
-          <div class="" v-for="abouts in conf.abouts">
+          <div class="row" v-bind:class="$index == 0 ? 'single' : ''" v-for="abouts in conf.abouts">
             <avatar v-for="detail in abouts" :detail="detail" :type="type"></avatar>
           </div>
         </div>

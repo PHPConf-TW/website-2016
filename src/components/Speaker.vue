@@ -4,7 +4,7 @@
       <div class="columns">
         <h4>{{ conf.menu.speaker }}</h4>
         <div class="speaker-wrapper align-center">
-          <div class="" v-for="speakers in conf.speakers">
+          <div class="row" v-for="speakers in conf.speakers">
             <avatar v-for="detail in speakers" :detail="detail"></avatar>
           </div>
         </div>

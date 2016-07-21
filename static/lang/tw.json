@@ -61,15 +61,15 @@
         "brief": "Ricky Su",
         "intro": "",
         "photo": "static/img/about/php-convener.jpg"
-      },
+      }
+    ],
+    "1": [
       {
         "name": "網站組",
         "brief": "Peggy",
         "intro": "Appleboy、Andylin、louxusian、蒼時弦也",
         "photo": "static/img/about/php-website.jpg"
-      }
-    ],
-    "1": [
+      },
       {
         "name": "設計組",
         "brief": "Min",
@@ -87,15 +87,15 @@
         "brief": "蕭鴻森",
         "intro": "慈恩、育慈、正男、逸軒、Stan",
         "photo": "static/img/about/php-session.jpg"
-      },
+      }
+    ],
+    "2": [
       {
         "name": "票務組",
         "brief": "Starlition",
         "intro": "",
         "photo": "static/img/about/php-ticket.jpg"
-      }
-    ],
-    "2": [
+      },
       {
         "name": "公關組",
         "brief": "Wake",
@@ -113,15 +113,15 @@
         "brief": "墨嗓",
         "intro": "cras4202tw、大驚、Win Yu、三子、Bubble、Jeffrey Lin",
         "photo": "static/img/about/php-photography.jpg"
-      },
+      }
+    ],
+    "3": [
       {
         "name": "線路組",
         "brief": "CPR Team",
         "intro": "",
         "photo": "static/img/about/php-network.jpg"
-      }
-    ],
-    "3": [
+      },
       {
         "name": "特工組",
         "brief": "Winnie",

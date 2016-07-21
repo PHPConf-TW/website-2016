@@ -39,11 +39,19 @@
     height: $avatar-width
     display: inline-block
     width: $avatar-width
-    padding: 1rem
+    padding: .1rem 1.4rem
+    &:nth-child(odd)
+      padding-right: .2rem
+    &:nth-child(even)
+      padding-left: .2rem
     +breakpoint(small only)
       width: 50%
       height: 12rem
       flex-wrap: wrap
+  .single .avatar-wrapper
+    +breakpoint(small only)
+      width: 100%
+      padding: 0 1.4rem
   .avatar-inner
     width: 100%
     height: 100%
