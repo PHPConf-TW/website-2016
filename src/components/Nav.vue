@@ -75,11 +75,11 @@
       .dropdown.menu > li.is-dropdown-submenu-parent > a
         &::after
           border-color: $light-gray transparent transparent 
-      .dropdown.menu.align-right .is-dropdown-submenu.first-sub
+      .dropdown.menu .is-dropdown-submenu.first-sub
         background-color: rgba(74, 74, 74, 0.9)
         color: $light-gray
         border: 0
-        margin-top: .636rem
+        margin-top: .56rem
         z-index: 0
         +breakpoint(small only)
           position: relative

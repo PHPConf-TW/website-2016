@@ -45,7 +45,7 @@
     h1
       font-size: 3.5rem
       font-weight: bold
-      transition: opacity 1s ease-in-out .5s
+      transition: opacity 1s ease-in-out
       color: #f5f5f5
       opacity: 1
       /*background-color: rgba(0, 0, 0, 0.3)*/
