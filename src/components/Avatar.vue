@@ -35,11 +35,14 @@
 
   .avatar-wrapper
     position: relative
-    padding-top: .4rem
-    padding-bottom: .4rem
+    padding: .4rem
     position: relative
     background: #fff
     height: $avatar-width
+    +breakpoint(small only)
+      width: 50%
+      height: 12rem
+    /*flex-wrap: wrap*/
   .avatar-inner
     width: 100%
     height: 100%
