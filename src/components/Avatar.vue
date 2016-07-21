@@ -42,7 +42,7 @@
     +breakpoint(small only)
       width: 50%
       height: 12rem
-    /*flex-wrap: wrap*/
+      flex-wrap: wrap
   .avatar-inner
     width: 100%
     height: 100%
