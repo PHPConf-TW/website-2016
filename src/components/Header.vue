@@ -1,12 +1,12 @@
 <template>
   <header class="header">
     <div class="banner">
-      <div class="banner-img"></div>
-      <div class="banner-mask"></div>
+      <div class="banner-mask">
+        <div class="banner-img"></div>
+      </div>
       <div class="row align-center inner">
         <div class="small-12 column banner-content" v-bind:class="header.isShow == 'false' ? 'no-btn' : ''">
-          <!--<img src="../assets/logo.png" alt="PHPConf 2016" class="logo">-->
-          <h1>PHPConf Taiwan 2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo1"></h1>
+          <h1>PHPConf Taiwan 2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo"></h1>
           <div class="content">
             <p class="hide-for-small-only">{{ header.title }}</p>
             <a class="button secondary" href="#" title="Registration" v-if="header.isShow == 'true'">{{ header.registration }}</a>
@@ -73,10 +73,11 @@
     background-image: url('../assets/banner.jpg')
     background-position: center 60%
     background-size: cover
-    filter: grayscale(65%) blur(4px) contrast(150%) brightness(80%)
     opacity: 0
     transition: opacity 1s ease-in-out
     background-repeat: no-repeat
+    transform: scale(1.03)
+    filter: blur(3px) contrast(100%) brightness(37%) sepia(1) hue-rotate(-5deg)
     +breakpoint(small only)
       height: 20rem
     &.show-banner
@@ -89,10 +90,6 @@
     bottom: 0
     width: 100%
     height: 100%
-    /*background: linear-gradient(45deg, rgba(204,204,204,0.2) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 50%, rgba(254,191,1,.5) 100%) /!* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!/*/
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 )*/
-    background: rgba(52, 66, 95, 0.24)
-    /*background: linear-gradient(to bottom, rgba(255,255,255,.2) 10%, rgba(255, 255, 255, 0.4) 40%, rgba(255, 255, 255, 0.5) 80%, rgba(255, 255, 255, .6) 90%)*/
   .inner
     position: absolute
     top: 0
@@ -105,12 +102,6 @@
   .inner:nth-child(2)
     color: red
   .logo
-    padding-top: 6rem
-    padding-bottom: 1.25rem
-    width: 20rem
-    opacity: 0
-    transition: all 1s ease-in 1s
-  .logo1
     width: 5rem
     position: relative
     top: .5rem
