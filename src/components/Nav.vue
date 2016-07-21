@@ -81,14 +81,26 @@
         border: 0
         margin-top: .56rem
         z-index: 0
+        height: 0
+        display: block
+        visibility: hidden
+        transition: height ease .2s
+        overflow: hidden
         +breakpoint(small only)
           position: relative
           top: 0
+        &.js-dropdown-active
+          opacity: 1
+          height: 5rem
+          visibility: visible
+          +breakpoint(small only)
+            height: 6rem
       .is-dropdown-submenu > li
         +breakpoint(small only)
           padding: .5rem 0
     .title
       font-size: 1.1rem
+      line-height: 2rem
     a
       position: relative
       display: block
