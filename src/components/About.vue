@@ -30,4 +30,6 @@
       text-align: center
       margin-top: 4rem
       margin-bottom: 2rem
+    .about-wrapper .row
+      padding: 0 1rem
 </style>

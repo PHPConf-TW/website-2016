@@ -1,9 +1,11 @@
 <template>
   <div class="avatar-wrapper">
-    <a class="avatar-model" data-open="avatarModel" @click="openAvatar" :style="avatarImg">
-      <div class="caption"><span>{{ detail.name }}</span></div>
-    </a>
-    <a class="avatar-mask"></a>
+    <div class="avatar-inner">
+      <a class="avatar-model" data-open="avatarModel" @click="openAvatar" :style="avatarImg">
+        <div class="caption"><span>{{ detail.name }}</span></div>
+      </a>
+      <a class="avatar-mask"></a>
+    </div>
   </div>
 </template>
 
@@ -29,26 +31,36 @@
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   @import '../settings.scss'
+  $avatar-width: 10.5rem + 2rem
+
   .avatar-wrapper
-    margin: 1rem
     position: relative
+    padding: 1rem
+    position: relative
+    background: #fff
+    width: $avatar-width
+    height: $avatar-width
     +breakpoint(small only)
-      width: 40%
+      width: 50%
+      height: 12rem
+      padding: .4rem
+  .avatar-inner
+    width: 100%
+    height: 100%
+    position: relative
   .avatar-model
     background-size: cover
     background-position: center center
-    height: 8.5rem
-    width: 8.5rem
+    height: 100%
+    width: 100%
     display: block
     position: relative
     z-index: 1
     opacity: 0
-    transition: all 0.5s ease-in-out
+    transition: opacity 0.5s ease-in-out
     &.show-avatar
       opacity: 1
     +breakpoint(small only)
-      width: 100%
-      height: 12rem
       margin: 0
     .caption
       position: absolute
@@ -56,13 +68,11 @@
       background: rgba(0,0,0,0.8)
       color: white
       opacity: 0
-      width: 8.5rem
-      height: 8.5rem
+      width: 100%
+      height: 100%
       text-align: center
-      transition: all 0.5s ease-in-out
+      transition: opacity 0.5s ease-in-out
       +breakpoint(small only)
-        width: 100%
-        height: 12rem
         margin: 0
         opacity: 0.8
         span
@@ -72,7 +82,7 @@
         position: relative
         color: white
         top: 40%
-        transition: all 0.5s ease-in-out
+        transition: opacity 0.5s ease-in-out
   .avatar-model:hover
     .caption
       opacity: 0.8
@@ -80,13 +90,12 @@
         opacity: 0.8
   .avatar-mask
     background-color: #ddd
-    height: 8.5rem
-    width: 8.5rem
+    height: 100%
+    width: 100%
     position: absolute
     top: 0
+    left: 0
     z-index: 0.5
     +breakpoint(small only)
-      width: 100%
-      height: 12rem
       margin: 0
 </style>

@@ -26,4 +26,6 @@
       text-align: center
       margin-top: 4rem
       margin-bottom: 2rem
+    .speaker-wrapper .row
+      padding: 0 1rem
 </style>
