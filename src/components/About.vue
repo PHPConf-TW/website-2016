@@ -4,7 +4,7 @@
       <div class="columns">
         <h4>{{ conf.menu.about }}</h4>
         <div class="about-wrapper">
-          <div class="row align-center" v-for="abouts in conf.abouts">
+          <div class="" v-for="abouts in conf.abouts">
             <avatar v-for="detail in abouts" :detail="detail" :type="type"></avatar>
           </div>
         </div>
@@ -32,7 +32,8 @@
       text-align: center
       margin-top: 4rem
       margin-bottom: 2rem
-    /*.about-wrapper .row*/
+    .about-wrapper
+      text-align: center
       /*padding: 0 1rem*/
       /*+breakpoint(small only)*/
         /*width: 100%*/

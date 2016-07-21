@@ -81,10 +81,10 @@
   @import './settings.scss'
   @import '~foundation-sites/scss/foundation'
   @import '~motion-ui/dist/motion-ui.min.css'
-  @import url('https://fonts.googleapis.com/css?family=Rubik')
-  @import url(https://fonts.googleapis.com/css?family=Francois+One)
+  /*@import url('https://fonts.googleapis.com/css?family=Rubik')*/
+  /*@import url('https://fonts.googleapis.com/css?family=Francois+One')*/
 
-  +foundation-everything(true)
+  +foundation-everything($global-flexbox)
 
   /* Custom Global */
   *:focus

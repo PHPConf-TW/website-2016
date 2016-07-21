@@ -1,8 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="row align-center">
-      <div class="shrink column">2016 © PHPConf</div>
-    </div>
+      2016 © PHPConf
   </footer>
 </template>
 
@@ -18,4 +16,5 @@
     padding-bottom: 2rem
     color: $medium-gray
     font-size: .9rem
+    text-align: center
 </style>

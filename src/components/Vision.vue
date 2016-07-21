@@ -9,7 +9,7 @@
           </div>
         </div>
       </div>
-      <div class="small-12 medium-4 columns photo align-self-middle">
+      <div class="small-12 medium-4 end columns photo">
         <img src="../assets/php-vision.jpg" alt="PHPConf" class="hide-for-small-only">
       </div>
     </div>
@@ -40,4 +40,5 @@
         box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.3)
         border: .06rem solid rgba(179, 179, 179, 0.73)
         width: 17.8rem
+        margin-top: 6rem
 </style>

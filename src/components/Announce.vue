@@ -5,7 +5,7 @@
         <h4>{{ conf.menu.announce }}</h4>
       </div>
 
-      <div class="small-12 medium-5 columns">
+      <div class="small-12 medium-5 end columns">
         <ul class="vertical menu" data-accordion-menu>
           <li v-for="item in conf.announce">
             <span class="label" v-bind:class="$index == 0 ? 'warning' : 'primary'">{{ item.date }}</span>
