@@ -9,7 +9,7 @@
         <div class="title">PHPConf Taiwan 2016</div>
       </div>
       <div class="top-bar-right">
-        <ul class="dropdown menu" data-dropdown-menu>
+        <ul class="dropdown menu" v-on:click="clickMenu" data-dropdown-menu>
           <li class="active"><a href="#home">{{ menu.home }}</a></li>
           <li><a href="#announce">{{ menu.announce }}</a></li>
           <li><a href="#vision">{{ menu.vision }}</a></li>
@@ -21,8 +21,8 @@
           <li>
             <a href="#">{{ menu.language }}</a>
             <ul class="menu vertical">
-              <li><a v-on:click="changeLang('en')">English</a></li>
-              <li><a v-on:click="changeLang('tw')">中文</a></li>
+              <li><a href="#" v-on:click="changeLang('en')">English</a></li>
+              <li><a href="#" v-on:click="changeLang('tw')">中文</a></li>
             </ul>
         </ul>
       </div>
@@ -38,6 +38,39 @@
         window.sessionStorage["lang"] = lang
         window.location.reload()
         return
+      clickMenu: (event) ->
+        event.preventDefault()
+        $(document).off("scroll")
+
+        currLink = $(event.target)
+        refElement = $(currLink.attr("href"))
+        if currLink.attr("href") == '#'
+          $(document).on("scroll", @onScroll)
+          return
+        $('.top-bar-right > ul > li').each ->
+          $(this).removeClass('active')
+        currLink.parent().addClass('active')
+
+        $('html, body').stop().animate
+          'scrollTop': refElement.offset().top - 50
+        , 500, 'swing', ->
+          $(document).on("scroll", @onScroll)
+        return
+      onScroll: (event) ->
+        scrollPos = $(document).scrollTop()
+        $('.top-bar-right > ul > li > a').each ->
+          currLink = $(this)
+          refElement = $(currLink.attr("href"))
+          if currLink.attr("href") == '#'
+            return
+          if refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos
+            $('.top-bar-right > ul > li').removeClass("active")
+            currLink.parent().addClass("active")
+          else
+            currLink.parent().removeClass("active")
+        return
+    ready: ->
+      $(document).on("scroll", @onScroll)
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass">
