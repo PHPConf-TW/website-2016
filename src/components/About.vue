@@ -25,6 +25,8 @@
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
+  @import '../settings.scss'
+
   #about
     h4
       text-align: center
@@ -32,4 +34,8 @@
       margin-bottom: 2rem
     .about-wrapper .row
       padding: 0 1rem
+      +breakpoint(small only)
+        width: 100%
+        padding: 0
+        margin: 0
 </style>
