@@ -43,7 +43,8 @@
   header.header
     margin-top: 3.3rem
     h1
-      font-size: 4rem
+      font-size: 3.5rem
+      font-weight: bold
       transition: all 1s ease-in-out .5s
       color: #f5f5f5
       opacity: 1
@@ -55,7 +56,7 @@
         font-size: 2rem
   .banner-content.no-btn
     h1
-      margin: 9rem auto 0
+      margin: 10.5rem auto 0
       +breakpoint(small only)
         margin-top: 6rem
   .banner-content
