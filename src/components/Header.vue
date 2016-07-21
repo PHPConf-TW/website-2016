@@ -77,7 +77,7 @@
     transition: opacity 1s ease-in-out
     background-repeat: no-repeat
     transform: scale(1.03)
-    filter: blur(3px) contrast(100%) brightness(37%) sepia(1) hue-rotate(-5deg)
+    filter: blur(3px) contrast(110%) brightness(50%) sepia(0.8) hue-rotate(-15deg)
     +breakpoint(small only)
       height: 20rem
     &.show-banner
