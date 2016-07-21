@@ -31,23 +31,23 @@
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   @import '../settings.scss'
-  $avatar-width: 10.5rem + 2rem
 
   .avatar-wrapper
     position: relative
     background: #fff
-    height: $avatar-width
+    height: 12rem
     display: inline-block
-    width: $avatar-width
-    padding: .1rem 1.4rem
-    &:nth-child(odd)
-      padding-right: .2rem
-    &:nth-child(even)
-      padding-left: .2rem
+    width: 12rem
+    padding: .3rem .5rem
     +breakpoint(small only)
       width: 50%
       height: 12rem
       flex-wrap: wrap
+      padding: .1rem 1.4rem
+      &:nth-child(odd)
+        padding-right: .2rem
+      &:nth-child(even)
+        padding-left: .2rem
   .single .avatar-wrapper
     +breakpoint(small only)
       width: 100%

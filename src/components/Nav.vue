@@ -9,13 +9,13 @@
         <div class="title">PHPConf Taiwan 2016</div>
       </div>
       <div class="top-bar-right">
-        <ul class="dropdown menu align-right" data-dropdown-menu>
+        <ul class="dropdown menu" data-dropdown-menu>
           <li class="active"><a href="#home">{{ menu.home }}</a></li>
           <li><a href="#announce">{{ menu.announce }}</a></li>
           <li><a href="#vision">{{ menu.vision }}</a></li>
           <li><a href="#speaker">{{ menu.speaker }}</a></li>
-          <li><a href="#session">{{ menu.session }}</a></li>
-          <li><a href="#location">{{ menu.location }}</a></li>
+          <!--<li><a href="#session">{{ menu.session }}</a></li>-->
+          <li><a href="#map">{{ menu.location }}</a></li>
           <li><a href="#sponsor">{{ menu.sponsor }}</a></li>
           <li><a href="#about">{{ menu.about }}</a></li>
           <li>
@@ -54,15 +54,18 @@
     .title-bar
       .title
         padding: .307rem 0
+        float: left
       .menu-icon
-        // outline: none
+        outline: none
+        float: right
+        margin-top: .55rem
     .top-bar
       .title
         +breakpoint(small only)
           display: none
       .dropdown.menu
         +breakpoint(small only)
-          display: block
+          opacity: 1
         > li
           +breakpoint(small only)
             display: block

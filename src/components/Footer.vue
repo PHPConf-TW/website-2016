@@ -12,8 +12,8 @@
   @import '../settings.scss'
 
   .footer
-    padding-top: 1rem
-    padding-bottom: 2rem
+    margin-top: 1rem
+    margin-bottom: 2rem
     color: $medium-gray
     font-size: .9rem
     text-align: center
