@@ -60,6 +60,11 @@
       "name": "Special Thanks",
       "photo": "static/img/sponsor/5xruby_2x.png",
       "link":  "https://5xruby.tw/"
+    },
+    {
+      "name": "Special Thanks",
+      "photo": "static/img/sponsor/tronice.png",
+      "link":  "http://www.tronice.com/"
     }
   ],
   "abouts": {
