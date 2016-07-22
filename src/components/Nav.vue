@@ -21,8 +21,8 @@
           <li>
             <a href="#">{{ menu.language }}</a>
             <ul class="menu vertical">
-              <li><a href="#" v-on:click="changeLang('en')">English</a></li>
-              <li><a href="#" v-on:click="changeLang('tw')">中文</a></li>
+              <li v-bind:class="lang == 'en' ? 'hide' : ''"><a href="#" v-on:click="changeLang('en')">English</a></li>
+              <li v-bind:class="lang == 'tw' ? 'hide' : ''"><a href="#" v-on:click="changeLang('tw')">中文</a></li>
             </ul>
         </ul>
       </div>
@@ -32,6 +32,10 @@
 
 <script lang="coffee" type="text/coffeescript">
   module.exports =
+    data: () ->
+      return {
+        lang: null
+      }
     props: ['menu']
     methods:
       changeLang: (lang) ->
@@ -51,10 +55,9 @@
           $(this).removeClass('active')
         currLink.parent().addClass('active')
 
-        $('html, body').stop().animate
-          'scrollTop': refElement.offset().top - 50
-        , 500, 'swing', ->
+        $('html, body').stop().animate 'scrollTop': refElement.offset().top - 80, 500, 'swing', ->
           $(document).on("scroll", @onScroll)
+          return
         return
       onScroll: (event) ->
         scrollPos = $(document).scrollTop()
@@ -71,6 +74,7 @@
         return
     ready: ->
       $(document).on("scroll", @onScroll)
+      @lang = window.sessionStorage["lang"]
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass">
@@ -104,10 +108,13 @@
             display: block
             width: 100%
             border-top: 1px solid #505050
-            padding: .5rem
+            padding: .3rem
       .dropdown.menu > li.is-dropdown-submenu-parent > a
         &::after
-          border-color: $light-gray transparent transparent 
+          border-color: $light-gray transparent transparent
+      .dropdown.menu > li.is-dropdown-submenu-parent > ul
+        +breakpoint(small only)
+          margin: 0
       .dropdown.menu .is-dropdown-submenu.first-sub
         background-color: rgba(74, 74, 74, 0.9)
         color: $light-gray
@@ -124,13 +131,11 @@
           top: 0
         &.js-dropdown-active
           opacity: 1
-          height: 5rem
+          height: 2.5rem
           visibility: visible
-          +breakpoint(small only)
-            height: 6rem
       .is-dropdown-submenu > li
         +breakpoint(small only)
-          padding: .5rem 0
+          padding: .3rem 0
     .title
       font-size: 1.1rem
       line-height: 2rem

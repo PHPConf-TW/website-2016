@@ -35,7 +35,7 @@
     "0": [
       {
         "name": "Josh Lockhart",
-        "brief": "Author of Modern PHP (O’Reilly). Founder of Slim Framework and PHP The Right Way.",
+        "brief": "Author of Modern PHP (O’Reilly). <br/>Founder of Slim Framework and PHP The Right Way.",
         "intro": "<p>Josh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.</p><p>Josh is the author of Modern PHP, published by O'Reilly Media. He started the Slim Framework, a popular PHP micro framework that enables rapid web application and API development. Josh also started and currently curates PHP The Right Way, a popular initiative in the PHP community that encourages good practices and disseminates quality information for PHP developers around the world.</p><p>Josh graduated from the Information and Library Science program at the University of North Carolina at Chapel Hill in 2008 and currently reside in Chapel Hill, North Carolina USA with his wife and two dogs.</p>",
         "photo": "static/img/speaker/josh.jpg"
       },
@@ -81,7 +81,7 @@
       {
         "name": "Designer",
         "brief": "Min",
-        "intro": "Min、宋狄諺",
+        "intro": "宋狄諺",
         "photo": "static/img/about/php-design.jpg"
       },
       {
@@ -133,7 +133,7 @@
       {
         "name": "Ninja Team",
         "brief": "Winnie",
-        "intro": "Winnie、勇瑜、Ronald",
+        "intro": "勇瑜、Ronald",
         "photo": "static/img/about/php-ninja.jpg"
       }
     ]
