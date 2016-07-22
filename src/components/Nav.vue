@@ -21,8 +21,8 @@
           <li>
             <a href="#">{{ menu.language }}</a>
             <ul class="menu vertical">
-              <li><a href="#" v-on:click="changeLang('en')">English</a></li>
-              <li><a href="#" v-on:click="changeLang('tw')">中文</a></li>
+              <li v-bind:class="lang == 'en' ? 'hide' : ''"><a href="#" v-on:click="changeLang('en')">English</a></li>
+              <li v-bind:class="lang == 'tw' ? 'hide' : ''"><a href="#" v-on:click="changeLang('tw')">中文</a></li>
             </ul>
         </ul>
       </div>
@@ -32,6 +32,10 @@
 
 <script lang="coffee" type="text/coffeescript">
   module.exports =
+    data: () ->
+      return {
+        lang: null
+      }
     props: ['menu']
     methods:
       changeLang: (lang) ->
@@ -71,6 +75,7 @@
         return
     ready: ->
       $(document).on("scroll", @onScroll)
+      @lang = window.sessionStorage["lang"]
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass">
@@ -124,10 +129,8 @@
           top: 0
         &.js-dropdown-active
           opacity: 1
-          height: 5rem
+          height: 2.5rem
           visibility: visible
-          +breakpoint(small only)
-            height: 6rem
       .is-dropdown-submenu > li
         +breakpoint(small only)
           padding: .5rem 0
