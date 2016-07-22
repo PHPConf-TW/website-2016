@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-      2016 © PHPConf
+      2016 © PHPConf Taiwan
   </footer>
 </template>
 
