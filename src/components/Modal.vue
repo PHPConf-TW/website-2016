@@ -3,9 +3,13 @@
     <div class="photo" :style="avatarImg">
     </div>
     <div class="word">
-      <h5>{{ detail.name }}</h5>
-      <h6 class="lead">{{ detail.brief }}</h6>
-      <p>{{{ detail.intro }}}</p>
+      <div class="title">
+        <h5>{{ detail.name }}</h5>
+        <h6 class="lead">{{{ detail.brief }}}</h6>
+      </div>
+      <div class="content">
+        {{{ detail.intro }}}
+      </div>
     </div>
     <button class="close-button" data-close aria-label="Close modal" type="button">
       <span aria-hidden="true">&times;</span>
@@ -24,14 +28,22 @@
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
   @import '../settings.scss'
   #avatarModel
-    width: 60rem
+    width: 50rem
     height: 22rem
     position: relative
     overflow: hidden
     padding: 2rem
     +breakpoint(small only)
       width: auto
-      overflow: scroll
+      overflow: auto
+    h5
+      color: map-get($foundation-palette, primary)
+      +breakpoint(small only)
+        font-size: 1.5rem
+    h6
+      font-size: 1rem
+      +breakpoint(small only)
+        font-size: 1rem
     .photo
       float: left
       margin: -2rem 1rem -1rem -2rem
@@ -39,7 +51,7 @@
       position: relative
       background-size: cover
       background-position: center center
-      width: 26rem
+      width: 22rem
       height: 22rem
       display: block
       +breakpoint(small only)
@@ -67,7 +79,6 @@
         padding-top: 2rem
         height: auto
         width: 100%
-        text-align: center
     .close-button
       color: #ddd
       font-size: 3rem
@@ -75,25 +86,22 @@
     .close-button:hover
       color: #ccc
       transition: all 0.5s ease-in-out
-    h5
-      color: map-get($foundation-palette, primary)
-      font-size: 2rem
+    .content
+      font-size: .9rem
+      padding-right: 3rem
+      overflow: scroll
+      height: 11rem
       +breakpoint(small only)
-        font-size: 1.5rem
-    h6
-      font-size: 1.5rem
-      +breakpoint(small only)
-        font-size: 1.2rem
-    p
-      font-size: 1rem
+        padding: 0
+        height: auto
     &.about
-      width: 40rem
-      height: 20rem
+      width: 36rem
+      height: 18rem
       +breakpoint(small only)
         width: auto
       .photo
-        width: 20rem
-        height: 20em
+        width: 18rem
+        height: 18em
         +breakpoint(small only)
           width: 100%
           height: 11rem

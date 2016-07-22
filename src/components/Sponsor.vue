@@ -27,7 +27,7 @@
     h4
       text-align: center
       margin-top: 4rem
-      margin-bottom: 3rem
+      margin-bottom: 2rem
     .sponsor-wrapper
       &.silver
         margin: 1.5rem 0 0
