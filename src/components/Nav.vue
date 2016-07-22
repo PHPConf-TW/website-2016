@@ -109,10 +109,13 @@
             display: block
             width: 100%
             border-top: 1px solid #505050
-            padding: .5rem
+            padding: .4rem
       .dropdown.menu > li.is-dropdown-submenu-parent > a
         &::after
-          border-color: $light-gray transparent transparent 
+          border-color: $light-gray transparent transparent
+      .dropdown.menu > li.is-dropdown-submenu-parent > ul
+        +breakpoint(small only)
+          margin: 0
       .dropdown.menu .is-dropdown-submenu.first-sub
         background-color: rgba(74, 74, 74, 0.9)
         color: $light-gray
