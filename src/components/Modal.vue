@@ -31,6 +31,7 @@
     padding: 2rem
     +breakpoint(small only)
       width: auto
+      overflow: scroll
     .photo
       float: left
       margin: -2rem 1rem -1rem -2rem
