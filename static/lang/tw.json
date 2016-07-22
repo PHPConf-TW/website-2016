@@ -51,7 +51,13 @@
   "silversponsors": [
     {
       "name": "協辦單位",
-      "photo": "static/img/sponsor/imfju.png"
+      "photo": "static/img/sponsor/imfju.png",
+      "link": "http://www.im.fju.edu.tw/"
+    },
+    {
+      "name": "特別感謝",
+      "photo": "static/img/sponsor/5xruby_2x.png",
+      "link":  "https://5xruby.tw/"
     }
   ],
   "abouts": {
