@@ -52,8 +52,14 @@
   "diamondsponsors": [],
   "silversponsors": [
     {
-      "name": "co-organizer",
-      "photo": "static/img/sponsor/imfju.png"
+      "name": "Co-organizer",
+      "photo": "static/img/sponsor/imfju.png",
+      "link": "http://www.im.fju.edu.tw/"
+    },
+    {
+      "name": "Special Thanks",
+      "photo": "static/img/sponsor/5xruby_2x.png",
+      "link":  "https://5xruby.tw/"
     }
   ],
   "abouts": {

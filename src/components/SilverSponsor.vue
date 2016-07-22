@@ -4,8 +4,10 @@
       <div class="word">
         <h6 class="text-center">{{ sponsor.name }}</h6>
       </div>
-      <div class="photo" :style="sponsorImg">
-      </div>
+      <a :href="sponsor.link">
+        <div class="photo" :style="sponsorImg">
+        </div>
+      </a>
     </div>
   </div>
 </template>
