@@ -58,6 +58,11 @@
       "name": "特別感謝",
       "photo": "static/img/sponsor/5xruby_2x.png",
       "link":  "https://5xruby.tw/"
+    },
+    {
+      "name": "特別感謝",
+      "photo": "static/img/sponsor/tronice.png",
+      "link":  "http://www.tronice.com/"
     }
   ],
   "abouts": {
