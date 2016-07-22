@@ -109,7 +109,7 @@
             display: block
             width: 100%
             border-top: 1px solid #505050
-            padding: .4rem
+            padding: .3rem
       .dropdown.menu > li.is-dropdown-submenu-parent > a
         &::after
           border-color: $light-gray transparent transparent
@@ -136,7 +136,7 @@
           visibility: visible
       .is-dropdown-submenu > li
         +breakpoint(small only)
-          padding: .5rem 0
+          padding: .3rem 0
     .title
       font-size: 1.1rem
       line-height: 2rem
