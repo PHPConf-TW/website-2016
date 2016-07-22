@@ -49,6 +49,7 @@
 
   #map
     position: relative
+    margin-top: 6rem
     #map-wrapper
       max-width: 100%
       height: 30rem

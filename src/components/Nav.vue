@@ -55,10 +55,9 @@
           $(this).removeClass('active')
         currLink.parent().addClass('active')
 
-        $('html, body').stop().animate
-          'scrollTop': refElement.offset().top - 50
-        , 500, 'swing', ->
+        $('html, body').stop().animate 'scrollTop': refElement.offset().top - 80, 500, 'swing', ->
           $(document).on("scroll", @onScroll)
+          return
         return
       onScroll: (event) ->
         scrollPos = $(document).scrollTop()
