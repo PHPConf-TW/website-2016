@@ -43,6 +43,10 @@
       modal: require './components/Modal'
     methods:
       getLang: () ->
+        lanRegx = /lang=(en|tw)/
+        res = window.location.search.match lanRegx
+        if res != null
+          window.sessionStorage["lang"] = res[1]
         lang = window.sessionStorage["lang"]
         index = ['tw', 'en'].indexOf lang
         if index != -1
