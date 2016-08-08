@@ -17,6 +17,11 @@
   },
   "announce": [
     {
+        "date": "AUG 8",
+        "title": "PHPConf Taiwan 2016 Call for Call for Proposals",
+        "content": "Become a speaker! Our <a target=\"_blank\" href=\"https://goo.gl/forms/KpmxJ2queUmcubVj1\">Call for Proposals is open</a>, so send in your talk proposals now and share your personal experience with the community."
+    },
+    {
         "date": "JULY 13",
         "title": "PHPConf Taiwan 2016 Call for Sponsors",
         "content": "If you are interested in sponsoring the PHPConf Taiwan 2016, please complete <a href=\"http://goo.gl/forms/J2y9BUccPB0zgMYu1\">the form</a> and we will be in touch."
