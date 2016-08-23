@@ -10,6 +10,7 @@
     "about": "about",
     "language": "English"
   },
+  "more": "more",
   "header": {
     "title": "PHPConf 2016 will hold on Oct 29",
     "registration": "Registration",
@@ -56,10 +57,11 @@
   },
   "diamondsponsors": [
     {
-      "name": "Gandi",
+      "name": "Diamond Sponsorship",
       "link": "http://www.gandi.net/",
       "desc": "Gandi is a domain name registrar and cloud hosting provider. We now manage nearly 2 million domain names (which puts us among the top registrars in the world) and offer over 700 extensions (such as .cafe, .taipei, .tw, .club, .asia). Gandi supports numerous open source projects (Gnome, Debian, Ubuntu, Let's Encrypt). We would be happy to support your open source project with our resources, just contact us.<br><br>What you get with each domain name at Gandi<ul><li> A 1-year SSL certificate</li><li>5 mailboxes with a total of 1 GB storage</li>1000 forwarding addresses</li><li>Private Domain name registration</li><li>Reduced pricing (50% off) for Gandi's Simple Hosting (for Wordpress, Drupal and others).</li></ul> Visit us: <a href=\"http://www.gandi.net/\">www.gandi.net</a>",
-      "photo": "static/img/sponsor/gandi.png"
+      "photo": "static/img/sponsor/gandi.png",
+      "more": "true"
     }  
   ],
   "silversponsors": [
