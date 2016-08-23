@@ -3,13 +3,15 @@
     <div class="sponsor">
       <div class="row">
         <div class="columns small-12 medium-6">
-          <div class="photo" :style="sponsorImg"></div>
+          <a :href="sponsor.link">
+            <div class="photo" :style="sponsorImg"></div>
+          </a>
         </div>
         <div class="columns small-12 medium-6">
           <div class="word">
             <h6>{{ sponsor.name }}</h6>
             <p>
-              {{ sponsor.desc }}
+              {{{ sponsor.desc }}}
             </p>
           </div>
         </div>
