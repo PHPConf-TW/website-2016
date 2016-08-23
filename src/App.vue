@@ -6,6 +6,7 @@
       <announce :conf="conf"></announce>
       <vision :conf="conf"></vision>
       <speaker :conf="conf"></speaker>
+      <agenda :conf="conf"></agenda>
       <map :conf="conf"></map>
       <sponsor :conf="conf"></sponsor>
       <about :conf="conf"></about>
@@ -37,6 +38,7 @@
       announce: require './components/Announce'
       vision: require './components/Vision'
       speaker: require './components/Speaker'
+      agenda: require './components/Agenda'
       map: require './components/Map'
       sponsor: require './components/Sponsor'
       about: require './components/About'
