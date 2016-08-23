@@ -53,5 +53,12 @@
         font-weight: 500
       p
         text-align: justify
-
+      .moreBtn
+        display: none
+    .diamond.more
+      .word p
+        height: 6.5rem
+        overflow: hidden
+      .moreBtn
+        display: block
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="columns small-12 sponsor-wrapper diamond">
+  <div class="columns small-12 sponsor-wrapper diamond" v-bind:class="sponsor.more == 'true' ? 'more' : ''">
     <div class="sponsor">
       <div class="row">
         <div class="columns small-12 medium-6">
@@ -13,6 +13,7 @@
             <p>
               {{{ sponsor.desc }}}
             </p>
+            <a href="#" class="moreBtn" @click="openMore">看更多</a>
           </div>
         </div>
       </div>
@@ -28,6 +29,12 @@
           'background-image': 'url(' + @sponsor.photo + ')'
         }
     props: ['sponsor']
+    methods: {
+      openMore: (event) ->
+        event.preventDefault()
+        $(event.target).parents('.diamond').removeClass('more')
+        console.log($(event.target).parents('.diamond'))
+      }
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
