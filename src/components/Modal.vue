@@ -90,6 +90,7 @@
       font-size: .9rem
       padding-right: 3rem
       overflow: scroll
+      overflow-x: hidden
       height: 11rem
       +breakpoint(small only)
         padding: 0
