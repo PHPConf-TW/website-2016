@@ -4,8 +4,8 @@
       <div class="columns small-12 medium-10 medium-offset-1">
         <h4>{{ conf.menu.sponsor }}</h4>
         <div class="row">
-          <diamond-sponsor v-for="sponsor in conf.diamondsponsors" :sponsor="sponsor"></diamond-sponsor>
-          <silver-sponsor v-for="sponsor in conf.silversponsors" :sponsor="sponsor"></silver-sponsor>
+          <diamond-sponsor v-for="sponsor in conf.diamondsponsors" :sponsor="sponsor" :conf="conf"></diamond-sponsor>
+          <silver-sponsor v-for="sponsor in conf.silversponsors" :sponsor="sponsor" :conf="conf"></silver-sponsor>
         </div>
       </div>
     </div>
