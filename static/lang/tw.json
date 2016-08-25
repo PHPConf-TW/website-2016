@@ -10,6 +10,7 @@
     "about": "關於",
     "language": "中文"
   },
+  "more": "看更多",
   "header": {
     "title": "台灣 PHP 年度研討會 2016/10/29 隆重登場",
     "registration": "前往購票",
@@ -52,7 +53,15 @@
       }
     ]
   },
-  "diamondsponsors": [],
+  "diamondsponsors": [
+    {
+      "name": "鑽石級贊助",
+      "link": "http://www.gandi.net/",
+      "desc": "Gandi (管地) 是網域名稱註冊商與雲端主機提供者。目前我們管理近兩百萬個域名(也讓我們成為世界前幾大註冊商之一)與提供超過七百種域名註冊服務(譬如 .cafe, .taipei, .tw, .club, .asia 等)。管地也支持很多開源專案(Gnome, Debian, Ubuntu, Let's Encrypt)。我們願意用我們的資源來支持您的開源計畫，馬上跟我們聯絡。<br><br>每一個在管地的域名都可以享有：<ul><li>1 年免費的 SSL 憑證</li><li>5 個郵件信箱與 1G 空間</li><li>1000 個轉址設定</li><li>隱藏註冊人資訊</li><li>Gandi 簡易代管主機半價優惠(可安裝 Wordpress, Drupal 等)</li></ul>Visit us: <a href=\"http://www.gandi.net/\">www.gandi.net</a>",
+      "photo": "static/img/sponsor/gandi.png",
+      "more": "true"
+    }
+  ],
   "silversponsors": [
     {
       "name": "協辦單位",
