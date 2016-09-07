@@ -400,7 +400,7 @@
                 padding-right: 1rem
             .outline
                 text-align: left
-                padding-right: 3rem
+                padding-right: 2rem
                 color: #000
             .description
                 text-align: left
@@ -451,7 +451,7 @@
         .workshop-track
             margin-top: 4rem
             thead
-                background: #F39801
+                background: #ffae00
                 th
                     text-align: center
                     vertical-align: text-top
