@@ -13,6 +13,7 @@
         </div>
         <div class="row">
             <div class="columns">
+            <div class="table-scroll">
                 <table class="main-track">
                     <thead>
                         <tr>
@@ -100,19 +101,16 @@
                             午餐時間
                         </td>
                     </tr>
-
-                    </tbody>
-                </table>
-                <div class="table-scroll">
-                <table class=" main-track afternoon-track">
-                    <thead>
+                </tbody>
+                <!--  ********************************************************************************************************************************************-->
+                    <thead  class=" main-track afternoon-track">
                         <tr>
                             <th width="150">時間/地點</th>
                             <th>國璽樓 一樓多功能國際會議廳</th>
                             <th>國璽樓 二樓多功能國際會議廳</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody  class=" main-track afternoon-track">
                         <tr>
                             <td>
                                 13:30
@@ -268,6 +266,11 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+
+
+                <!--  ********************************************************************************************************************************************-->
+
 
                 <table class="workshop-track">
                     <thead>
@@ -400,12 +403,12 @@
                 padding-right: 1rem
             .outline
                 text-align: left
-                padding-right: 2rem
+                padding-right: 1.5rem
                 color: #000
             .description
                 text-align: left
                 color: #000
-                padding-right: 5rem
+                padding-right: 1.5rem
             div
                 vertical-align: text-top
 
@@ -433,7 +436,6 @@
                                 color: #516CFF
 
         .afternoon-track
-            tbody
                 tr
                     &:nth-child(4n+1)
                         td
@@ -489,5 +491,6 @@
         .is-accordion-submenu-parent > a::after
                 top: 1.2rem
                 border-color: #909091 transparent transparent
+                right: 0.6rem
 
 </style>
