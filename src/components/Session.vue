@@ -1,5 +1,5 @@
 <template lang="html">
-    <section id="agenda">
+    <section id="session">
         <div class="row">
             <h4>議程</h4>
             <div class="dayswitch-wrapper">
@@ -367,14 +367,14 @@
 </template>
 
 <script lang="coffee" type="text/coffeescript">
-
-
+    module.exports =
+        props: ['conf']
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
     @import '../settings.scss'
 
-    #agenda
+    #session
         h4
             text-align: center
             margin-top: 4rem
