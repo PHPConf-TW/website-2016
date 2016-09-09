@@ -88,7 +88,7 @@
       transition: all 0.5s ease-in-out
     .content
       font-size: .9rem
-      padding-right: 3rem
+      padding-right: 1rem
       overflow: scroll
       overflow-x: hidden
       height: 11rem
