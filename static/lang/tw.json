@@ -31,6 +31,59 @@
   "vision": {
     "content": "<p>PHP 一直以來都是網頁開發者後端入門首選。因為 PHP 易學、易用，而且參考資源相當豐富，是目前後端佔有率最高的語言。PHP 因為過去的包袱，默默的承受不少誤解。隨著 PHP 7 的推出，執行效率大幅提升的同時，PHP 也逐漸的脫胎換骨，不再是大家心中的那個義大利麵程式碼。</p><p>因此今年我們將主題聚焦在現代化的 PHP 開發方式，以及軟體測試，並邀請到了 Modern PHP 這本書的作者 Josh Lockhart 來分享新一代的 PHP 開發方式。同時也邀請到 PHPUnit 這套知名的測試框架作者 Sebastian Bergmann 來為我們介紹如何撰寫測試。</p><p>此外今年我們新增了 Workshop 議程，希望藉由做中學，帶領大家建構 CI / CD 環境。</p>"
   },
+  "session": {
+      "day1": {
+          "maintrack": {
+              "timeplace":"時間/地點",
+              "place":"國璽樓 一樓多功能國際會議廳",
+              "morning":"",
+
+          },
+          "workshop": {
+              "timeplace":"時間/地點",
+              "place":"國璽樓 一樓多功能國際會議廳",
+              "track": [
+                              {
+                                 "time": "13:00 ~ 14:45",
+                                 "content": [
+                                     {
+                                          "title": "PHP自動化測試",
+                                          "speaker": "鴻森",
+                                          "outline":"PHP自動化測試講解",
+                                          "detail":"PHP自動化測試詳細說明",
+                                          "slideshare":"",
+                                          "youtube":"#"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "time": "14:45 ~ 15:05",
+                                  "content": "午茶"
+                              },
+                              {
+                                 "time": "15:05 ~ 16:50",
+                                 "content": [
+                                     {
+                                          "title": "CI/CD",
+                                          "speaker": "正瑋",
+                                          "outline":"CI/CD講解",
+                                          "detail":"CI/CD講解詳細說明",
+                                          "slideshare":"#",
+                                          "youtube":"#"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "time": "16:50 ~ 17:00",
+                                  "content": "閉幕演講"
+                              }
+                          ]
+              }
+      },
+      "day2": {
+
+      }
+  },
   "location": {
     "name": "輔仁大學國璽樓",
     "address": "新北市新莊區中正路510號",
