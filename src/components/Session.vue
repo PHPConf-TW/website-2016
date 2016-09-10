@@ -37,9 +37,9 @@
                 <!--  ********************************************************************************************************************************************-->
                     <thead  class=" main-track afternoon-track">
                         <tr>
-                            <th width="150">{{ conf.session.day1.maintrack.afternoon.timeplace }}</th>
-                            <th width="350">{{ conf.session.day1.maintrack.afternoon.place1 }}</th>
-                            <th width="350">{{ conf.session.day1.maintrack.afternoon.place2 }}</th>
+                            <th width="14%">{{ conf.session.day1.maintrack.afternoon.timeplace }}</th>
+                            <th width="43%">{{ conf.session.day1.maintrack.afternoon.place1 }}</th>
+                            <th width="43%">{{ conf.session.day1.maintrack.afternoon.place2 }}</th>
                         </tr>
                     </thead>
                     <tbody  class=" main-track afternoon-track">
@@ -64,7 +64,7 @@
                 <table class="workshop-track">
                     <thead>
                         <tr>
-                            <th width="150">{{ conf.session.day1.workshop.timeplace }}</th>
+                            <th width="14%">{{ conf.session.day1.workshop.timeplace }}</th>
                             <th>{{ conf.session.day1.workshop.place }}</th>
                         </tr>
                     </thead>
@@ -110,29 +110,6 @@
                 width: 100%
             div
                 margin-bottom: 2rem
-
-        .lecture-wrapper
-            padding-left: 1rem
-            padding-right: 1rem
-            .title
-                text-align: left
-                padding: 0
-                padding-left: 1rem
-
-            .speaker
-                text-align: right
-                padding: 0
-                padding-right: 1rem
-            .outline
-                text-align: left
-                padding-right: 1.5rem
-                color: #000
-            .description
-                text-align: left
-                color: #000
-                padding-right: 1.5rem
-            div
-                vertical-align: text-top
 
 
         .main-track
@@ -208,9 +185,6 @@
                         color: #909091
                         -webkit-transition: color 0.4s
 
-        .is-accordion-submenu-parent > a::after
-                top: 1.2rem
-                border-color: #909091 transparent transparent
-                right: 0.6rem
+
 
 </style>

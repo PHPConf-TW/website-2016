@@ -39,13 +39,14 @@
             padding: 0
             padding-right: 1rem
         .outline
+            line-height: 1.6
             text-align: left
-            padding-right: 1.5rem
+            padding-right: 1.6rem
             color: #000
         .description
             text-align: left
             color: #000
-            padding-right: 1.5rem
+            padding-right: 1.6rem
         div
             vertical-align: text-top
 
@@ -66,10 +67,9 @@
 
 
 
-
     .is-accordion-submenu-parent > a::after
             top: 1.2rem
             border-color: #909091 transparent transparent
-            right: 0.6rem
+            right: 0.9rem
 
 </style>
