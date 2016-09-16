@@ -4,14 +4,14 @@
             <h4>{{ conf.menu.session }}</h4>
             <div class="dayswitch-wrapper">
                 <div class="small-6 medium-6 columns">
-                      <button v-on:click="changeDate(1)" type="button" class="button day1-btn"><h6>Day 1 (10/29)</h6></button>
+                      <button v-on:click="changeDate(1)" type="button" class="button day1-btn" v-bind:class="{'active': isDay1}"><h6>Day 1 (10/29)</h6></button>
                 </div>
                 <div class="small-6 medium-6 columns">
-                      <button v-on:click="changeDate(2)" type="button" class="button secondary day2-btn"><h6>Day 2 (10/30)</h6></button>
+                      <button v-on:click="changeDate(2)" type="button" class="button secondary day2-btn" v-bind:class="{'active': !isDay1}"><h6>Day 2 (10/30)</h6></button>
                 </div>
             </div>
         </div>
-        <div class="row day1">
+        <div class="row day1" v-bind:class="{'active': isDay1}">
             <div class="columns">
             <div class="table-scroll">
                 <table class="main-track">
@@ -83,7 +83,7 @@
             </div>
         </div>
         <!--  ***********************************************day2*********************************************************************************************-->
-        <div class="row day2">
+        <div class="row day2" v-bind:class="{'active': !isDay1}">
             <div class="columns">
             <div class="table-scroll">
                 <table class="main-track">
@@ -164,28 +164,15 @@
         components:
             'lecture': require './Lecture.vue'
         props:
-            ['session','conf']
+            ['session', 'conf']
+        data: () ->
+            return {
+                isDay1: true
+            }
         methods:
             changeDate: (date) ->
-                if(date == 1)
-                    if(!$('.day1-btn').hasClass('active') && !$('.day1').hasClass('active'))
-                        $('.day1-btn').addClass('active')
-                        $('.day2-btn').removeClass('active')
-
-                        $('.day1').addClass('active')
-                        $('.day2').removeClass('active')
-
-                if(date == 2)
-                    if(!$('.day2-btn').hasClass('active') && !$('.day2').hasClass('active'))
-                        $('.day2-btn').addClass('active')
-                        $('.day1-btn').removeClass('active')
-
-                        $('.day2').addClass('active')
-                        $('.day1').removeClass('active')
-
-        ready: ->
-            $('.day1, .day1-btn').addClass('active')
-
+                this.isDay1 = (date == 1) ? true : false
+                returnL
 
 </script>
 
