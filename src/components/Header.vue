@@ -8,7 +8,7 @@
         <div class="small-12 column banner-content" v-bind:class="header.isShow == 'false' ? 'no-btn' : ''">
           <h1>PHPConf Taiwan 2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo"></h1>
           <div class="content">
-            <p class="hide-for-small-only">{{ header.title }}</p>
+            <p>{{ header.title }}</p>
             <a class="button secondary" href="#" title="Registration" v-if="header.isShow == 'true'">{{ header.registration }}</a>
           </div>
         </div>
@@ -54,6 +54,9 @@
       padding: 1rem
       +breakpoint(small only)
         font-size: 2rem
+    p
+      +breakpoint(small only)
+        font-size: .8rem
   .banner-content.no-btn
     h1
       margin: 10.5rem auto 0
