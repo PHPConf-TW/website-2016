@@ -50,7 +50,7 @@
                          "time": "09:40 ~ 10:40",
                          "content": [
                              {
-                                  "title": "Author of Modern PHP",
+                                  "title": "More Than Code",
                                   "speaker": "Josh Lockhart",
                                   "outline":"History of Author of Modern PHP",
                                   "detail":"osh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.",
@@ -67,10 +67,10 @@
                          "time": "10:50 ~ 11:50",
                          "content": [
                              {
-                                  "title": "The Creator of PHPUnit",
+                                  "title": "Lately in PHP(Unit)",
                                   "speaker": "Sebastian Bergmann",
-                                  "outline":"PHPUnit history",
-                                  "detail":"Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares",
+                                  "outline":"Long gone are the times when developers had to wait years to get their hands on new versions of PHP itself and tools such as PHPUnit. ",
+                                  "detail":"The PHP project releases a version with new features every year and the PHPUnit project every eight weeks. Join Sebastian Bergmann, creator and maintainer of PHPUnit, for a recap of what is new in PHP 7.0 and PHP 7.1 as well as PHPUnit 5 and PHPUnit 6.",
                                   "slideshare":"#",
                                   "youtube":"#"
                               }
@@ -91,75 +91,75 @@
                           "time": "13:00 ~ 14:00",
                           "content": [
                               {
-                                   "title": "PHP自動化測試",
-                                   "speaker": "鴻森",
-                                   "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                   "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
-                                   "slideshare":"",
+                                   "title": "Rebuild flyingV with Laravel",
+                                   "speaker": "Karl",
+                                   "outline":"flyingV 是目前台灣最大的群眾募資平台，在 flyingV 上，你可以找到許多值得參與的計劃，並與奮力向前的提案者們，一起跨越理想與現實的交界。 我們正在打造一個環境，讓不限領域的創意，能更容易地實踐。",
+                                   "detail":"flyingV 在今年中迎向一次大改版，這次的改版我們選擇了 Laravel 5.2 作為系統的核心，利用 Laravel 龐大的社群資源以及官方的生態圈進行開發，同時也對現有系統架構做調整。在這個議程中將提到我們如何利用這些資源進行有效率的開發，以及在途中踩雷的心路歷程。",
+                                   "slideshare":"#",
                                    "youtube":"#"
                                },
                                {
-                                    "title": "PHP自動化測試",
-                                    "speaker": "鴻森",
-                                    "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                    "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
-                                    "slideshare":"",
+                                    "title": "使用 Slim 為 Legacy Code 重構",
+                                    "speaker": "周建毅",
+                                    "outline":"在歷史包袱沉重的公司裡， RD 常抱著肝哭喊著要重構、要換框架、甚至砍掉重練。",
+                                    "detail":"但公司營運考量的結果，九成九都要 RD 繼續爆肝開發新功能，而不願大改架構。本演講將介紹如何應用 Slim 和實踐 CI ，來讓 RD 可以方便地同時重構和維護 Legacy Code 。",
+                                    "slideshare":"#",
                                     "youtube":"#"
                                 }
                           ]
                       },
                       {
                           "time": "14:00 ~ 14:10",
-                          "content": "休息"
+                          "content": "中場休息"
                       },
                       {
-                          "time": "13:00 ~ 14:00",
+                          "time": "14:10 ~ 15:10",
                           "content": [
                               {
-                                   "title": "PHP自動化測試",
-                                   "speaker": "鴻森",
-                                   "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                   "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
-                                   "slideshare":"",
+                                   "title": "TBD",
+                                   "speaker": "閃亮亮",
+                                   "outline":"",
+                                   "detail":"",
+                                   "slideshare":"#",
                                    "youtube":"#"
                                },
                                {
-                                    "title": "PHP自動化測試",
-                                    "speaker": "鴻森",
-                                    "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                    "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
-                                    "slideshare":"",
+                                    "title": "TBD",
+                                    "speaker": "Recca",
+                                    "outline":"",
+                                    "detail":"",
+                                    "slideshare":"#",
                                     "youtube":"#"
                                 }
                           ]
                       },
                       {
-                          "time": "14:00 ~ 14:10",
+                          "time": "15:30 ~ 15:50",
                           "content": "下午茶"
                       },
                       {
-                          "time": "13:00 ~ 14:00",
+                          "time": "15:50 ~ 16:50",
                           "content": [
                               {
-                                   "title": "PHP自動化測試",
-                                   "speaker": "鴻森",
-                                   "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                   "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
-                                   "slideshare":"",
+                                   "title": "用 Laravel + Vue.js 打造即時資訊看板 ",
+                                   "speaker": "大澤木小鐵",
+                                   "outline":"打造即時資訊看板已經是現代化 Web 框架的基本能力了，尤其 Laravel 更是在這方便著墨頗深；",
+                                   "detail":"本議程將要探討，要打造一個即時資訊看板，其背後所需要瞭解的系統架構基本原理，以及它會用到 Laravel 與 Vue.js 的哪些特色，適合已經學會 Laravel 的朋友聆聽。",
+                                   "slideshare":"#",
                                    "youtube":"#"
                                },
                                {
-                                    "title": "PHP自動化測試",
-                                    "speaker": "鴻森",
-                                    "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                    "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
-                                    "slideshare":"",
+                                    "title": "敏捷估算模型-變化當下最佳化策略",
+                                    "speaker": "91",
+                                    "outline":"瞭解專案時程為什麼delay，為什麼時程總估不準 ?",
+                                    "detail":"當專案面臨「插件」、「時程調整」、「priority調整」、「需求異動」、「作法異動」、「人員異動」時，該怎麼透過數據評估影響範圍，以便迅速制訂最佳化決策。",
+                                    "slideshare":"#",
                                     "youtube":"#"
                                 }
                           ]
                       },
                       {
-                          "time": "14:00 ~ 14:10",
+                          "time": "16:50 ~ 17:00",
                           "content": "閉幕演講"
                       }
                   ]
@@ -173,10 +173,10 @@
                                  "time": "13:00 ~ 14:45",
                                  "content": [
                                      {
-                                          "title": "PHP自動化測試",
-                                          "speaker": "鴻森",
-                                          "outline":"PHP自動化測試講解",
-                                          "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                          "title": "自動化驗收測試實戰",
+                                          "speaker": "Oomusou",
+                                          "outline":"隨著單元測試與整合測試自動化後，最後一哩路的驗收測試該如何自動化呢？",
+                                          "detail":"本 workshop 將帶著大家將自動化測試的環境建立起來，並實際撰寫整合測試，為將來 CI 自動化測試鋪路。",
                                           "slideshare":"",
                                           "youtube":"#"
                                       }
@@ -190,8 +190,8 @@
                                  "time": "15:05 ~ 16:50",
                                  "content": [
                                      {
-                                          "title": "CI/CD",
-                                          "speaker": "正瑋",
+                                          "title": "持續整合與自動化測試實作工作坊",
+                                          "speaker": "陳正瑋",
                                           "outline":"CI/CD講解",
                                           "detail":"CI/CD講解詳細說明,可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
                                           "slideshare":"#",
