@@ -4,14 +4,14 @@
             <h4>{{ conf.menu.session }}</h4>
             <div class="dayswitch-wrapper">
                 <div class="small-6 medium-6 columns">
-                      <button v-on:click="changeDate(1)" type="button" class="button day1-btn" v-bind:class="{'active': isDay1}"><h6>Day 1 (10/29)</h6></button>
+                      <button v-on:click="changeDate(1)" type="button" class="button day-btn" v-bind:class="{'active': isDay1}"><h6>Day 1 (10/29)</h6></button>
                 </div>
                 <div class="small-6 medium-6 columns">
-                      <button v-on:click="changeDate(2)" type="button" class="button secondary day2-btn" v-bind:class="{'active': !isDay1}"><h6>Day 2 (10/30)</h6></button>
+                      <button v-on:click="changeDate(2)" type="button" class="button day-btn" v-bind:class="{'active': !isDay1}"><h6>Day 2 (10/30)</h6></button>
                 </div>
             </div>
         </div>
-        <div class="row day1" v-bind:class="{'active': isDay1}">
+        <div class="row day" v-bind:class="{'active': isDay1}">
             <div class="columns">
             <div class="table-scroll">
                 <table class="main-track">
@@ -103,7 +103,7 @@
             </div>
         </div>
         <!--  ***********************************************day2*********************************************************************************************-->
-        <div class="row day2" v-bind:class="{'active': !isDay1}">
+        <div class="row day" v-bind:class="{'active': !isDay1}">
             <div class="columns">
             <div class="table-scroll">
                 <table class="workshop-track">
@@ -167,63 +167,59 @@
                 width: 100%
             div
                 margin-bottom: 2rem
-        .day1-btn, .day2-btn
-            opacity: 0.5
-        .day1-btn.active, .day2-btn.active
-            opacity: 1
-        .day1-btn.active
-            background: #1f41ff
-        .day2-btn.active
-            background: #ffae00
 
+        .day-btn
+            background: #ccc
+            &:hover
+                background: map-get($foundation-palette, primary)
+            &.active
+                background: map-get($foundation-palette, primary)
 
-        .day1, .day2
+        .day
             display: none
-
-        .day1.active, .day2.active
-            display: block
-
+            &.active
+                display: block
 
         .main-track
-            margin-bottom: 0
+            margin-bottom: 4rem
             thead
-                background: #3f69cc
+                background: mix(map-get($foundation-palette, primary), #000, 85%)
                 th
                     text-align: center
                     vertical-align: text-top
             tbody
                 tr
                     &:nth-child(even)
-                        background: #f0f0f2
+                        background: #efefef
                 td
                     text-align: center
                     vertical-align: text-top
                     &:first-child
                         color: #fff
-                        background-color: #516CFF
+                        background-color: map-get($foundation-palette, primary)
                     li:not(:first-child):last-child
                         a
                             i:hover, i:focus
                                 color: #516CFF
 
         .workshop-track, .qa-track
-            margin-top: 4rem
-            margin-bottom: 0
+            margin-top: 0
+            margin-bottom: 4rem
             thead
-                background: #ffae00
+                background: mix(map-get($foundation-palette, warning), #c3681f, 60%)
                 th
                     text-align: center
                     vertical-align: text-top
             tbody
                 tr
                     &:nth-child(even)
-                        background: #f0f0f2
+                        background: #efefef
                 td
                     text-align: center
                     vertical-align: text-top
                     &:first-child
                         color: #fff
-                        background-color: #DD991D
+                        background-color: map-get($foundation-palette, warning)
                     li:not(:first-child):last-child
                         a
                             i:hover, i:focus
@@ -235,11 +231,11 @@
                     &:nth-child(4n+1)
                         td
                             &:nth-child(3)
-                                background-color: #f0f0f2
+                                background-color: #fbfbfb
                     &:nth-child(4n+3)
                         td
                             &:nth-child(2)
-                                background-color: #f0f0f2
+                                background-color: #fbfbfb
                             li:not(:first-child):last-child
                                 a
                                     i:hover, i:focus
