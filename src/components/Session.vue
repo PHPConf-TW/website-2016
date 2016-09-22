@@ -58,6 +58,7 @@
                     </tbody>
                 </table>
             </div>
+            <div class="table-scroll">
                 <table class="qa-track">
                     <thead>
                         <tr>
@@ -79,6 +80,8 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div class="table-scroll">
                 <table class="workshop-track">
                     <thead>
                         <tr>
@@ -100,6 +103,7 @@
                         </tr>
                     </tbody>
                 </table>
+                </div>
             </div>
         </div>
         <!--  ***********************************************day2*********************************************************************************************-->
@@ -180,8 +184,10 @@
             &.active
                 display: block
 
+        .table-scroll + .table-scroll
+            margin-top: 4rem
+    
         .main-track
-            margin-bottom: 4rem
             thead
                 background: mix(map-get($foundation-palette, primary), #000, 85%)
                 th
@@ -204,7 +210,6 @@
 
         .workshop-track, .qa-track
             margin-top: 0
-            margin-bottom: 4rem
             thead
                 background: mix(map-get($foundation-palette, warning), #c3681f, 60%)
                 th
