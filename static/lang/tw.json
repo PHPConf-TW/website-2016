@@ -167,7 +167,7 @@
           },
           "qa": {
               "timeplace":"時間/地點",
-              "place":"待定",
+              "place":"QA Track",
               "track": [
                               {
                                  "time": "13:00 ~ 14:00",
@@ -207,7 +207,7 @@
               },
           "workshop": {
               "timeplace":"時間/地點",
-              "place":"待定",
+              "place":"Workshop Track",
               "track": [
                               {
                                  "time": "13:00 ~ 14:45",
