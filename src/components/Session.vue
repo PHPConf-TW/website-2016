@@ -186,7 +186,7 @@
 
         .table-scroll + .table-scroll
             margin-top: 4rem
-    
+
         .main-track
             thead
                 background: mix(map-get($foundation-palette, primary), #000, 85%)
@@ -247,7 +247,7 @@
                                         color: #516CFF
 
 
-        table.main-track, table.workshop-track
+        table.main-track, table.workshop-track, table.qa-track
             width: 100%
             min-width: 500px
 
