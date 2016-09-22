@@ -52,8 +52,8 @@
                              {
                                   "title": "More Than Code",
                                   "speaker": "Josh Lockhart",
-                                  "outline":"History of Author of Modern PHP",
-                                  "detail":"osh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.",
+                                  "outline":"",
+                                  "detail":"",
                                   "slideshare":"",
                                   "youtube":"#"
                               }
@@ -84,8 +84,8 @@
                   },
               "afternoon": {
                   "timeplace": "時間/地點",
-                  "place1": "國璽樓 一樓多功能國際會議廳",
-                  "place2": "國璽樓 二樓多功能國際會議廳",
+                  "place1": "待定",
+                  "place2": "待定",
                   "afternoontrack": [
                       {
                           "time": "13:00 ~ 14:00",
@@ -93,8 +93,8 @@
                               {
                                    "title": "Rebuild flyingV with Laravel",
                                    "speaker": "Karl",
-                                   "outline":"flyingV 是目前台灣最大的群眾募資平台，在 flyingV 上，你可以找到許多值得參與的計劃，並與奮力向前的提案者們，一起跨越理想與現實的交界。 我們正在打造一個環境，讓不限領域的創意，能更容易地實踐。",
-                                   "detail":"flyingV 在今年中迎向一次大改版，這次的改版我們選擇了 Laravel 5.2 作為系統的核心，利用 Laravel 龐大的社群資源以及官方的生態圈進行開發，同時也對現有系統架構做調整。在這個議程中將提到我們如何利用這些資源進行有效率的開發，以及在途中踩雷的心路歷程。",
+                                   "outline":"flyingV 是目前台灣最大的群眾募資平台，在 flyingV 上，你可以找到許多值得參與的計劃，並與奮力向前的提案者們，一起跨越理想與現實的交界。",
+                                   "detail":"我們正在打造一個環境，讓不限領域的創意，能更容易地實踐。flyingV 在今年中迎向一次大改版，這次的改版我們選擇了 Laravel 5.2 作為系統的核心，利用 Laravel 龐大的社群資源以及官方的生態圈進行開發，同時也對現有系統架構做調整。在這個議程中將提到我們如何利用這些資源進行有效率的開發，以及在途中踩雷的心路歷程。",
                                    "slideshare":"#",
                                    "youtube":"#"
                                },
@@ -110,7 +110,7 @@
                       },
                       {
                           "time": "14:00 ~ 14:10",
-                          "content": "中場休息"
+                          "content": "休息"
                       },
                       {
                           "time": "14:10 ~ 15:10",
@@ -165,9 +165,49 @@
                   ]
               }
           },
+          "qa": {
+              "timeplace":"時間/地點",
+              "place":"待定",
+              "track": [
+                              {
+                                 "time": "13:00 ~ 14:00",
+                                 "content": [
+                                     {
+                                          "title": "Q & A",
+                                          "speaker": "Josh Lockhart & Sebastian Bergmann",
+                                          "outline":"",
+                                          "detail":"",
+                                          "slideshare":"",
+                                          "youtube":"#"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "time": "14:00 ~ 14:10",
+                                  "content": "休息"
+                              },
+                              {
+                                 "time": "14:10 ~ 15:10",
+                                 "content": [
+                                     {
+                                          "title": "Q & A",
+                                          "speaker": "Josh Lockhart & Sebastian Bergmann",
+                                          "outline":"",
+                                          "detail":"",
+                                          "slideshare":"#",
+                                          "youtube":"#"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "time": "15:30 ~ 15:50",
+                                  "content": "下午茶"
+                              }
+                          ]
+              },
           "workshop": {
               "timeplace":"時間/地點",
-              "place":"國璽樓 一樓多功能國際會議廳",
+              "place":"待定",
               "track": [
                               {
                                  "time": "13:00 ~ 14:45",
@@ -192,8 +232,8 @@
                                      {
                                           "title": "持續整合與自動化測試實作工作坊",
                                           "speaker": "陳正瑋",
-                                          "outline":"CI/CD講解",
-                                          "detail":"CI/CD講解詳細說明,可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                          "outline":"",
+                                          "detail":"",
                                           "slideshare":"#",
                                           "youtube":"#"
                                       }
@@ -210,24 +250,24 @@
           "maintrack": {
               "morning": {
                   "timeplace": "時間/地點",
-                  "place": "國璽樓 一樓多功能國際會議廳2",
+                  "place": "國璽樓 一樓多功能國際會議廳",
                   "morningtrack": [
                       {
                          "time": "09:00 ~ 09:30",
-                         "content": "報到2"
+                         "content": "報到"
                       },
                       {
                          "time": "09:30 ~ 09:40",
-                         "content": "開場演講2"
+                         "content": "開場演講"
                       },
                       {
                          "time": "09:40 ~ 10:40",
                          "content": [
                              {
-                                  "title": "Author of Modern PHP2",
-                                  "speaker": "Josh Lockhart",
-                                  "outline":"History of Author of Modern PHP",
-                                  "detail":"osh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.",
+                                  "title": "TBD",
+                                  "speaker": "",
+                                  "outline":"",
+                                  "detail":"",
                                   "slideshare":"",
                                   "youtube":"#"
                               }
@@ -241,10 +281,10 @@
                          "time": "10:50 ~ 11:50",
                          "content": [
                              {
-                                  "title": "The Creator of PHPUnit2",
-                                  "speaker": "Sebastian Bergmann",
-                                  "outline":"PHPUnit history",
-                                  "detail":"Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares",
+                                  "title": "TBD",
+                                  "speaker": "",
+                                  "outline":"",
+                                  "detail":"",
                                   "slideshare":"#",
                                   "youtube":"#"
                               }
@@ -258,25 +298,25 @@
                   },
               "afternoon": {
                   "timeplace": "時間/地點",
-                  "place1": "國璽樓 一樓多功能國際會議廳2",
-                  "place2": "國璽樓 二樓多功能國際會議廳2",
+                  "place1": "TBD",
+                  "place2": "TBD",
                   "afternoontrack": [
                       {
                           "time": "13:00 ~ 14:00",
                           "content": [
                               {
-                                   "title": "PHP自動化測試2",
-                                   "speaker": "鴻森",
-                                   "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                   "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                   "title": "TBD",
+                                   "speaker": "",
+                                   "outline":"",
+                                   "detail":"",
                                    "slideshare":"",
                                    "youtube":"#"
                                },
                                {
-                                    "title": "PHP自動化測試2",
-                                    "speaker": "鴻森",
-                                    "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                    "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                    "title": "TBD",
+                                    "speaker": "",
+                                    "outline":"",
+                                    "detail":"",
                                     "slideshare":"",
                                     "youtube":"#"
                                 }
@@ -284,24 +324,24 @@
                       },
                       {
                           "time": "14:00 ~ 14:10",
-                          "content": "休息2"
+                          "content": "休息"
                       },
                       {
                           "time": "13:00 ~ 14:00",
                           "content": [
                               {
-                                   "title": "PHP自動化測試2",
-                                   "speaker": "鴻森",
-                                   "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                   "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                   "title": "TBD",
+                                   "speaker": "",
+                                   "outline":"",
+                                   "detail":"",
                                    "slideshare":"",
                                    "youtube":"#"
                                },
                                {
-                                    "title": "PHP自動化測試2",
-                                    "speaker": "鴻森",
-                                    "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                    "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                    "title": "TBD",
+                                    "speaker": "",
+                                    "outline":"",
+                                    "detail":"",
                                     "slideshare":"",
                                     "youtube":"#"
                                 }
@@ -309,24 +349,24 @@
                       },
                       {
                           "time": "14:00 ~ 14:10",
-                          "content": "下午茶2"
+                          "content": "下午茶"
                       },
                       {
                           "time": "13:00 ~ 14:00",
                           "content": [
                               {
-                                   "title": "PHP自動化測試2",
-                                   "speaker": "鴻森",
-                                   "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                   "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                   "title": "TBD",
+                                   "speaker": "",
+                                   "outline":"",
+                                   "detail":"",
                                    "slideshare":"",
                                    "youtube":"#"
                                },
                                {
-                                    "title": "PHP自動化測試2",
-                                    "speaker": "鴻森",
-                                    "outline":"動子操我藥角年素。價過電，作別立吃卻象、設讓注不境會勢不單溫。樹華的也基，呢的難父可。",
-                                    "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                    "title": "TBD",
+                                    "speaker": "",
+                                    "outline":"",
+                                    "detail":"",
                                     "slideshare":"",
                                     "youtube":"#"
                                 }
@@ -334,23 +374,23 @@
                       },
                       {
                           "time": "14:00 ~ 14:10",
-                          "content": "閉幕演講2"
+                          "content": "閉幕演講"
                       }
                   ]
               }
           },
           "workshop": {
               "timeplace":"時間/地點",
-              "place":"國璽樓 一樓多功能國際會議廳2",
+              "place":"TBD",
               "track": [
                               {
                                  "time": "13:00 ~ 14:45",
                                  "content": [
                                      {
-                                          "title": "PHP自動化測試2",
-                                          "speaker": "鴻森",
-                                          "outline":"PHP自動化測試講解",
-                                          "detail":"可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                          "title": "TBD",
+                                          "speaker": "",
+                                          "outline":"",
+                                          "detail":"",
                                           "slideshare":"",
                                           "youtube":"#"
                                       }
@@ -358,16 +398,16 @@
                               },
                               {
                                   "time": "14:45 ~ 15:05",
-                                  "content": "下午茶2"
+                                  "content": "下午茶"
                               },
                               {
                                  "time": "15:05 ~ 16:50",
                                  "content": [
                                      {
-                                          "title": "CI/CD2",
-                                          "speaker": "正瑋",
-                                          "outline":"CI/CD講解",
-                                          "detail":"CI/CD講解詳細說明,可性自東有只爸成話以公，方近的在樂果說實企野領於；他而往離而停一師，吃魚感很有受場己師信服爸理山，是通我。的聽界上所聽，人原走深管我可式次金人史回人居能廣非早可是分方樓求值件飛滿業視陽沒作影裡小問土回下動西。",
+                                          "title": "TBD",
+                                          "speaker": "",
+                                          "outline":"",
+                                          "detail":"",
                                           "slideshare":"#",
                                           "youtube":"#"
                                       }
@@ -375,7 +415,7 @@
                               },
                               {
                                   "time": "16:50 ~ 17:00",
-                                  "content": "閉幕演講2"
+                                  "content": "閉幕演講"
                               }
                           ]
               }

@@ -1,10 +1,10 @@
 <template>
     <div class="lecture-wrapper">
         <div class="row">
-            <div class="small-12 medium-9 columns title">{{ lecture.title }}</div>
-            <div class="small-12 medium-3 columns speaker">{{ lecture.speaker }}</div>
+            <div class="small-12 medium-8 columns title">{{ lecture.title }}</div>
+            <div class="small-12 medium-4 columns speaker">{{ lecture.speaker }}</div>
         </div>
-        <div class="row">
+        <div v-if="lecture.outline != ''" class="row">
             <ul class="vertical menu" data-accordion-menu>
               <li>
                 <a class="outline">{{ lecture.outline }}</a>
@@ -33,6 +33,7 @@
             text-align: left
             padding: 0
             padding-left: 1rem
+            font-size: 105%
 
         .speaker
             text-align: right
@@ -42,14 +43,15 @@
             line-height: 1.6
             text-align: left
             padding-right: 1.6rem
-            color: #000
+            color: #323232
         .description
             text-align: left
             color: #000
             padding-right: 1.6rem
         div
             vertical-align: text-top
-
+        li:first-child
+            color: #323232
         li:not(:first-child):last-child
             a
                 display: inline

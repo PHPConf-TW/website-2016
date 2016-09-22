@@ -58,7 +58,27 @@
                     </tbody>
                 </table>
             </div>
-
+                <table class="qa-track">
+                    <thead>
+                        <tr>
+                            <th width="14%">{{ conf.session.day1.qa.timeplace }}</th>
+                            <th>{{ conf.session.day1.qa.place }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="session in conf.session.day1.qa.track">
+                            <td>
+                                {{ session.time }}
+                            </td>
+                            <td v-if=" typeof session.content !== 'string' ">
+                                <lecture v-for="lecture in session.content" :lecture="lecture" :conf="conf"></lecture>
+                            </td>
+                            <td v-else>
+                                {{ session.content }}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
                 <table class="workshop-track">
                     <thead>
                         <tr>
@@ -130,28 +150,6 @@
                     </tbody>
                 </table>
             </div>
-
-                <table class="workshop-track">
-                    <thead>
-                        <tr>
-                            <th width="14%">{{ conf.session.day2.workshop.timeplace }}</th>
-                            <th>{{ conf.session.day2.workshop.place }}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr v-for="session in conf.session.day2.workshop.track">
-                            <td>
-                                {{ session.time }}
-                            </td>
-                            <td v-if=" typeof session.content !== 'string' ">
-                                <lecture v-for="lecture in session.content" :lecture="lecture" :conf="conf"></lecture>
-                            </td>
-                            <td v-else>
-                                {{ session.content }}
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
         </div>
 
@@ -208,7 +206,7 @@
             display: block
 
 
-        .main-track
+        .day1 .main-track, .day1 .qa-track, .day1 .workshop-track
             margin-bottom: 0
             thead
                 background: #3f69cc
@@ -230,6 +228,32 @@
                             i:hover, i:focus
                                 color: #516CFF
 
+        .day2 .main-track, .day2 .qa-track, .day2 .workshop-track
+            margin-bottom: 0
+            thead
+                background: #ffae00
+                th
+                    text-align: center
+                    vertical-align: text-top
+            tbody
+                tr
+                    &:nth-child(even)
+                        background: #f0f0f2
+                td
+                    text-align: center
+                    vertical-align: text-top
+                    &:first-child
+                        color: #fff
+                        background-color: #DD991D
+                    li:not(:first-child):last-child
+                        a
+                            i:hover, i:focus
+                                color: #516CFF
+
+
+        .qa-track
+            margin-top: 4rem
+
         .afternoon-track
                 tr
                     &:nth-child(4n+1)
@@ -247,23 +271,10 @@
 
         .workshop-track
             margin-top: 4rem
-            thead
-                background: #ffae00
-                th
-                    text-align: center
-                    vertical-align: text-top
-            tbody
-                tr
-                    &:nth-child(even)
-                        background: #f0f0f2
-                td
-                    text-align: center
-                    vertical-align: text-top
-                    &:first-child
-                        color: #fff
-                        background-color: #DD991D
+
 
         table.main-track
+            width: 100%
             min-width: 500px
 
         table
