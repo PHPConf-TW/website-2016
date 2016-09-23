@@ -52,9 +52,9 @@
                              {
                                   "title": "More Than Code",
                                   "speaker": "Josh Lockhart",
-                                  "outline":"",
-                                  "detail":"",
-                                  "slideshare":"",
+                                  "outline": "Become a better PHP developer",
+                                  "detail": "My name is Josh Lockhart. I am the Special Projects Director at New Media Campaigns, a design, development, and marketing agency in Chapel Hill, North Carolina USA. I am also an author, open source leader, conference speaker, and fellow PHP developer. I've traveled across the United States and around the world, and I hear the same question from many PHP developers: \"how do I become a PHP senior developer?\" It's a common question, and my answer may surprise you. Many books have been written about PHP code, including PHP The Right Way (a popular community initiative) and my own Modern PHP (published by O'Reilly Media); both resources help you learn how to write PHP code using modern practices and good techniques. However, there are other intangible lessons I've learned on my journey from novice to freelancer to open source leader to author to Special Projects Director at New Media Campaigns. These lessons are learned from personal experience, and they are the bedrock upon which I continue to improve my skills as a PHP developer and team leader. I want to share these lessons with you. I want to show you why a good PHP developer must know more than code. Join me at PHP Conf Taiwan 2016 to learn more.",
+                                  "slideshare":"#",
                                   "youtube":"#"
                               }
                           ]
@@ -84,8 +84,8 @@
                   },
               "afternoon": {
                   "timeplace": "時間/地點",
-                  "place1": "待定",
-                  "place2": "待定",
+                  "place1": "國璽樓 一樓多功能國際會議廳",
+                  "place2": "國璽樓 二樓國際會議廳",
                   "afternoontrack": [
                       {
                           "time": "13:00 ~ 14:00",
@@ -118,16 +118,16 @@
                               {
                                    "title": "TBD",
                                    "speaker": "閃亮亮",
-                                   "outline":"",
-                                   "detail":"",
+                                   "outline": "Refactoring to Collections - 從陣列重構談物件導向程式設計",
+                                   "detail": "從陣列重構談物件導向程式設計，說明 Collection 物件形成的背後原因，與實戰上的應用，幫助你寫出彈性及可讀性更好的程式碼，用以處理複雜的商業邏輯，提高開發時的效率。",
                                    "slideshare":"#",
                                    "youtube":"#"
                                },
                                {
                                     "title": "TBD",
                                     "speaker": "Recca",
-                                    "outline":"",
-                                    "detail":"",
+                                    "outline": "Test or Not Test, That's the question.",
+                                    "detail": "什麼東西該測試? 什麼東西不該測試?』這是每個人寫測試時都會遇到的難題，本議程將以開發 laravel-tracy / laravel-payum / laravel-termianl 等套件的的心得，分享單元測試實戰心法。",
                                     "slideshare":"#",
                                     "youtube":"#"
                                 }
@@ -250,7 +250,7 @@
           "maintrack": {
               "morning": {
                   "timeplace": "時間/地點",
-                  "place": "國璽樓 一樓多功能國際會議廳",
+                  "place": "國璽樓 二樓國際會議廳",
                   "morningtrack": [
                       {
                          "time": "09:00 ~ 09:30",
@@ -264,10 +264,10 @@
                          "time": "09:40 ~ 10:40",
                          "content": [
                              {
-                                  "title": "TBD",
+                                  "title": "The Testing Un-Training (Workshop)",
                                   "speaker": "",
-                                  "outline":"",
-                                  "detail":"",
+                                  "outline":"The Testing Un-Training (Workshop)",
+                                  "detail": "For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
                                   "slideshare":"",
                                   "youtube":"#"
                               }
@@ -456,7 +456,7 @@
       {
         "name":  "Recca",
         "brief": "",
-        "intro": "<p></p>",
+        "intro": "<p>Recca 為資深 PHP 開發者、 Laravel 固定班底。熟稔 Laravel 架構的他已開發出數個知名的 Laravel Package，包括：Laravel Tracy、Laravel Terminal、Laravel Payum 及 PHP 版 twzipcode，並經營個人部落格 PHPer。</p>",
         "photo": "static/img/speaker/recca.jpg"
       },
       {
@@ -468,7 +468,7 @@
       {
         "name":  "閃亮亮",
         "brief": "",
-        "intro": "<p></p>",
+        "intro": "<p>閃亮亮(林志航)，現任 KKBOX 資深工程師，擁有豐富的案件實作經驗，基於 Laravel Framework 致力在撰寫彈性強、高可讀性的 PHP 網站應用，對撰寫單元測試、整合測試亦有涉略，數次在 \"PHP也有Day\" 講座中做技術分享。目前是 Laradiner 社群讀書會的固定班底，部落格 <a href=\"http://blog.dj1020.net/\" target=\"_blank\">http://blog.dj1020.net/</a></p>",
         "photo": "static/img/speaker/twinkle.jpg"
       },
       {
