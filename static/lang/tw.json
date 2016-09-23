@@ -381,37 +381,88 @@
           },
           "workshop": {
               "timeplace":"時間/地點",
-              "place":"TBD",
+              "place":"國璽樓 二樓國際會議廳",
               "track": [
                               {
-                                 "time": "13:00 ~ 14:45",
-                                 "content": [
-                                     {
-                                          "title": "TBD",
-                                          "speaker": "",
-                                          "outline":"",
-                                          "detail":"",
-                                          "slideshare":"",
-                                          "youtube":"#"
-                                      }
-                                  ]
+                                "time": "09:40 ~ 10:40",
+                                "content": [
+                                  {
+                                    "title": "The Testing Un-Training (Workshop)",
+                                    "speaker": "Sebastian Bergmann",
+                                    "outline":"The Testing Un-Training (Workshop)",
+                                    "detail": "For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
+                                    "slideshare":"",
+                                    "youtube":"#"
+                                  }
+                                ]
                               },
                               {
-                                  "time": "14:45 ~ 15:05",
+                                "time": "10:40 ~ 10:50",
+                                "content": "休息"
+                              },
+                              {
+                                "time": "10:50 ~ 11:50",
+                                "content": [
+                                  {
+                                    "title": "The Testing Un-Training (Workshop)",
+                                    "speaker": "Sebastian Bergmann",
+                                    "outline":"The Testing Un-Training (Workshop)",
+                                    "detail": "For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
+                                    "slideshare":"",
+                                    "youtube":"#"
+                                  }
+                                ]
+                              },
+                              {
+                                "time": "11:50 ~ 13:00",
+                                "content": "午餐"
+                              },
+                              {
+                                "time": "13:00 ~ 14:00",
+                                "content": [
+                                  {
+                                    "title": "The Testing Un-Training (Workshop)",
+                                    "speaker": "Sebastian Bergmann",
+                                    "outline":"The Testing Un-Training (Workshop)",
+                                    "detail": "For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
+                                    "slideshare":"",
+                                    "youtube":"#"
+                                  }
+                                ]
+                              },
+                              {
+                                  "time": "14:00 ~ 14:10",
+                                  "content": "休息"
+                              },
+                              {
+                                "time": "14:10 ~ 15:10",
+                                "content": [
+                                  {
+                                    "title": "The Testing Un-Training (Workshop)",
+                                    "speaker": "Sebastian Bergmann",
+                                    "outline":"The Testing Un-Training (Workshop)",
+                                    "detail": "For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
+                                    "slideshare":"",
+                                    "youtube":"#"
+                                  }
+                                ]
+                              },
+                              {
+                                  "time": "15:30 ~ 15:50",
                                   "content": "下午茶"
                               },
                               {
-                                 "time": "15:05 ~ 16:50",
-                                 "content": [
-                                     {
-                                          "title": "TBD",
-                                          "speaker": "",
-                                          "outline":"",
-                                          "detail":"",
-                                          "slideshare":"#",
-                                          "youtube":"#"
-                                      }
-                                  ]
+                                "time": "15:50 ~ 16:50",
+                                "content": [
+                                  {
+                                    "title": "The Testing Un-Training (Workshop)",
+                                    "speaker": "Sebastian Bergmann",
+                                    "outline":"The Testing Un-Training (Workshop)",
+                                    "detail": "For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
+                                    "slideshare":"",
+                                    "youtube":"#"
+                                  }
+                                ]
                               },
                               {
                                   "time": "16:50 ~ 17:00",
