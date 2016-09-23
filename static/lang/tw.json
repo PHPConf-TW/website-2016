@@ -430,16 +430,64 @@
   "speakers": {
     "0": [
       {
-        "name": "Josh Lockhart",
+        "name":  "Josh Lockhart",
         "brief": "Author of Modern PHP (O’Reilly). <br/>Founder of Slim Framework and PHP The Right Way.",
         "intro": "<p>Josh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.</p><p>Josh is the author of Modern PHP, published by O'Reilly Media. He started the Slim Framework, a popular PHP micro framework that enables rapid web application and API development. Josh also started and currently curates PHP The Right Way, a popular initiative in the PHP community that encourages good practices and disseminates quality information for PHP developers around the world.</p><p>Josh graduated from the Information and Library Science program at the University of North Carolina at Chapel Hill in 2008 and currently reside in Chapel Hill, North Carolina USA with his wife and two dogs.</p>",
         "photo": "static/img/speaker/josh.jpg"
       },
       {
-        "name": "Sebastian Bergmann",
+        "name":  "Sebastian Bergmann",
         "brief": "The Creator of PHPUnit",
         "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
         "photo": "static/img/speaker/sebastian.jpg"
+      },
+      {
+        "name":  "Karl",
+        "brief": "PHP 文字藝術家，從 phpBB 入門，目前專注於利用 Laravel 進行 Web 應用開發",
+        "intro": "<p>目前於 flyingV 擔任技術長，flyingV 為台灣最大群眾募資平台，立志於打造一個讓理想更容易實現的環境最近迷上生存遊戲，假日就出門打打槍…戰，被打到雖然痛，但也挺有成就感的。</p>",
+        "photo": "static/img/speaker/karl.jpg"
+      },
+      {
+        "name":  "周建毅",
+        "brief": "",
+        "intro": "<p>從小熱愛電腦科技，五年前開始投入 PHP 開發，現正掉進 DevOps 坑，未來期望能讓更多人認為開發軟體是件有趣的事。</p>",
+        "photo": "static/img/speaker/zhou.jpg"
+      },
+      {
+        "name":  "Recca",
+        "brief": "",
+        "intro": "<p></p>",
+        "photo": "static/img/speaker/recca.jpg"
+      },
+      {
+        "name":  "大澤木小鐵",
+        "brief": "",
+        "intro": "<p>大澤木小鐵，一個不算狂熱的 Web 開發者，目前就職 KKBOX 。</p>",
+        "photo": "static/img/speaker/jace.jpg"
+      },
+      {
+        "name":  "閃亮亮",
+        "brief": "",
+        "intro": "<p></p>",
+        "photo": "static/img/speaker/twinkle.jpg"
+      },
+      {
+        "name":  "Joey",
+        "brief": "連任七屆的 Microsoft MVP",
+        "intro": "<p>91 是連任七屆的 Microsoft MVP，目前於東森信息科技擔任Principal Architect。熱愛敏捷開發與軟體品質改善，如 Scrum, XP, TDD。曾撰寫「 30天快速上⼿TDD」系列文，擅長將看似理想化的方法論，依據實務限制，無痛導入並有效改善團隊的開發方式。91 認為軟體開發應該是種享受的過程，工程師樂於開發的過程，使用者樂於使用的過程。開發出使用者覺得好用的軟體來改善這個世界，讓團隊能夠持續改善，自主管理，是 91 的目標。</p>",
+        "photo": "static/img/speaker/joey.jpg"
+      },
+      {
+        "name":  "陳正瑋",
+        "brief": "",
+        "intro": "<p>表面上是只會在臉書釋放夫妻閃光文的愛妻家，私底下其實是默默關注新知的技術愛好者。目前任職於得寬科技擔任 DevOps Engineer，負責維運及 DevOps 相關工作。平時熱衷於研究主機維運管理、自動化及系統架構的相關技術，並從程式碼及維運中找到創作樂趣，目標是未來可以像畢凱艦長一樣用嘴巴叫所有主機做事！</p>",
+        "photo": "static/img/speaker/chen.jpg"
+      },
+      {
+        "name":  "鴻森",
+        "brief": "",
+        "intro": "<p>Laravel 台灣社群固定班底，喜歡物件導向、TDD、測試、重構、開發流程等相關議題，希望能打造更流暢的大型程式開發流程與環境。</p>",
+        "photo": "static/img/speaker/oomusou.jpg"
       }
     ]
   },
