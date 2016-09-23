@@ -440,7 +440,9 @@
         "brief": "The Creator of PHPUnit",
         "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
         "photo": "static/img/speaker/sebastian.jpg"
-      },
+      }
+    ],
+    "1": [
       {
         "name":  "Karl",
         "brief": "PHP 文字藝術家，從 phpBB 入門，目前專注於利用 Laravel 進行 Web 應用開發",
@@ -464,7 +466,9 @@
         "brief": "",
         "intro": "<p>大澤木小鐵，一個不算狂熱的 Web 開發者，目前就職 KKBOX 。</p>",
         "photo": "static/img/speaker/jace.jpg"
-      },
+      }
+    ],
+    "2": [
       {
         "name":  "閃亮亮",
         "brief": "",
