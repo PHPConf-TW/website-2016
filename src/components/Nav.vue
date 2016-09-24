@@ -14,7 +14,7 @@
           <li><a href="#announce">{{ menu.announce }}</a></li>
           <li><a href="#vision">{{ menu.vision }}</a></li>
           <li><a href="#speaker">{{ menu.speaker }}</a></li>
-          <!--<li><a href="#session">{{ menu.session }}</a></li>-->
+          <li><a href="#session">{{ menu.session }}</a></li>
           <li><a href="#map">{{ menu.location }}</a></li>
           <li><a href="#sponsor">{{ menu.sponsor }}</a></li>
           <li><a href="#about">{{ menu.about }}</a></li>

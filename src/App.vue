@@ -6,6 +6,7 @@
       <announce :conf="conf"></announce>
       <vision :conf="conf"></vision>
       <speaker :conf="conf"></speaker>
+      <session :conf="conf"></session>
       <map :conf="conf"></map>
       <sponsor :conf="conf"></sponsor>
       <about :conf="conf"></about>
@@ -37,6 +38,7 @@
       announce: require './components/Announce'
       vision: require './components/Vision'
       speaker: require './components/Speaker'
+      session: require './components/Session'
       map: require './components/Map'
       sponsor: require './components/Sponsor'
       about: require './components/About'
@@ -85,6 +87,7 @@
   @import './settings.scss'
   @import '~foundation-sites/scss/foundation'
   @import '~motion-ui/dist/motion-ui.min.css'
+  @import '~font-awesome/css/font-awesome.min.css'
   /*@import url('https://fonts.googleapis.com/css?family=Rubik')*/
   /*@import url('https://fonts.googleapis.com/css?family=Francois+One')*/
 
