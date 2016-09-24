@@ -232,7 +232,7 @@
                     {
                       "title": "持續整合與自動化測試實作工作坊",
                       "speaker": "陳正瑋",
-                      "outline":"",
+                      "outline":"伴隨 DevOps 熱潮全球延燒，包含在 DevOps 之中 Continuous Integration、Continuous Delivery 及 Automation 等重要觀念已是軟體開發流程中不可或缺的重要關鍵。本工作坊將從 DevOps 的基本觀念切入，搭配 CI Server 為工具，引導學員 實際演練如何進行自動化建置、測試與部署，透過由淺入深的實作演練及課後練習題，了解如何打造您專屬的自動化服務。",
                       "detail":"",
                       "slideshare":"",
                       "youtube":""
