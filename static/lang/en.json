@@ -31,6 +31,447 @@
   "vision": {
     "content": "<p>PHP has the largest market share in back-end (server-side scripting) languages. It always been the first choice of web developer since it is easy to learn, easy to use, and resources are abundant. Because of the burden of the past, PHP suffer in silence a lot of misunderstanding. With the introduction of PHP 7, significantly improved efficiency at the same time, PHP has gradually reborn, no longer the hearts of everyone that spaghetti code.<p>So this year we will focus on the theme in modern PHP development methods, and software testing. And invited the author of the book of modern PHP Josh Lockhart to share a new generation of PHP development mode. Also invited to this well-known author of PHPUnit testing framework Bergman to introduce us how to write tests.</p><p>Also this year we added a workshop agenda, hoping by doing, lead the construction of CI / CD environment.</p>"
   },
+  "session": {
+      "day1": {
+          "maintrack": {
+              "morning": {
+                  "timeplace": "Time/Place",
+                  "place": "First Floor Conference Room",
+                  "morningtrack": [
+                      {
+                         "time": "09:00 ~ 09:30",
+                         "content": "Registration Check-In"
+                      },
+                      {
+                         "time": "09:30 ~ 09:40",
+                         "content": "Opening Remarks"
+                      },
+                      {
+                      "time": "09:40 ~ 10:40",
+                      "content": [
+                        {
+                          "title": "More Than Code",
+                          "speaker": "Josh Lockhart",
+                          "outline": "<p>Become a better PHP developer. <br>My name is Josh Lockhart. I am the Special Projects Director at New Media Campaigns, a design, development, and marketing agency in Chapel Hill, North Carolina USA. I am also an author, open source leader, conference speaker, and fellow PHP developer. I've traveled across the United States and around the world, and I hear the same question from many PHP developers: \"how do I become a PHP senior developer?\" It's a common question, and my answer may surprise you.</p>",
+                          "detail": " Many books have been written about PHP code, including PHP The Right Way (a popular community initiative) and my own Modern PHP (published by O'Reilly Media); both resources help you learn how to write PHP code using modern practices and good techniques. However, there are other intangible lessons I've learned on my journey from novice to freelancer to open source leader to author to Special Projects Director at New Media Campaigns. These lessons are learned from personal experience, and they are the bedrock upon which I continue to improve my skills as a PHP developer and team leader. I want to share these lessons with you. I want to show you why a good PHP developer must know more than code. Join me at PHPConf Taiwan 2016 to learn more.",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        }
+                      ]
+                    },
+                      {
+                          "time": "10:40 ~ 10:50",
+                          "content": "Coffee Break"
+                      },
+                      {
+                      "time": "10:50 ~ 11:50",
+                      "content": [
+                        {
+                          "title": "Lately in PHP(Unit)",
+                          "speaker": "Sebastian Bergmann",
+                          "outline":"<p>Long gone are the times when developers had to wait years to get their hands on new versions of PHP itself and tools such as PHPUnit. The PHP project releases a version with new features every year and the PHPUnit project every eight weeks. <br>Join Sebastian Bergmann, creator and maintainer of PHPUnit, <br>for a recap of what is new in PHP 7.0 and PHP 7.1 as well as PHPUnit 5 and PHPUnit 6.</p>",
+                          "detail":"",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        }
+                      ]
+                    },
+                      {
+                          "time": "11:50 ~ 13:00",
+                          "content": "Lunch Break"
+                      }
+                  ]
+                  },
+              "afternoon": {
+                  "timeplace": "Time/Place",
+                  "place1": "First Floor Conference Room",
+                  "place2": "Second Floor Conference Room",
+                  "afternoontrack": [
+                      {
+                      "time": "13:00 ~ 14:00",
+                      "content": [
+                        {
+                          "title": "Rebuild flyingV with Laravel",
+                          "speaker": "Karl",
+                          "outline":"flyingV 是目前台灣最大的群眾募資平台，在 flyingV 上，你可以找到許多值得參與的計劃，並與奮力向前的提案者們，一起跨越理想與現實的交界。",
+                          "detail":"我們正在打造一個環境，讓不限領域的創意，能更容易地實踐。flyingV 在今年中迎向一次大改版，這次的改版我們選擇了 Laravel 5.2 作為系統的核心，利用 Laravel 龐大的社群資源以及官方的生態圈進行開發，同時也對現有系統架構做調整。在這個議程中將提到我們如何利用這些資源進行有效率的開發，以及在途中踩雷的心路歷程。",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        },
+                        {
+                          "title": "使用 Slim 為 Legacy Code 重構",
+                          "speaker": "Miles",
+                          "outline":"在歷史包袱沉重的公司裡， RD 常抱著肝哭喊著要重構、要換框架、甚至砍掉重練。但公司營運考量的結果，九成九都要 RD 繼續爆肝開發新功能，而不願大改架構。本演講將介紹如何應用 Slim 和實踐 CI ，來讓 RD 可以方便地同時重構和維護 Legacy Code 。",
+                          "detail":"",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        }
+                      ]
+                    },
+                      {
+                          "time": "14:00 ~ 14:10",
+                          "content": "Coffee Break"
+                      },
+                      {
+                      "time": "14:10 ~ 15:10",
+                      "content": [
+                        {
+                          "title": "Refactoring to Collections - 從陣列重構談物件導向程式設計",
+                          "speaker": "閃亮亮",
+                          "outline": "從陣列重構談物件導向程式設計，說明 Collection 物件形成的背後原因，與實戰上的應用，幫助你寫出彈性及可讀性更好的程式碼，用以處理複雜的商業邏輯，提高開發時的效率。",
+                          "detail": "",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        },
+                        {
+                          "title": "Test or Not Test, That's the question.",
+                          "speaker": "Recca",
+                          "outline": "『什麼東西該測試? 什麼東西不該測試?』這是每個人寫測試時都會遇到的難題，本議程將討論如何有效的 mock 來進行套件開發。",
+                          "detail": "",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        }
+                      ]
+                    },
+                      {
+                          "time": "15:30 ~ 15:50",
+                          "content": "Afternoon Tea"
+                      },
+                      {
+                      "time": "15:50 ~ 16:50",
+                      "content": [
+                        {
+                          "title": "用 Laravel + Vue.js 打造即時資訊看板 ",
+                          "speaker": "大澤木小鐵",
+                          "outline":"打造即時資訊看板已經是現代化 Web 框架的基本能力了，尤其 Laravel 更是在這方便著墨頗深；本議程將要探討，要打造一個即時資訊看板，其背後所需要瞭解的系統架構基本原理，以及它會用到 Laravel 與 Vue.js 的哪些特色，適合已經學會 Laravel 的朋友聆聽。",
+                          "detail":"",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        },
+                        {
+                          "title": "敏捷估算模型-變化當下最佳化策略",
+                          "speaker": "Joey",
+                          "outline":"瞭解專案時程為什麼delay，為什麼時程總估不準 ?當專案面臨「插件」、「時程調整」、「priority調整」、「需求異動」、「作法異動」、「人員異動」時，該怎麼透過數據評估影響範圍，以便迅速制訂最佳化決策。",
+                          "detail":"",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        }
+                      ]
+                    },
+                      {
+                          "time": "16:50 ~ 17:00",
+                          "content": "Closing Remark"
+                      }
+                  ]
+              }
+          },
+          "qa": {
+              "timeplace":"Time/Place",
+              "place":"QA Track",
+              "track": [
+                              {
+                  "time": "13:00 ~ 14:00",
+                  "content": [
+                    {
+                      "title": "Q & A",
+                      "speaker": "Josh Lockhart & Sebastian Bergmann",
+                      "outline":"",
+                      "detail":"",
+                      "slideshare":"",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                  "time": "14:00 ~ 14:10",
+                                  "content": "Coffee Break"
+                              },
+                              {
+                  "time": "14:10 ~ 15:10",
+                  "content": [
+                    {
+                      "title": "Q & A",
+                      "speaker": "Josh Lockhart & Sebastian Bergmann",
+                      "outline":"",
+                      "detail":"",
+                      "slideshare":"#",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                  "time": "15:30 ~ 15:50",
+                                  "content": "Afternoon Tea"
+                              }
+                          ]
+              },
+          "workshop": {
+              "timeplace":"Time/Place",
+              "place":"Workshop Track",
+              "track": [
+                              {
+                  "time": "13:00 ~ 14:45",
+                  "content": [
+                    {
+                      "title": "自動化驗收測試實戰",
+                      "speaker": "Oomusou",
+                      "outline":"隨著單元測試與整合測試自動化後，最後一哩路的驗收測試該如何自動化呢？本 workshop 將帶著大家將自動化測試的環境建立起來，並實際撰寫整合測試，為將來 CI 自動化測試鋪路。",
+                      "detail":"",
+                      "slideshare":"",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                  "time": "14:45 ~ 15:05",
+                                  "content": "Afternoon Tea"
+                              },
+                              {
+                  "time": "15:05 ~ 16:50",
+                  "content": [
+                    {
+                      "title": "持續整合與自動化測試實作工作坊",
+                      "speaker": "陳正瑋",
+                      "outline":"",
+                      "detail":"",
+                      "slideshare":"#",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                  "time": "16:50 ~ 17:00",
+                                  "content": "Closing Remark"
+                              }
+                          ]
+              }
+      },
+      "day2": {
+          "maintrack": {
+              "morning": {
+                  "timeplace": "Time/Place",
+                  "place": "First Floor Conference Room",
+                  "morningtrack": [
+                      {
+                         "time": "09:00 ~ 09:30",
+                         "content": "Registration Check-In"
+                      },
+                      {
+                         "time": "09:30 ~ 09:40",
+                         "content": "Opening Remarks"
+                      },
+                      {
+                      "time": "09:40 ~ 10:40",
+                      "content": [
+                        {
+                          "title": "The Testing Un-Training (Workshop)",
+                          "speaker": "",
+                          "outline":"The Testing Un-Training (Workshop)",
+                          "detail": "For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
+                          "slideshare":"",
+                          "youtube":"#"
+                        }
+                      ]
+                    },
+                      {
+                          "time": "10:40 ~ 10:50",
+                          "content": "Coffee Break"
+                      },
+                      {
+                      "time": "10:50 ~ 11:50",
+                      "content": [
+                        {
+                          "title": "TBD",
+                          "speaker": "",
+                          "outline":"",
+                          "detail":"",
+                          "slideshare":"#",
+                          "youtube":"#"
+                        }
+                      ]
+                    },
+                      {
+                          "time": "11:50 ~ 13:00",
+                          "content": "Lunch Break"
+                      }
+                  ]
+                  },
+              "afternoon": {
+                  "timeplace": "Time/Place",
+                  "place1": "TBD",
+                  "place2": "TBD",
+                  "afternoontrack": [
+                      {
+                          "time": "13:00 ~ 14:00",
+                          "content": [
+                              {
+                                   "title": "TBD",
+                                   "speaker": "",
+                                   "outline":"",
+                                   "detail":"",
+                                   "slideshare":"",
+                                   "youtube":"#"
+                               },
+                               {
+                                    "title": "TBD",
+                                    "speaker": "",
+                                    "outline":"",
+                                    "detail":"",
+                                    "slideshare":"",
+                                    "youtube":"#"
+                                }
+                          ]
+                      },
+                      {
+                          "time": "14:00 ~ 14:10",
+                          "content": "Coffee Break"
+                      },
+                      {
+                          "time": "13:00 ~ 14:00",
+                          "content": [
+                              {
+                                   "title": "TBD",
+                                   "speaker": "",
+                                   "outline":"",
+                                   "detail":"",
+                                   "slideshare":"",
+                                   "youtube":"#"
+                               },
+                               {
+                                    "title": "TBD",
+                                    "speaker": "",
+                                    "outline":"",
+                                    "detail":"",
+                                    "slideshare":"",
+                                    "youtube":"#"
+                                }
+                          ]
+                      },
+                      {
+                          "time": "14:00 ~ 14:10",
+                          "content": "Afternoon Tea"
+                      },
+                      {
+                          "time": "13:00 ~ 14:00",
+                          "content": [
+                              {
+                                   "title": "TBD",
+                                   "speaker": "",
+                                   "outline":"",
+                                   "detail":"",
+                                   "slideshare":"",
+                                   "youtube":"#"
+                               },
+                               {
+                                    "title": "TBD",
+                                    "speaker": "",
+                                    "outline":"",
+                                    "detail":"",
+                                    "slideshare":"",
+                                    "youtube":"#"
+                                }
+                          ]
+                      },
+                      {
+                          "time": "14:00 ~ 14:10",
+                          "content": "Closing Remark"
+                      }
+                  ]
+              }
+          },
+          "workshop": {
+              "timeplace":"Time/Place",
+              "place":"Second Floor Conference Room",
+              "track": [
+                              {
+                  "time": "09:40 ~ 10:40",
+                  "content": [
+                    {
+                      "title": "The Testing Un-Training (Workshop)",
+                      "speaker": "Sebastian Bergmann",
+                      "outline":"For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
+                      "detail": "",
+                      "slideshare":"",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                "time": "10:40 ~ 10:50",
+                                "content": "Coffee Break"
+                              },
+                              {
+                  "time": "10:50 ~ 11:50",
+                  "content": [
+                    {
+                      "title": "The Testing Un-Training (Workshop)",
+                      "speaker": "Sebastian Bergmann",
+                      "outline":"",
+                      "detail": "",
+                      "slideshare":"",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                "time": "11:50 ~ 13:00",
+                                "content": "Lunch Break"
+                              },
+                              {
+                  "time": "13:00 ~ 14:00",
+                  "content": [
+                    {
+                      "title": "The Testing Un-Training (Workshop)",
+                      "speaker": "Sebastian Bergmann",
+                      "outline":"",
+                      "detail": "",
+                      "slideshare":"",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                  "time": "14:00 ~ 14:10",
+                                  "content": "Coffee Break"
+                              },
+                              {
+                  "time": "14:10 ~ 15:10",
+                  "content": [
+                    {
+                      "title": "The Testing Un-Training (Workshop)",
+                      "speaker": "Sebastian Bergmann",
+                      "outline":"",
+                      "detail": "",
+                      "slideshare":"",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                  "time": "15:30 ~ 15:50",
+                                  "content": "Afternoon Tea"
+                              },
+                              {
+                  "time": "15:50 ~ 16:50",
+                  "content": [
+                    {
+                      "title": "The Testing Un-Training (Workshop)",
+                      "speaker": "Sebastian Bergmann",
+                      "outline":"",
+                      "detail": "",
+                      "slideshare":"",
+                      "youtube":"#"
+                    }
+                  ]
+                },
+                              {
+                                  "time": "16:50 ~ 17:00",
+                                  "content": "Closing Remark"
+                              }
+                          ]
+              }
+      }
+  },
   "location": {
     "name": "Paul Cardinal Shan Medical Bld. Fu Jen Catholic University",
     "address": "No.510, Zhongzheng Rd., Xinzhuang Dist., New Taipei City",
@@ -40,19 +481,69 @@
   "speakers": {
     "0": [
       {
-        "name": "Josh Lockhart",
+        "name":  "Josh Lockhart",
         "brief": "Author of Modern PHP (O’Reilly). <br/>Founder of Slim Framework and PHP The Right Way.",
         "intro": "<p>Josh is Special Projects Director at New Media Campaigns, a web design, development, and marketing agency in Carrboro, North Carolina USA. He's worked for New Media Campaigns since 2007 and spearheads development for many of NMC’s most advanced client and internal projects. When he's not sitting in front of a computer, Josh is probably out shooting with his camera.</p><p>Josh is the author of Modern PHP, published by O'Reilly Media. He started the Slim Framework, a popular PHP micro framework that enables rapid web application and API development. Josh also started and currently curates PHP The Right Way, a popular initiative in the PHP community that encourages good practices and disseminates quality information for PHP developers around the world.</p><p>Josh graduated from the Information and Library Science program at the University of North Carolina at Chapel Hill in 2008 and currently reside in Chapel Hill, North Carolina USA with his wife and two dogs.</p>",
         "photo": "static/img/speaker/josh.jpg"
       },
       {
-        "name": "Sebastian Bergmann",
+        "name":  "Sebastian Bergmann",
         "brief": "The Creator of PHPUnit",
         "intro": "<p>Sebastian Bergmann has instrumentally contributed to transforming PHP into a reliable platform for large-scale, critical projects. Enterprises and PHP developers around the world benefit from the tools that he has developed and the experience he shares</p>",
         "photo": "static/img/speaker/sebastian.jpg"
       }
     ],
     "1": [
+      {
+        "name":  "Karl",
+        "brief": "PHP 文字藝術家，從 phpBB 入門，目前專注於利用 Laravel 進行 Web 應用開發",
+        "intro": "<p>目前於 flyingV 擔任技術長，flyingV 為台灣最大群眾募資平台，立志於打造一個讓理想更容易實現的環境最近迷上生存遊戲，假日就出門打打槍…戰，被打到雖然痛，但也挺有成就感的。</p>",
+        "photo": "static/img/speaker/karl.jpg"
+      },
+      {
+        "name":  "Miles",
+        "brief": "",
+        "intro": "<p>從小熱愛電腦科技，五年前開始投入 PHP 開發，現正掉進 DevOps 坑，未來期望能讓更多人認為開發軟體是件有趣的事。</p>",
+        "photo": "static/img/speaker/zhou.jpg"
+      },
+      {
+        "name":  "Recca",
+        "brief": "",
+        "intro": "<p>Recca 為資深 PHP 開發者、 Laravel 固定班底。熟稔 Laravel 架構的他已開發出數個知名的 Laravel Package，包括：Laravel Tracy、Laravel Terminal、Laravel Payum 及 PHP 版 twzipcode，並經營個人部落格 PHPer。</p>",
+        "photo": "static/img/speaker/recca.jpg"
+      },
+      {
+        "name":  "大澤木小鐵",
+        "brief": "",
+        "intro": "<p>大澤木小鐵，一個不算狂熱的 Web 開發者，目前就職 KKBOX 。</p>",
+        "photo": "static/img/speaker/jace.jpg"
+      }
+    ],
+    "2": [
+      {
+        "name":  "閃亮亮",
+        "brief": "",
+        "intro": "<p>閃亮亮(林志航)，現任 KKBOX 資深工程師，擁有豐富的案件實作經驗，基於 Laravel Framework 致力在撰寫彈性強、高可讀性的 PHP 網站應用，對撰寫單元測試、整合測試亦有涉略，數次在 \"PHP也有Day\" 講座中做技術分享。目前是 Laradiner 社群讀書會的固定班底，部落格 <a href=\"http://blog.dj1020.net/\" target=\"_blank\">http://blog.dj1020.net/</a></p>",
+        "photo": "static/img/speaker/twinkle.jpg"
+      },
+      {
+        "name":  "Joey",
+        "brief": "連任七屆的 Microsoft MVP",
+        "intro": "<p>Joey 是連任七屆的 Microsoft MVP，目前於東森信息科技擔任Principal Architect。熱愛敏捷開發與軟體品質改善，如 Scrum, XP, TDD。曾撰寫「 30天快速上⼿TDD」系列文，擅長將看似理想化的方法論，依據實務限制，無痛導入並有效改善團隊的開發方式。Joey 認為軟體開發應該是種享受的過程，工程師樂於開發的過程，使用者樂於使用的過程。開發出使用者覺得好用的軟體來改善這個世界，讓團隊能夠持續改善，自主管理，是 Joey 的目標。</p>",
+        "photo": "static/img/speaker/joey.jpg"
+      },
+      {
+        "name":  "陳正瑋",
+        "brief": "",
+        "intro": "<p>表面上是只會在臉書釋放夫妻閃光文的愛妻家，私底下其實是默默關注新知的技術愛好者。目前任職於得寬科技擔任 DevOps Engineer，負責維運及 DevOps 相關工作。平時熱衷於研究主機維運管理、自動化及系統架構的相關技術，並從程式碼及維運中找到創作樂趣，目標是未來可以像畢凱艦長一樣用嘴巴叫所有主機做事！</p>",
+        "photo": "static/img/speaker/chen.jpg"
+      },
+      {
+        "name":  "Oomusou",
+        "brief": "",
+        "intro": "<p>Laravel 台灣社群固定班底，喜歡物件導向、TDD、測試、重構、開發流程等相關議題，希望能打造更流暢的大型程式開發流程與環境。</p>",
+        "photo": "static/img/speaker/oomusou.jpg"
+      }
     ]
   },
   "diamondsponsors": [
@@ -62,7 +553,7 @@
       "desc": "Gandi is a domain name registrar and cloud hosting provider. We now manage nearly 2 million domain names (which puts us among the top registrars in the world) and offer over 700 extensions (such as .cafe, .taipei, .tw, .club, .asia). Gandi supports numerous open source projects (Gnome, Debian, Ubuntu, Let's Encrypt). We would be happy to support your open source project with our resources, just contact us.<br><br>What you get with each domain name at Gandi<ul><li> A 1-year SSL certificate</li><li>5 mailboxes with a total of 1 GB storage</li><li>1000 forwarding addresses</li><li>Private Domain name registration</li><li>Reduced pricing (50% off) for Gandi's Simple Hosting (for Wordpress, Drupal and others).</li></ul> Visit us: <a href=\"http://www.gandi.net/\">www.gandi.net</a>",
       "photo": "static/img/sponsor/gandi.png",
       "more": "true"
-    }  
+    }
   ],
   "silversponsors": [
     {
@@ -111,7 +602,7 @@
       },
       {
         "name": "Session",
-        "brief": "蕭鴻森",
+        "brief": "蕭Oomusou",
         "intro": "慈恩、育慈、正男、逸軒、Stan",
         "photo": "static/img/about/php-session.jpg"
       }
