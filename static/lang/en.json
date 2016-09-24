@@ -54,8 +54,8 @@
                           "speaker": "Josh Lockhart",
                           "outline": "<p>Become a better PHP developer. <br>My name is Josh Lockhart. I am the Special Projects Director at New Media Campaigns, a design, development, and marketing agency in Chapel Hill, North Carolina USA. I am also an author, open source leader, conference speaker, and fellow PHP developer. I've traveled across the United States and around the world, and I hear the same question from many PHP developers: \"how do I become a PHP senior developer?\" It's a common question, and my answer may surprise you.</p>",
                           "detail": " Many books have been written about PHP code, including PHP The Right Way (a popular community initiative) and my own Modern PHP (published by O'Reilly Media); both resources help you learn how to write PHP code using modern practices and good techniques. However, there are other intangible lessons I've learned on my journey from novice to freelancer to open source leader to author to Special Projects Director at New Media Campaigns. These lessons are learned from personal experience, and they are the bedrock upon which I continue to improve my skills as a PHP developer and team leader. I want to share these lessons with you. I want to show you why a good PHP developer must know more than code. Join me at PHPConf Taiwan 2016 to learn more.",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         }
                       ]
                     },
@@ -71,8 +71,8 @@
                           "speaker": "Sebastian Bergmann",
                           "outline":"<p>Long gone are the times when developers had to wait years to get their hands on new versions of PHP itself and tools such as PHPUnit. The PHP project releases a version with new features every year and the PHPUnit project every eight weeks. <br>Join Sebastian Bergmann, creator and maintainer of PHPUnit, <br>for a recap of what is new in PHP 7.0 and PHP 7.1 as well as PHPUnit 5 and PHPUnit 6.</p>",
                           "detail":"",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         }
                       ]
                     },
@@ -95,16 +95,16 @@
                           "speaker": "Karl",
                           "outline":"flyingV 是目前台灣最大的群眾募資平台，在 flyingV 上，你可以找到許多值得參與的計劃，並與奮力向前的提案者們，一起跨越理想與現實的交界。",
                           "detail":"我們正在打造一個環境，讓不限領域的創意，能更容易地實踐。flyingV 在今年中迎向一次大改版，這次的改版我們選擇了 Laravel 5.2 作為系統的核心，利用 Laravel 龐大的社群資源以及官方的生態圈進行開發，同時也對現有系統架構做調整。在這個議程中將提到我們如何利用這些資源進行有效率的開發，以及在途中踩雷的心路歷程。",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         },
                         {
                           "title": "使用 Slim 為 Legacy Code 重構",
                           "speaker": "Miles",
                           "outline":"在歷史包袱沉重的公司裡， RD 常抱著肝哭喊著要重構、要換框架、甚至砍掉重練。但公司營運考量的結果，九成九都要 RD 繼續爆肝開發新功能，而不願大改架構。本演講將介紹如何應用 Slim 和實踐 CI ，來讓 RD 可以方便地同時重構和維護 Legacy Code 。",
                           "detail":"",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         }
                       ]
                     },
@@ -120,16 +120,16 @@
                           "speaker": "閃亮亮",
                           "outline": "從陣列重構談物件導向程式設計，說明 Collection 物件形成的背後原因，與實戰上的應用，幫助你寫出彈性及可讀性更好的程式碼，用以處理複雜的商業邏輯，提高開發時的效率。",
                           "detail": "",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         },
                         {
                           "title": "Test or Not Test, That's the question.",
                           "speaker": "Recca",
                           "outline": "『什麼東西該測試? 什麼東西不該測試?』這是每個人寫測試時都會遇到的難題，本議程將討論如何有效的 mock 來進行套件開發。",
                           "detail": "",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         }
                       ]
                     },
@@ -145,16 +145,16 @@
                           "speaker": "大澤木小鐵",
                           "outline":"打造即時資訊看板已經是現代化 Web 框架的基本能力了，尤其 Laravel 更是在這方便著墨頗深；本議程將要探討，要打造一個即時資訊看板，其背後所需要瞭解的系統架構基本原理，以及它會用到 Laravel 與 Vue.js 的哪些特色，適合已經學會 Laravel 的朋友聆聽。",
                           "detail":"",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         },
                         {
                           "title": "敏捷估算模型-變化當下最佳化策略",
                           "speaker": "Joey",
                           "outline":"瞭解專案時程為什麼delay，為什麼時程總估不準 ?當專案面臨「插件」、「時程調整」、「priority調整」、「需求異動」、「作法異動」、「人員異動」時，該怎麼透過數據評估影響範圍，以便迅速制訂最佳化決策。",
                           "detail":"",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         }
                       ]
                     },
@@ -178,7 +178,7 @@
                       "outline":"",
                       "detail":"",
                       "slideshare":"",
-                      "youtube":"#"
+                      "youtube":""
                     }
                   ]
                 },
@@ -194,8 +194,8 @@
                       "speaker": "Josh Lockhart & Sebastian Bergmann",
                       "outline":"",
                       "detail":"",
-                      "slideshare":"#",
-                      "youtube":"#"
+                      "slideshare":"",
+                      "youtube":""
                     }
                   ]
                 },
@@ -218,7 +218,7 @@
                       "outline":"隨著單元測試與整合測試自動化後，最後一哩路的驗收測試該如何自動化呢？本 workshop 將帶著大家將自動化測試的環境建立起來，並實際撰寫整合測試，為將來 CI 自動化測試鋪路。",
                       "detail":"",
                       "slideshare":"",
-                      "youtube":"#"
+                      "youtube":""
                     }
                   ]
                 },
@@ -234,8 +234,8 @@
                       "speaker": "陳正瑋",
                       "outline":"",
                       "detail":"",
-                      "slideshare":"#",
-                      "youtube":"#"
+                      "slideshare":"",
+                      "youtube":""
                     }
                   ]
                 },
@@ -269,7 +269,7 @@
                           "outline":"The Testing Un-Training (Workshop)",
                           "detail": "For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
                           "slideshare":"",
-                          "youtube":"#"
+                          "youtube":""
                         }
                       ]
                     },
@@ -285,8 +285,8 @@
                           "speaker": "",
                           "outline":"",
                           "detail":"",
-                          "slideshare":"#",
-                          "youtube":"#"
+                          "slideshare":"",
+                          "youtube":""
                         }
                       ]
                     },
@@ -310,7 +310,7 @@
                                    "outline":"",
                                    "detail":"",
                                    "slideshare":"",
-                                   "youtube":"#"
+                                   "youtube":""
                                },
                                {
                                     "title": "TBD",
@@ -318,7 +318,7 @@
                                     "outline":"",
                                     "detail":"",
                                     "slideshare":"",
-                                    "youtube":"#"
+                                    "youtube":""
                                 }
                           ]
                       },
@@ -335,7 +335,7 @@
                                    "outline":"",
                                    "detail":"",
                                    "slideshare":"",
-                                   "youtube":"#"
+                                   "youtube":""
                                },
                                {
                                     "title": "TBD",
@@ -343,7 +343,7 @@
                                     "outline":"",
                                     "detail":"",
                                     "slideshare":"",
-                                    "youtube":"#"
+                                    "youtube":""
                                 }
                           ]
                       },
@@ -360,7 +360,7 @@
                                    "outline":"",
                                    "detail":"",
                                    "slideshare":"",
-                                   "youtube":"#"
+                                   "youtube":""
                                },
                                {
                                     "title": "TBD",
@@ -368,7 +368,7 @@
                                     "outline":"",
                                     "detail":"",
                                     "slideshare":"",
-                                    "youtube":"#"
+                                    "youtube":""
                                 }
                           ]
                       },
@@ -392,7 +392,7 @@
                       "outline":"For years, the concepts and ideas of open spaces and unconferences have become ever more popular in the PHP community. High time to adapt them for full-day, in-depth workshops! Join Sebastian Bergmann, the creator of PHPUnit, for this participant-driven training experience. Based on the interests and questions of the attendees we will create an agenda that may span from fundamental and generic testing-related topics to very specific topics such as how to test controllers for Symfony- or Zend Framework-based applications as well as custom extensions for Drupal, Magento, or Wordpress.",
                       "detail": "",
                       "slideshare":"",
-                      "youtube":"#"
+                      "youtube":""
                     }
                   ]
                 },
@@ -409,7 +409,7 @@
                       "outline":"",
                       "detail": "",
                       "slideshare":"",
-                      "youtube":"#"
+                      "youtube":""
                     }
                   ]
                 },
@@ -426,7 +426,7 @@
                       "outline":"",
                       "detail": "",
                       "slideshare":"",
-                      "youtube":"#"
+                      "youtube":""
                     }
                   ]
                 },
@@ -443,7 +443,7 @@
                       "outline":"",
                       "detail": "",
                       "slideshare":"",
-                      "youtube":"#"
+                      "youtube":""
                     }
                   ]
                 },
@@ -460,7 +460,7 @@
                       "outline":"",
                       "detail": "",
                       "slideshare":"",
-                      "youtube":"#"
+                      "youtube":""
                     }
                   ]
                 },
