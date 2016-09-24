@@ -10,7 +10,7 @@
                 <a class="outline">{{{ lecture.outline }}}</a>
                 <ul class="menu vertical nested description">
                   <li>{{ lecture.detail }}</li>
-                  <li><a href="{{ lecture.slideshare }}"><i class="fa fa-2x fa-slideshare" aria-hidden="true"></i></a><a href="{{ lecture.youtube }}"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a></li>
+                  <li><a v-if="lecture.slideshare != ''" href="{{ lecture.slideshare }}"><i class="fa fa-2x fa-slideshare" aria-hidden="true"></i></a><a v-if="lecture.youtube != ''" href="{{ lecture.youtube }}"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a></li>
                 </ul>
               </li>
             </ul>
