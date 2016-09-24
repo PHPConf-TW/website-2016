@@ -7,7 +7,7 @@
         <div v-if="lecture.outline != ''" class="row">
             <ul class="vertical menu" data-accordion-menu>
               <li>
-                <a class="outline">{{ lecture.outline }}</a>
+                <a class="outline">{{{ lecture.outline }}}</a>
                 <ul class="menu vertical nested description">
                   <li>{{ lecture.detail }}</li>
                   <li><a href="{{ lecture.slideshare }}"><i class="fa fa-2x fa-slideshare" aria-hidden="true"></i></a><a href="{{ lecture.youtube }}"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a></li>
