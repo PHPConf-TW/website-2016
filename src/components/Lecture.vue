@@ -1,34 +1,45 @@
 <template>
     <div class="lecture-wrapper">
-        <div class="row">
+        <div class="clearfix">
             <div class="small-12 medium-8 columns title">{{ lecture.title }}</div>
             <div class="small-12 medium-4 columns speaker">{{ lecture.speaker }}</div>
-        </div>
-        <div v-if="lecture.outline != ''" class="row">
-            <ul class="vertical menu" data-accordion-menu>
-              <li>
-                <a class="outline">{{{ lecture.outline }}}</a>
-                <ul class="menu vertical nested description">
-                  <li>{{ lecture.detail }}</li>
-                  <li><a v-if="lecture.slideshare != ''" href="{{ lecture.slideshare }}"><i class="fa fa-2x fa-slideshare" aria-hidden="true"></i></a><a v-if="lecture.youtube != ''" href="{{ lecture.youtube }}"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a></li>
-                </ul>
-              </li>
-            </ul>
+        </div class="clearfix">
+        <div v-if="lecture.outline != ''">
+            <div class="small-12">
+              <ul class="vertical menu content" v-bind:class="{'active': isMore(lecture.detail), 'open': openMenu}" >
+                {{lecture.menu}}
+                <li>
+                  <a class="outline" v-on:click="clickOutline()">{{{ lecture.outline }}}</a>
+                  <ul class="menu vertical nested description">
+                    <li>{{ lecture.detail }}</li>
+                    <li><a v-if="lecture.slideshare != ''" href="{{ lecture.slideshare }}"><i class="fa fa-2x fa-slideshare" aria-hidden="true"></i></a><a v-if="lecture.youtube != ''" href="{{ lecture.youtube }}"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
         </div>
     </div>
 </template>
 
 <script lang="coffee" type="text/coffeescript">
     module.exports =
-        props: ['lecture', 'conf']
+        props: ['lecture', 'conf'],
+        data: () ->
+          return {
+            openMenu: false
+          }
+        methods:
+          isMore: (detail) ->
+            return (detail != '') ? true : false
+          clickOutline: () ->
+            this.openMenu = !this.openMenu
+            return
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
     @import '../settings.scss'
 
     .lecture-wrapper
-        padding-left: 1rem
-        padding-right: 1rem
         .title
             text-align: left
             padding: 0
@@ -39,11 +50,40 @@
             text-align: right
             padding: 0
             padding-right: 1rem
+        .content.active
+          .outline
+            cursor: pointer
+          .outline:after
+            content: ''
+            display: block
+            width: 0
+            height: 0
+            border: 6px inset
+            border-color: #909091 transparent transparent
+            border-top-style: solid
+            border-bottom-width: 0
+            position: absolute
+            top: 1.2rem
+            margin-top: -4px
+            right: 0.9rem
+          &.open .outline:after
+            transform-origin: 50% 50%
+            transform: scaleY(-1)
+          .description
+            max-height: 0
+            overflow: hidden
+            transition: max-height ease .4s
+          &.open .description
+            max-height: 500px
         .outline
+            cursor: default
             line-height: 1.6
             text-align: left
             padding-right: 1.6rem
             color: #323232
+            position: relative
+            &.active:after
+
         .description
             text-align: left
             color: #000
@@ -64,14 +104,5 @@
                     color: #4875B4
                 i.fa-youtube:hover, i.fa-youtube:focus
                     color: #FF3333
-
-
-
-
-
-    .is-accordion-submenu-parent > a::after
-            top: 1.2rem
-            border-color: #909091 transparent transparent
-            right: 0.9rem
 
 </style>

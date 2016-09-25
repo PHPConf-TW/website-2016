@@ -152,7 +152,7 @@
         methods:
             changeDate: (date) ->
                 this.isDay1 = (date == 1) ? true : false
-                returnL
+                return
 
 </script>
 
