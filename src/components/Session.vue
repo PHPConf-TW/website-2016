@@ -13,51 +13,49 @@
         </div>
         <div class="row day" v-bind:class="{'active': isDay1}">
             <div class="columns">
-            <div class="table-scroll">
-                <table class="main-track">
-                    <thead>
-                        <tr>
-                            <th class="test" width="150">{{ conf.session.day1.maintrack.morning.timeplace }}</th>
-                            <th colspan="2">{{ conf.session.day1.maintrack.morning.place }}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr v-for="session in conf.session.day1.maintrack.morning.morningtrack">
-                            <td>
-                                {{ session.time }}
-                            </td>
-                            <td colspan="2" v-if=" typeof session.content !== 'string' ">
-                                <lecture v-for="lecture in session.content" :lecture="lecture" :conf="conf"></lecture>
-                            </td>
-                            <td colspan="2" v-else>
-                                {{ session.content }}
-                            </td>
-                        </tr>
-                    </tbody>
-                <!--  ********************************************************************************************************************************************-->
-                    <thead  class=" main-track afternoon-track">
-                        <tr>
-                            <th width="14%">{{ conf.session.day1.maintrack.afternoon.timeplace }}</th>
-                            <th width="43%">{{ conf.session.day1.maintrack.afternoon.place1 }}</th>
-                            <th width="43%">{{ conf.session.day1.maintrack.afternoon.place2 }}</th>
-                        </tr>
-                    </thead>
-                    <tbody  class=" main-track afternoon-track">
-                        <tr v-for="session in conf.session.day1.maintrack.afternoon.afternoontrack">
-                            <td>
-                                {{ session.time }}
-                            </td>
-                            <td colspan="2" v-if=" typeof session.content === 'string' ">
-                                {{ session.content }}
-                            </td>
-                            <td v-else v-for="lecture in session.content">
-                                <lecture :lecture="lecture" :conf="conf"></lecture>
-                            </td>
-                        </tr>
+            <table class="main-track">
+                <thead>
+                    <tr>
+                        <th class="test" width="150">{{ conf.session.day1.maintrack.morning.timeplace }}</th>
+                        <th colspan="2">{{ conf.session.day1.maintrack.morning.place }}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="session in conf.session.day1.maintrack.morning.morningtrack">
+                        <td>
+                            {{ session.time }}
+                        </td>
+                        <td colspan="2" v-if=" typeof session.content !== 'string' ">
+                            <lecture v-for="lecture in session.content" :lecture="lecture" :conf="conf"></lecture>
+                        </td>
+                        <td colspan="2" v-else>
+                            {{ session.content }}
+                        </td>
+                    </tr>
+                </tbody>
+            <!--  ********************************************************************************************************************************************-->
+                <thead  class=" main-track afternoon-track">
+                    <tr>
+                        <th width="14%">{{ conf.session.day1.maintrack.afternoon.timeplace }}</th>
+                        <th width="43%">{{ conf.session.day1.maintrack.afternoon.place1 }}</th>
+                        <th width="43%">{{ conf.session.day1.maintrack.afternoon.place2 }}</th>
+                    </tr>
+                </thead>
+                <tbody  class=" main-track afternoon-track">
+                    <tr v-for="session in conf.session.day1.maintrack.afternoon.afternoontrack">
+                        <td>
+                            {{ session.time }}
+                        </td>
+                        <td colspan="2" v-if=" typeof session.content === 'string' ">
+                            {{ session.content }}
+                        </td>
+                        <td v-else v-for="lecture in session.content">
+                            <lecture :lecture="lecture" :conf="conf"></lecture>
+                        </td>
+                    </tr>
 
-                    </tbody>
-                </table>
-            </div>
+                </tbody>
+            </table>
             <div class="table-scroll">
                 <table class="qa-track">
                     <thead>
@@ -249,7 +247,6 @@
 
         table.main-track, table.workshop-track, table.qa-track
             width: 100%
-            min-width: 500px
 
         table
             thead

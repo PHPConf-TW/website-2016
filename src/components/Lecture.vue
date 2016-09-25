@@ -40,69 +40,83 @@
     @import '../settings.scss'
 
     .lecture-wrapper
-        .title
-            text-align: left
-            padding: 0
-            padding-left: 1rem
-            font-size: 105%
-
-        .speaker
-            text-align: right
-            padding: 0
-            padding-right: 1rem
-        .content.active
-          .outline
-            cursor: pointer
-          .outline:after
+      .title
+        text-align: left
+        padding: 0
+        padding-left: 1rem
+        font-size: 105%
+        +breakpoint(small only)
+          padding: 0
+      .speaker
+        text-align: right
+        padding: 0
+        padding-right: 1rem
+        +breakpoint(small only)
+          padding: 0
+          text-align: left
+          &:before
             content: ''
-            display: block
-            width: 0
-            height: 0
-            border: 6px inset
-            border-color: #909091 transparent transparent
-            border-top-style: solid
-            border-bottom-width: 0
-            position: absolute
-            top: 1.2rem
-            margin-top: -4px
-            right: 0.9rem
-          &.open .outline:after
-            transform-origin: 50% 50%
-            transform: scaleY(-1)
-          .description
-            max-height: 0
-            overflow: hidden
-            transition: max-height ease .4s
-          &.open .description
-            max-height: 500px
+            display: inline-block
+            height: 1px
+            width: 1rem
+            background: #949494
+            margin-bottom: .3rem
+            margin-right: .4rem
+      .content.active
         .outline
-            cursor: default
-            line-height: 1.6
-            text-align: left
-            padding-right: 1.6rem
-            color: #323232
-            position: relative
-            &.active:after
-
+          cursor: pointer
+        .outline:after
+          content: ''
+          display: block
+          width: 0
+          height: 0
+          border: 6px inset
+          border-color: #909091 transparent transparent
+          border-top-style: solid
+          border-bottom-width: 0
+          position: absolute
+          top: 1.2rem
+          margin-top: -4px
+          right: 0.9rem
+          +breakpoint(small only)
+            right: -0.5rem
+        &.open .outline:after
+          transform-origin: 50% 50%
+          transform: scaleY(-1)
         .description
-            text-align: left
-            color: #000
-            padding-right: 1.6rem
-        div
-            vertical-align: text-top
-        li:first-child
-            color: #323232
-        li:not(:first-child):last-child
-            a
-                display: inline
-                i
-                    margin-top: 1rem
-                    margin-bottom: 1rem
-                    color: #909091
-                    -webkit-transition: color 0.4s
-                i.fa-slideshare:hover, i.fa-slideshare:focus
-                    color: #4875B4
-                i.fa-youtube:hover, i.fa-youtube:focus
-                    color: #FF3333
-
+          max-height: 0
+          overflow: hidden
+          transition: max-height ease .4s
+        &.open .description
+          max-height: 500px
+      .outline
+        cursor: default
+        line-height: 1.6
+        text-align: left
+        padding-right: 1.6rem
+        color: #323232
+        position: relative
+        +breakpoint(small only)
+          padding-left: 0
+          padding-right: 5px
+      .description
+        text-align: left
+        color: #000
+        padding-right: 1.6rem
+      div
+        vertical-align: text-top
+      li:first-child
+        color: #323232
+      li:not(:first-child):last-child
+        a
+          display: inline
+          i
+            margin-top: 1rem
+            margin-bottom: 1rem
+            color: #909091
+            transition: color 0.4s
+          i.fa-slideshare:hover, i.fa-slideshare:focus
+            color: #4875B4
+          i.fa-youtube:hover, i.fa-youtube:focus
+            color: #FF3333
 </style>
