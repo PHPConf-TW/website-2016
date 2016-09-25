@@ -103,6 +103,9 @@
         text-align: left
         color: #000
         padding-right: 1.6rem
+        +breakpoint(small only)
+          padding: 0
+          margin: 0
       div
         vertical-align: text-top
       li:first-child
