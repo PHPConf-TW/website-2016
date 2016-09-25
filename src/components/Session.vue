@@ -195,11 +195,11 @@
                 tr
                     &:nth-child(even)
                         background: #efefef
+                        td
+                            vertical-align: middle
                 td
                     text-align: center
                     vertical-align: text-top
-                    +breakpoint(small only)
-                        vertical-align: middle
                     &:first-child
                         color: #fff
                         background-color: map-get($foundation-palette, primary)
@@ -219,11 +219,11 @@
                 tr
                     &:nth-child(even)
                         background: #efefef
+                        td
+                            vertical-align: middle
                 td
                     text-align: center
                     vertical-align: text-top
-                    +breakpoint(small only)
-                        vertical-align: middle
                     &:first-child
                         color: #fff
                         background-color: map-get($foundation-palette, warning)
