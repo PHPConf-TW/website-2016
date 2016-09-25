@@ -83,8 +83,7 @@
       +breakpoint(small only)
         margin: 0
         opacity: 0.8
-        span
-          opacity: 0.8
+        background: rgba(0,0,0,0.6)
       span
         padding: 1rem
         position: relative
