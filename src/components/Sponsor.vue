@@ -5,6 +5,8 @@
         <h4>{{ conf.menu.sponsor }}</h4>
         <div class="row">
           <diamond-sponsor v-for="sponsor in conf.diamondsponsors" :sponsor="sponsor" :conf="conf"></diamond-sponsor>
+        </div>
+        <div class="row">
           <silver-sponsor v-for="sponsor in conf.silversponsors" :sponsor="sponsor" :conf="conf"></silver-sponsor>
         </div>
       </div>
@@ -29,6 +31,7 @@
       margin-top: 4rem
       margin-bottom: 2rem
     .sponsor-wrapper
+      float: left
       &.silver
         margin: 1.5rem 0 0
       &.silver:nth-child(2n)
