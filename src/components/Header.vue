@@ -54,10 +54,11 @@
       margin: 8rem auto 0
       padding: 1rem
       +breakpoint(small only)
-        font-size: 2rem
+        font-size: 2.5rem
+        margin: 5rem auto 0
     p
       +breakpoint(small only)
-        font-size: .8rem
+        font-size: .9rem
   .banner-content.no-btn
     h1
       margin: 10.5rem auto 0
@@ -71,7 +72,7 @@
     height: 30rem
     overflow: hidden
     +breakpoint(small only)
-      height: 20rem
+      height: 26rem
   .banner-img
     height: 30rem
     background-image: url('../assets/banner.jpg')
@@ -83,7 +84,7 @@
     transform: scale(1.03)
     filter: blur(3px) contrast(110%) brightness(50%) sepia(0.8) hue-rotate(-15deg)
     +breakpoint(small only)
-      height: 20rem
+      height: 26rem
     &.show-banner
       opacity: 1
   .banner-mask
@@ -123,4 +124,7 @@
   .button
     min-width: 12rem
     font-size: 1rem
+    margin: 0 .5rem .8rem
+    +breakpoint(small only)
+      font-size: .9rem
 </style>
