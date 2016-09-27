@@ -54,7 +54,7 @@
       margin: 8rem auto 0
       padding: 1rem
       +breakpoint(small only)
-        font-size: 2.5rem
+        font-size: 2rem
         margin: 5rem auto 0
     p
       +breakpoint(small only)
