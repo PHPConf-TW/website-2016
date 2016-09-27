@@ -8,7 +8,7 @@
         <div class="small-12 column banner-content" v-bind:class="header.isShow == 'false' ? 'no-btn' : ''">
           <h1>PHPConf Taiwan 2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo"></h1>
           <div class="content">
-            <p>{{ header.title }}</p>
+            <p>{{{ header.title }}}</p>
             <a class="button secondary" href="http://www.accupass.com/go/phpconf2016" target="_blank" title="Registration" v-if="header.isShow == 'true'">{{ header.registrationDay1 }}</a>
             <a class="button secondary" href="http://www.accupass.com/go/phpconf2016workshop" target="_blank" title="Registration" v-if="header.isShow == 'true'">{{ header.registrationDay2 }}</a>
           </div>
@@ -72,7 +72,7 @@
     height: 30rem
     overflow: hidden
     +breakpoint(small only)
-      height: 26rem
+      height: 27rem
   .banner-img
     height: 30rem
     background-image: url('../assets/banner.jpg')
@@ -84,7 +84,7 @@
     transform: scale(1.03)
     filter: blur(3px) contrast(110%) brightness(50%) sepia(0.8) hue-rotate(-15deg)
     +breakpoint(small only)
-      height: 26rem
+      height: 27rem
     &.show-banner
       opacity: 1
   .banner-mask
