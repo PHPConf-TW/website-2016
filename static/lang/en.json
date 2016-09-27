@@ -19,8 +19,13 @@
   },
   "announce": [
     {
+      "date": "SEP 27",
+      "title": "PHPConf Taiwan 2016 Register Announce",
+      "content": "PHPConf Taiwan 2016 begin selling tickets at Oct 1 12:00 PM (Asia/Taipei)."
+    },
+    {
         "date": "AUG 8",
-        "title": "PHPConf Taiwan 2016 Call for Call for Proposals",
+        "title": "PHPConf Taiwan 2016 Call for Proposals",
         "content": "Become a speaker! Our <a target=\"_blank\" href=\"https://goo.gl/forms/KpmxJ2queUmcubVj1\">Call for Proposals is open</a>, so send in your talk proposals now and share your personal experience with the community."
     },
     {
@@ -216,7 +221,7 @@
                     {
                       "title": "自動化驗收測試實戰",
                       "speaker": "Oomusou",
-                      "outline":"隨著單元測試與整合測試自動化後，最後一哩路的驗收測試該如何自動化呢？本 workshop 將帶著大家將自動化測試的環境建立起來，並實際撰寫整合測試，為將來 CI 自動化測試鋪路。",
+                      "outline":"隨著單元測試與整合測試自動化後，最後一哩路的驗收測試該如何自動化呢？本 workshop 將帶著大家將自動化測試的環境建立起來，並實際撰寫驗收測試，為將來 CI 自動化測試鋪路。",
                       "detail":"",
                       "slideshare":"",
                       "youtube":""
