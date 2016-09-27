@@ -19,6 +19,11 @@
   },
   "announce": [
     {
+      "date": "9 月 27",
+      "title": "PHPConf Taiwan 2016 報名時間公佈",
+      "content": "報名時間 2016/10/01 中午 12:00 (Asia/Taipei) 請特別注意今年 Day1 主議程以及 Day2 Workshop是<b>分開售票</b>"
+    },
+    {
         "date": "8 月 8",
         "title": "PHPConf Taiwan 2016 講題議程投稿",
         "content": "大會從即日起開始接受講題議程投稿，任何與 PHP 語言相關的主題，不論是您的作品想要發表、或是對特定主題的深入研究，都歡迎大家踴躍投稿，一起讓 PHP 社群更加成長、茁壯。請點選 <a target=\"_blank\" href=\"https://goo.gl/forms/KpmxJ2queUmcubVj1\">議程投稿</a> 。"
@@ -216,7 +221,7 @@
                                      {
                                           "title": "自動化驗收測試實戰",
                                           "speaker": "Oomusou",
-                                          "outline":"隨著單元測試與整合測試自動化後，最後一哩路的驗收測試該如何自動化呢？本 workshop 將帶著大家將自動化測試的環境建立起來，並實際撰寫整合測試，為將來 CI 自動化測試鋪路。",
+                                          "outline":"隨著單元測試與整合測試自動化後，最後一哩路的驗收測試該如何自動化呢？本 workshop 將帶著大家將自動化測試的環境建立起來，並實際撰寫驗收測試，為將來 CI 自動化測試鋪路。",
                                           "detail":"",
                                           "slideshare":"",
                                           "youtube":""
