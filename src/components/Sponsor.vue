@@ -6,8 +6,9 @@
         <div class="row">
           <diamond-sponsor v-for="sponsor in conf.diamondsponsors" :sponsor="sponsor" :conf="conf"></diamond-sponsor>
         </div>
-        <div class="row">
-          <silver-sponsor v-for="sponsor in conf.silversponsors" :sponsor="sponsor" :conf="conf"></silver-sponsor>
+        <div class="row" v-for="sponsors in pairSponsor">
+          <silver-sponsor :sponsor="sponsors[0]" :conf="conf"></silver-sponsor>
+          <silver-sponsor :sponsor="sponsors[1]" :conf="conf" v-if="sponsors[1] != undefined"></silver-sponsor>
         </div>
       </div>
     </div>
@@ -20,6 +21,18 @@
       'diamond-sponsor': require './DiamondSponsor.vue'
       'silver-sponsor': require './SilverSponsor.vue'
     props: ['conf']
+    computed: {
+      pairSponsor: () ->
+        silvers = @conf.silversponsors
+        pairs = [];
+        for silver, i in silvers by 2
+          pair = []
+          pair.push silvers[i]
+          pair.push silvers[i + 1] if typeof(silvers[i + 1]) != 'undefined'
+          pairs.push pair
+        console.log pairs
+        return pairs
+    }
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass">
@@ -44,6 +57,7 @@
       border: #e4e4e4 solid 1px
       padding: 1.5rem
       box-shadow: 0 0 5px #e8e8e8
+      min-height: 18rem
       .photo
         background-position: center center
         background-repeat: no-repeat
@@ -58,10 +72,17 @@
         text-align: justify
       .moreBtn
         display: none
-    .diamond.more
+    .diamond.more,
       .word p
         height: 6.5rem
         overflow: hidden
       .moreBtn
         display: block
+    .silver.more
+      p
+        height: 0
+        overflow: hidden
+      .moreBtn
+        display: block
+        text-align: center
 </style>
