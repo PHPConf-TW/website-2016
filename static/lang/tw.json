@@ -550,6 +550,44 @@
         "intro": "<p>Laravel 台灣社群固定班底，喜歡物件導向、TDD、測試、重構、開發流程等相關議題，希望能打造更流暢的大型程式開發流程與環境。</p>",
         "photo": "static/img/speaker/oomusou.jpg"
       }
+    ],
+    "3": [
+      {
+        "name":  "高見龍",
+        "brief": "",
+        "intro": "<p>PHPConf Taiwan 研討會發起人，同時也是兩個小朋友的爸爸。經歷了幾年 PHP 工作後，從 2009 年開始轉換到 Ruby 這個程式語言。多次在國內外 Ruby 相關研討會分享相關技術，並自 2011 年起在社群及校園開設 Ruby 相關教學活動，參與學員人數已超過千人。<br>現在是「五倍紅寶石」公司的共同發起人兼負責人，目前在做的事，就是希望可以讓更多人喜歡 Ruby 這個有趣而且相當有生產力的程式語言。<br>部落格 <a href=\"http://kaochenlong.com/\" target=\"_blank\">http://kaochenlong.com/</a></p>",
+        "photo": "static/img/speaker/eddie.jpg"
+      },
+      {
+        "name":  "Ant，曾義峰",
+        "brief": "",
+        "intro": "在互聯網行業超過 10 年的研發工作經驗, 6 年的團隊管理經歷, 4 年顧問諮詢資歷。對軟體架構及技術有高度的實戰經驗。 專注於「程式設計」、「資訊安全」及「智慧財產權」領域,擁有數場公開及非公開的演講或教育訓練,同時撰寫過數篇發明專利。<br>Blog: <a href=\"https://blog.gcos.me/\" target=\"_blank\">https://blog.gcos.me/</a><br>Slides: <a href=\"http://www.slideshare.net/yftzeng/\" target=\"_blank\">http://www.slideshare.net/yftzeng/</a>",
+        "photo": "static/img/speaker/ant.jpg"
+      },
+      {
+        "name":  "范聖佑",
+        "brief": "",
+        "intro": "<p>正職為得寬科技研究員，但其實是書架上同時有 Modern PHP 和精裝版傑米奧利佛食譜的工程師，也是熱愛自然美食的 Laravel 傳教士。至今成立 Laravel 台灣 Facebook 社團 及 Laravel 道場等學習資源，並在每月持續舉辦三場 PHP/Laravel 活動。目前抱著甜點書持續 Full Stack 的旅程！ </p>",
+        "photo": "static/img/speaker/fan.jpg"
+      },
+      {
+        "name":  "Ronald 簡志豪",
+        "brief": "",
+        "intro": "<p>是一個從一開始將 PHP 與 HTML 寫在同一個檔案裡，到 PHP 與 HTML 邏輯與樣板分離。再到使用過多種 PHP Framework (CakePHP, Codeigniter, PyroCMS)。進而研究如何開發套件，最後終於在 Laravel 上找到一片天 (我家的那天花板而已)。Composer 誕生後，統一了 PHP 在套件管理上的窘境。以一套有規則(psr)有組織的方式管理開發與安裝套件。這次有榮幸被邀請，來和大家分享在開發套件上面的經驗。</p>",
+        "photo": "static/img/speaker/ronald.jpg"
+      },
+      {
+        "name":  "Winnie",
+        "brief": "",
+        "intro": "<p>ASP.NET MVC (C#)、Laravel (PHP) 全端，接案公司經驗</p>",
+        "photo": "static/img/speaker/winnie.jpg"
+      },
+      {
+        "name":  "尤川豪",
+        "brief": "",
+        "intro": "<p>喜歡研究軟體架構的 web developer<br>常常把心得發表在「轉個彎日誌」<br><a href=\"http://blog.turn.tw/\" target=\"_blank\">http://blog.turn.tw/</a></p>",
+        "photo": "static/img/speaker/you.jpg"
+      }
     ]
   },
   "diamondsponsors": [
