@@ -197,7 +197,7 @@
                                  "content": [
                                      {
                                           "title": "Q & A",
-                                          "speaker": "Josh Lockhart & Sebastian Bergmann",
+                                          "speaker": "高見龍，曾義峰，范聖佑，簡志豪，Winnie，尤川豪",
                                           "outline":"",
                                           "detail":"",
                                           "slideshare":"",
@@ -597,9 +597,21 @@
       "desc": "Gandi (管地) 是域名註冊商及雲端主機服務供應商。直至今日管地已經管理近兩百萬個域名 (而這些成果使我們成為全球頂尖的域名註冊商之一), 提供超過七百種後綴域名註冊 (如 .cafe, .taipei, .tw, .club, .asia等)。管地也支持很多開源專案 (Gnome, Debian, Ubuntu, Let's Encrypt)。我們很樂意用我們的資源來支持您的開源計畫，馬上跟我們聯絡。<br><br>每一個在管地的域名都可以享有：<ul><li>1 年免費的 SSL 憑證</li><li>5 個郵件信箱與 1G 空間</li><li>1000 個轉址設定</li><li>隱藏註冊人資訊</li><li>Gandi 簡易代管主機半價優惠 (可安裝 Wordpress, Drupal 等)</li></ul>Visit us: <a href=\"http://www.gandi.net/\">www.gandi.net</a>",
       "photo": "static/img/sponsor/gandi.png",
       "more": "true"
+    },
+    {
+      "name": "黃金級贊助",
+      "link": "http://www.104.com.tw/",
+      "desc": "<p>104 人力銀行成立於 1996 年，2006 年以「一零四資訊科技股份有限公司」於台灣證券交易所掛牌，成為台灣第一家上市的網路公司，穩居台灣流量最多的人力資源服務網站，2007年進入大陸市場，持續以成為華人地區人力資源領導品牌為使命，全集團提供多元職涯服務及人才管理解決方案，包括網路求職、職涯社群、職涯競爭力、高階獵才、企業大師、人資管理系統、測驗評量、人資顧問諮詢等，2014年成立社會企業處，提供夢想搖籃、綠家教、兒童美術館等社會創新服務，2015 年成立銀髮事業處建構中高齡照護資源平台，完善企業社會責任。</p>",
+      "photo": "static/img/sponsor/104.png",
+      "more": "true"
     }
   ],
   "silversponsors": [
+    {
+      "name": "白銀級贊助",
+      "photo": "static/img/sponsor/dgfactor.png",
+      "link": "http://www.dgfactor.com/"
+    },
     {
       "name": "協辦單位",
       "photo": "static/img/sponsor/imfju.png",
