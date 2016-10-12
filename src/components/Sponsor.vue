@@ -89,4 +89,6 @@
         height: 6.5rem;
       .moreBtn
         right: 1.4rem;
+        +breakpoint(small only)
+          right: 0.8rem;
 </style>
