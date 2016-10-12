@@ -9,8 +9,8 @@
           <h1>PHPConf Taiwan 2016<img src="../assets/logo2.png" alt="PHPConf 2016" class="logo"></h1>
           <div class="content">
             <p>{{{ header.title }}}</p>
-            <a class="button secondary" href="http://www.accupass.com/go/phpconf2016" target="_blank" title="Registration" v-if="header.isShow == 'true'">{{ header.registrationDay1 }}</a>
-            <a class="button secondary" href="http://www.accupass.com/go/phpconf2016workshop" target="_blank" title="Registration" v-if="header.isShow == 'true'">{{ header.registrationDay2 }}</a>
+            <a @click="fbTrackviewContent" class="button secondary" href="http://www.accupass.com/go/phpconf2016" target="_blank" title="Registration" v-if="header.isShow == 'true'">{{ header.registrationDay1 }}</a>
+            <a @click="fbTrackviewContent" class="button secondary" href="http://www.accupass.com/go/phpconf2016workshop" target="_blank" title="Registration" v-if="header.isShow == 'true'">{{ header.registrationDay2 }}</a>
           </div>
         </div>
       </div>
@@ -23,6 +23,9 @@
   module.exports =
     props: ['header']
     methods:
+      fbTrackviewContent: () ->
+        fbq('track', 'ViewContent')
+        return
       loadHeader: () ->
         imagesLoaded '.banner-img', { background: true }, () ->
           $('.banner-img').addClass 'show-banner'
