@@ -1,5 +1,5 @@
 <template>
-  <div class="columns small-6 sponsor-wrapper silver">
+  <div class="columns small-6 sponsor-wrapper silver" v-bind:class="sponsor.more == 'true' ? 'more' : ''">
     <div class="sponsor">
       <div class="word">
         <h6 class="text-center">{{ sponsor.name }}</h6>
@@ -8,6 +8,10 @@
         <div class="photo" :style="sponsorImg">
         </div>
       </a>
+      <p class="description">
+        {{{ sponsor.desc }}}
+      </p>
+      <a href="#" class="moreBtn" @click="openMore">{{conf.more}}</a>
     </div>
   </div>
 </template>
@@ -20,6 +24,11 @@
         'background-image': 'url(' + @sponsor.photo + ')'
       }
     props: ['sponsor']
+    methods: {
+      openMore: (event) ->
+        event.preventDefault()
+        $(event.target).parents('.silver').removeClass('more')
+      }
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass" scoped>
