@@ -10,7 +10,7 @@
         <div class="columns small-12 medium-6">
           <div class="word">
             <h6>{{ sponsor.name }}</h6>
-            <p>
+            <p class="description">
               {{{ sponsor.desc }}}
             </p>
             <a href="#" class="moreBtn" @click="openMore">{{conf.more}}</a>

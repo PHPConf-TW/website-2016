@@ -58,10 +58,35 @@
         text-align: justify
       .moreBtn
         display: none
-    .diamond.more
-      .word p
-        height: 6.5rem
+    .more
+      position: relative;
+      p.description
+        height: 0rem
         overflow: hidden
       .moreBtn
         display: block
+        position: absolute;
+        width: 1.5em;
+        height: 1.5em;
+        right: 0.6rem;
+        bottom: 0;
+        overflow: hidden;
+        text-indent: -999em;
+        background-color: $primary-color;
+        box-shadow: inset 0 0 5px rgba(black, 0.7);
+        &:after
+          content: ' ';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: -50%;
+          left: -50%;
+          transform: rotate(45deg) scale(1.4);
+          background-color: white;
+          box-shadow: 0 0 5px rgba(black, 0.7);
+    .diamond.more
+      p.description
+        height: 6.5rem;
+      .moreBtn
+        right: 1.4rem;
 </style>
