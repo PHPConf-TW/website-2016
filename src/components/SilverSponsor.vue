@@ -23,7 +23,7 @@
       sponsorImg:
         'background-image': 'url(' + @sponsor.photo + ')'
       }
-    props: ['sponsor']
+    props: ['sponsor', 'conf']
     methods: {
       openMore: (event) ->
         event.preventDefault()

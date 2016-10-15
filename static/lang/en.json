@@ -610,22 +610,26 @@
     {
       "name": "Silver Sponsorship",
       "photo": "static/img/sponsor/dgfactor.png",
-      "link": "http://www.dgfactor.com/"
+      "link": "http://www.dgfactor.com/",
+      "more": "false"
     },
     {
       "name": "Co-organizer",
       "photo": "static/img/sponsor/imfju.png",
-      "link": "http://www.im.fju.edu.tw/"
+      "link": "http://www.im.fju.edu.tw/",
+      "more": "false"
     },
     {
       "name": "Special Thanks",
       "photo": "static/img/sponsor/5xruby_2x.png",
-      "link":  "https://5xruby.tw/"
+      "link":  "https://5xruby.tw/",
+      "more": "false"
     },
     {
       "name": "Special Thanks",
       "photo": "static/img/sponsor/tronice.png",
-      "link":  "http://www.tronice.com/"
+      "link":  "http://www.tronice.com/",
+      "more": "false"
     }
   ],
   "abouts": {

@@ -91,4 +91,8 @@
         right: 1.4rem;
         +breakpoint(small only)
           right: 0.8rem;
+    .diamond
+      .photo
+        +breakpoint(small only)
+          margin-bottom: 2rem
 </style>
