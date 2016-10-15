@@ -180,8 +180,8 @@
                   "content": [
                     {
                       "title": "Q & A",
-                      "speaker": "Josh Lockhart & Sebastian Bergmann",
-                      "outline":"",
+                      "speaker": "",
+                      "outline":"Speakers: Josh Lockhart、Sebastian Bergmann<br>Host: 范聖佑 (Shengyou Fan)<br>Chinese Translators：林郁芬 (Winnie)、簡志豪 (Ronald)<br>Language：English",
                       "detail":"",
                       "slideshare":"",
                       "youtube":""
@@ -197,8 +197,8 @@
                   "content": [
                     {
                       "title": "Q & A",
-                      "speaker": "Josh Lockhart & Sebastian Bergmann",
-                      "outline":"",
+                      "speaker": "",
+                      "outline":"Speakers: 高見龍、曾義峰 (Ant)、簡志豪 (Ronald)、林郁芬 (Winnie)、尤川豪<br>Host: 范聖佑 (Shengyou Fan)<br>Language: Chinese",
                       "detail":"",
                       "slideshare":"",
                       "youtube":""
@@ -597,23 +597,39 @@
       "desc": "Gandi is a domain name registrar and cloud hosting provider. We now manage nearly 2 million domain names (which puts us among the top registrars in the world) and offer over 700 extensions (such as .cafe, .taipei, .tw, .club, .asia). Gandi supports numerous open source projects (Gnome, Debian, Ubuntu, Let's Encrypt). We would be happy to support your open source project with our resources, just contact us.<br><br>What you get with each domain name at Gandi<ul><li> A 1-year SSL certificate</li><li>5 mailboxes with a total of 1 GB storage</li><li>1000 forwarding addresses</li><li>Private Domain name registration</li><li>Reduced pricing (50% off) for Gandi's Simple Hosting (for Wordpress, Drupal and others).</li></ul> Visit us: <a href=\"http://www.gandi.net/\">www.gandi.net</a>",
       "photo": "static/img/sponsor/gandi.png",
       "more": "true"
+    },
+    {
+      "name": "Gold Sponsorship",
+      "link": "http://www.104.com.tw/",
+      "desc": "<p>104 founder Rocky Yang started the company in 1996 to provide a modernized and user-friendly approach to job seekers and employers. In the 90s, career matching via newspaper or paper slips was an archaic field ready to disruption and innovation; 104 is the birth of a new kind of career service in Taiwan, one that is focused on people. Hence our promise: More than a job, we help you define a career. More than an employee, we help you find partners. Our core values are social responsibility, innovation, customer oriented, and honesty. We strive to better the workplace in Taiwan.</p><p>To provide better and broader services, 104 went public in 2006 on the Taiwan stock exchange, becoming the first publicly traded internet technology company in Taiwan, and solidifying its position as market leader. In 2007 we entered Mainland China, aiming to become the human resources market leader in the greater China markets.</p><p>Today, 104 is divided into Internet Services and Consulting Services, providing diversified career and social network services for job seekers and HR total solutions for corporations. We have over 6 million members in our database, and have serviced over 300 thousand corporations. Our financial performance is stable and healthy, with 1.4billion NTD in revenue in 2015 and an EPS of 9.99 NTD.</p>",
+      "photo": "static/img/sponsor/104.png",
+      "more": "true"
     }
   ],
   "silversponsors": [
     {
+      "name": "Silver Sponsorship",
+      "photo": "static/img/sponsor/dgfactor.png",
+      "link": "http://www.dgfactor.com/",
+      "more": "false"
+    },
+    {
       "name": "Co-organizer",
       "photo": "static/img/sponsor/imfju.png",
-      "link": "http://www.im.fju.edu.tw/"
+      "link": "http://www.im.fju.edu.tw/",
+      "more": "false"
     },
     {
       "name": "Special Thanks",
       "photo": "static/img/sponsor/5xruby_2x.png",
-      "link":  "https://5xruby.tw/"
+      "link":  "https://5xruby.tw/",
+      "more": "false"
     },
     {
       "name": "Special Thanks",
       "photo": "static/img/sponsor/tronice.png",
-      "link":  "http://www.tronice.com/"
+      "link":  "http://www.tronice.com/",
+      "more": "false"
     }
   ],
   "abouts": {
