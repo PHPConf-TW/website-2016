@@ -6,9 +6,7 @@
         <div class="row">
           <diamond-sponsor v-for="sponsor in conf.diamondsponsors" :sponsor="sponsor" :conf="conf"></diamond-sponsor>
         </div>
-        <div class="row">
-          <silver-sponsor v-for="sponsor in conf.silversponsors" :sponsor="sponsor" :conf="conf"></silver-sponsor>
-        </div>
+        <silver-sponsor-row v-for="sponsorRow in silverSponsorRows" :sponsor-row="sponsorRow" :conf="conf"></silver-sponsor>
       </div>
     </div>
   </section>
@@ -18,8 +16,18 @@
   module.exports =
     components:
       'diamond-sponsor': require './DiamondSponsor.vue'
-      'silver-sponsor': require './SilverSponsor.vue'
+      'silver-sponsor-row': require './SilverSponsorRow.vue'
     props: ['conf']
+    computed:
+      silverSponsorRows: () ->
+        rows = []
+        temp = []
+        for sponsor, index in @conf.silversponsors
+          temp.push(sponsor)
+          if (index+1) % 2 == 0
+            rows.push(temp)
+            temp = []
+        return rows
 </script>
 
 <style lang="sass?indentedSyntax" type="text/sass">
