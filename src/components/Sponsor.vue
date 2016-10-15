@@ -88,5 +88,11 @@
       p.description
         height: 6.5rem;
       .moreBtn
-        right: 1.4rem;
+        right: 0.75rem;
+
+  @media screen and (min-width: 64em)
+    #sponsor
+      .diamond.more
+        .moreBtn
+          right: 1.4rem;
 </style>
