@@ -575,7 +575,9 @@
         "brief": "",
         "intro": "<p>是一個從一開始將 PHP 與 HTML 寫在同一個檔案裡，到 PHP 與 HTML 邏輯與樣板分離。再到使用過多種 PHP Framework (CakePHP, Codeigniter, PyroCMS)。進而研究如何開發套件，最後終於在 Laravel 上找到一片天 (我家的那天花板而已)。Composer 誕生後，統一了 PHP 在套件管理上的窘境。以一套有規則(psr)有組織的方式管理開發與安裝套件。這次有榮幸被邀請，來和大家分享在開發套件上面的經驗。</p>",
         "photo": "static/img/speaker/ronald.jpg"
-      },
+      }
+    ],
+    "4": [
       {
         "name":  "Winnie",
         "brief": "",
