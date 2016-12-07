@@ -151,8 +151,8 @@
                           "speaker": "大澤木小鐵",
                           "outline":"打造即時資訊看板已經是現代化 Web 框架的基本能力了，尤其 Laravel 更是在這方便著墨頗深；本議程將要探討，要打造一個即時資訊看板，其背後所需要瞭解的系統架構基本原理，以及它會用到 Laravel 與 Vue.js 的哪些特色，適合已經學會 Laravel 的朋友聆聽。",
                           "detail":"",
-                          "slideshare":"https://youtu.be/tl_9igRwRME",
-                          "youtube":""
+                          "slideshare":"",
+                          "youtube":"https://youtu.be/tl_9igRwRME"
                         },
                         {
                           "title": "敏捷估算模型-變化當下最佳化策略",
